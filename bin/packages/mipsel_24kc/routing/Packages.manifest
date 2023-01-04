@@ -11,10 +11,10 @@ Section: net
 SourceDateEpoch: 1668113060
 Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: mipsel_24kc
-Installed-Size: 36160
+Installed-Size: 36568
 Filename: batctl-default_2022.3-1_mipsel_24kc.ipk
-Size: 37226
-SHA256sum: afa4d343939b5a74de0ac00f1f98e180c0ecabe7787bdc5342dfc36127e35507
+Size: 37271
+SHA256sum: e7b63a91488f1839f61c8e372c346a3b3b9c119789545765836e364628f917a3
 Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
  It is an easier method for configuring batman-adv and provides some
  additional tools for debugging as well. This package builds

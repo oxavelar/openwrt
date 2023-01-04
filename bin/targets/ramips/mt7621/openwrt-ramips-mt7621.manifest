@@ -2,7 +2,7 @@
 6rd - 12
 6to4 - 13
 attendedsysupgrade-common - 8
-base-files - 1510-r21643-f4783fa64c
+base-files - 1511-r21670-45f2ca3d67
 busybox - 1.35.0-5
 ca-bundle - 20211016-1
 ca-certificates - 20211016-1
@@ -27,8 +27,8 @@ firewall4 - 2022-11-29-700a925f-2
 fstools - 2022-11-10-3affe9ea-2
 fwtool - 2019-11-12-8f7fe925-1
 getrandom - 2022-08-13-4c7b720b-2
-hostapd-common - 2022-07-29-b704dc72-16.1
-hostapd-utils - 2022-07-29-b704dc72-16.1
+hostapd-common - 2022-07-29-b704dc72-17.2
+hostapd-utils - 2022-07-29-b704dc72-17.2
 htop - 3.2.1-1
 iperf3 - 3.12-1
 irqbalance - 1.9.2-1
@@ -95,7 +95,7 @@ libubus20220601 - 2022-06-01-2bebf93c-1
 libuci20130104 - 2021-10-22-f84f49f0-6
 libuclient20201210 - 2021-05-14-6a6011df-1
 libucode20220812 - 2022-12-02-46d93c9c-1
-libustream-openssl20201210 - 2022-12-08-9217ab46-1
+libustream-openssl20201210 - 2022-12-08-9217ab46-2
 logd - 2022-08-13-4c7b720b-2
 luci - git-22.297.83017-0143ef2
 luci-app-attendedsysupgrade - git-22.285.67526-18bfcca
@@ -151,5 +151,5 @@ uhttpd-mod-ubus - 2022-10-31-23977554-1
 urandom-seed - 3
 urngd - 2020-01-21-c7f7b6b6-1
 usign - 2020-05-23-f1f65026-1
-wpad-openssl - 2022-07-29-b704dc72-16.1
+wpad-openssl - 2022-07-29-b704dc72-17.2
 zlib - 1.2.13-1
