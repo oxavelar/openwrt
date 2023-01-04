@@ -1,7 +1,7 @@
 # OpenWRT Customized RE650 Image
 #
 # ./scripts/feeds update -a && ./scripts/feeds install -a
-# cp diffconfig-re650 .config && make defconfig && time make -j2
+# cp diffconfig-re650 .config && make defconfig && time make -j4
 #
 
 CONFIG_TARGET_ramips=y
@@ -20,7 +20,7 @@ CONFIG_KERNEL_SWAP=n
 CONFIG_KERNEL_KALLSYMS=n
 CONFIG_KERNEL_DEBUG_INFO=n
 CONFIG_STRIP_KERNEL_EXPORTS=y
-CONFIG_KERNEL_CFLAGS="-Os -pipe"
+CONFIG_KERNEL_CFLAGS="-Os"
 CONFIG_PKG_CC_STACKPROTECTOR_NONE=y
 CONFIG_KERNEL_CC_STACKPROTECTOR_NONE=y
 CONFIG_TARGET_UBIFS_COMPRESSION_ZLIB=y
