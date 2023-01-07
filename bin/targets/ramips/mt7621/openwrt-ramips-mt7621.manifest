@@ -2,7 +2,7 @@
 6rd - 12
 6to4 - 13
 attendedsysupgrade-common - 8
-base-files - 1512-r21683-37886ab491
+base-files - 1512-r21684-5d209d6551
 busybox - 1.35.0-5
 ca-bundle - 20211016-1
 ca-certificates - 20211016-1
@@ -105,7 +105,7 @@ luci-app-opkg - git-22.273.28779-84ba6a5
 luci-app-statistics - git-22.363.36709-d9e548f
 luci-base - git-22.361.69865-deed682
 luci-mod-admin-full - git-19.253.48496-3f93650
-luci-mod-network - git-22.363.37129-25a502b
+luci-mod-network - git-23.005.74128-8414f91
 luci-mod-status - git-22.364.46313-a18b1a6
 luci-mod-system - git-22.297.83017-f478fe6
 luci-proto-ipv6 - git-21.148.48881-79947af

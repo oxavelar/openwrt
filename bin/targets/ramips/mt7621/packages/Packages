@@ -14,15 +14,15 @@ SHA256sum: 71d210e2dcc200fe5250524c441743780c1cff53ae1cd4664fd30dd7422e4a0c
 Description:  ARP firewall administration tool nft
 
 Package: base-files
-Version: 1512-r21683-37886ab491
+Version: 1512-r21684-5d209d6551
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
-Installed-Size: 55556
-Filename: base-files_1512-r21683-37886ab491_mipsel_24kc.ipk
-Size: 56497
-SHA256sum: ec569f39e783c1321522f85f709e55b92d5882afd6a57b123806f59af9dde983
+Installed-Size: 55555
+Filename: base-files_1512-r21684-5d209d6551_mipsel_24kc.ipk
+Size: 56493
+SHA256sum: f3bb3a31676deba638670232ebea637539590e7f71320a942735cc6c88c18951
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount

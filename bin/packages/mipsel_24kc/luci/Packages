@@ -29,10 +29,10 @@ Version: git-22.285.67526-18bfcca
 Depends: libc, luci-base, attendedsysupgrade-common, cgi-io
 Section: luci
 Architecture: all
-Installed-Size: 4264
+Installed-Size: 4267
 Filename: luci-app-attendedsysupgrade_git-22.285.67526-18bfcca_all.ipk
-Size: 5095
-SHA256sum: 91304872a8da0a17dc7c935dc347bc3ecca37e34a560c400d281125cdd540b4c
+Size: 5096
+SHA256sum: 6aea64d15a37032225bd273900490deff8d32d5eaf5f6919e5d23106cac4426e
 Description:  LuCI support for attended sysupgrades
 
 Package: luci-app-commands
@@ -53,10 +53,10 @@ Depends: libc, uci-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 14234
+Installed-Size: 14233
 Filename: luci-app-firewall_git-22.089.67453-0eb3aeb_all.ipk
 Size: 15074
-SHA256sum: d564bda59ba6bb3be7d5bf91ee716c57c13f1443e78a0912de881fad8e1d1d76
+SHA256sum: 409cae7cbbdb3d13bfd728d72deb1e804fe87f82697292c2b1386867ccb0f051
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-opkg
@@ -64,10 +64,10 @@ Version: git-22.273.28779-84ba6a5
 Depends: libc, opkg
 Section: luci
 Architecture: all
-Installed-Size: 9131
+Installed-Size: 9133
 Filename: luci-app-opkg_git-22.273.28779-84ba6a5_all.ipk
-Size: 9999
-SHA256sum: 5eb4092977f56e9cc31ffaec4a260e2f11cee4e75e2fe1beb211251d8f8a2182
+Size: 9993
+SHA256sum: b00ba1e9a5074bce5e59a451fa91a28d6eb9fb6ebd853f97980f0390ec9c05da
 Description:  OPKG package management application
 
 Package: luci-app-statistics
@@ -75,10 +75,10 @@ Version: git-22.363.36709-d9e548f
 Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Section: luci
 Architecture: all
-Installed-Size: 31050
+Installed-Size: 31055
 Filename: luci-app-statistics_git-22.363.36709-d9e548f_all.ipk
-Size: 31951
-SHA256sum: ac84fb1e04851ba5bf0155abd7c318e88b9f0d3222d576a3af0e80b9780fb159
+Size: 31971
+SHA256sum: cdd9f1e42e82b9d8dae83e8166bd7441d44ac28ba008ebaea87ece6acdc0204c
 Description:  LuCI Statistics Application
 
 Package: luci-base
@@ -87,10 +87,10 @@ Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 122962
+Installed-Size: 122960
 Filename: luci-base_git-22.361.69865-deed682_mipsel_24kc.ipk
-Size: 123959
-SHA256sum: f482ca0d1ef04639987ce039e7518f9bde3c048af519855527a9219915ff4c45
+Size: 123955
+SHA256sum: 622c3c44974462b192e5ca3c7c6f723a2f57f656c54401b8b99b0091c5ffea43
 Description:  LuCI core runtime
 
 Package: luci-mod-admin-full
@@ -106,15 +106,15 @@ SHA256sum: ce7a95a5a10fe88c98144207495d7844817b71ff100bfe244e20443a454c776b
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-network
-Version: git-22.363.37129-25a502b
+Version: git-23.005.74128-8414f91
 Depends: libc, luci-base, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 50699
-Filename: luci-mod-network_git-22.363.37129-25a502b_all.ipk
-Size: 51624
-SHA256sum: d1be1a9544c1a7eacebf2729ad637f68e47f7d46a141fb4404fa388665c6cb0b
+Installed-Size: 50703
+Filename: luci-mod-network_git-23.005.74128-8414f91_all.ipk
+Size: 51632
+SHA256sum: 187865483d30790a0fe6b6722a04304919b6df41b3aa99149da731ff7dbc4ea1
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
