@@ -128,7 +128,7 @@ SHA256sum: c4217be09f559ee1913a38aca7c31d7571d6c5bdeed42f8a639ba4c94dbd9d77
 Description:  Broadcom BCM43xx fullmac USB firmware
 
 Package: busybox
-Version: 1.35.0-5
+Version: 1.36.0-1
 Depends: libc
 Conflicts: busybox-selinux
 Source: package/utils/busybox
@@ -137,15 +137,15 @@ License: GPL-2.0
 LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
 Section: base
 Require-User: ntp=123:ntp=123
-SourceDateEpoch: 1667682429
+SourceDateEpoch: 1673108574
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 211365
-Filename: busybox_1.35.0-5_mipsel_24kc.ipk
-Size: 212158
-SHA256sum: 9d043880a17dc588be1a098fadad9845f163d7d9629374f81b9ed189ed25f9ae
+Installed-Size: 212010
+Filename: busybox_1.36.0-1_mipsel_24kc.ipk
+Size: 212775
+SHA256sum: 8305b98edaf370823d0c7fa7860276bfd679ea769ab8f135e9595ce1230e3e67
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -562,7 +562,7 @@ Description:  libmnl is a minimalistic user-space library oriented to Netlink de
  forced to use them.
 
 Package: libncurses6
-Version: 6.3-2
+Version: 6.4-1
 Depends: libc, terminfo
 Provides: libncursesw, libncurses, libncursesw6
 Source: package/libs/ncurses
@@ -570,14 +570,14 @@ SourceName: libncurses
 License: MIT
 LicenseFiles: README
 Section: libs
-SourceDateEpoch: 1666208423
+SourceDateEpoch: 1672873913
 ABIVersion: 6
 CPE-ID: cpe:/a:gnu:ncurses
 Architecture: mipsel_24kc
-Installed-Size: 149630
-Filename: libncurses6_6.3-2_mipsel_24kc.ipk
-Size: 148230
-SHA256sum: 1a5794985e1fa3ecdc569bfe35d95b68476f3d67b5b180ed2c3ea558b46798e9
+Installed-Size: 150749
+Filename: libncurses6_6.4-1_mipsel_24kc.ipk
+Size: 149150
+SHA256sum: e3afd6e5190791066bf7ca00cdaa22a29613d34a1c4a83608a1f2f6fa0f3a59b
 Description:  Terminal handling library (Unicode)
 
 Package: libnftnl11
@@ -679,8 +679,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 982490
 Filename: libopenssl1.1_1.1.1s-1_mipsel_24kc.ipk
-Size: 972954
-SHA256sum: 36678623e3ec7207859e91903fd7b71e6412d12a0cb5d9dc0f6d008e32c59444
+Size: 972937
+SHA256sum: 1238cac9db48dffa5185f6b953a29d4ccb19a79c6530814ebda160b91fe5c42d
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -930,7 +930,7 @@ SHA256sum: 15e9b08e8e5d582ce750279f5cbf36a4b3239e341a1d88d8d8e40dfbc34533ee
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
-Version: 1.0.5-2
+Version: 1.0.6-1
 Depends: libc, kmod-nft-core, libnftnl11, jansson4
 Provides: nftables
 Source: package/network/utils/nftables
@@ -938,12 +938,12 @@ SourceName: nftables-json
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1664211735
+SourceDateEpoch: 1673018085
 Architecture: mipsel_24kc
-Installed-Size: 285795
-Filename: nftables-json_1.0.5-2_mipsel_24kc.ipk
-Size: 284132
-SHA256sum: 4d0a0af5afd019c4648682de4a956c4ee97da1d5babe40a7e01a56d4f10696a9
+Installed-Size: 293592
+Filename: nftables-json_1.0.6-1_mipsel_24kc.ipk
+Size: 291868
+SHA256sum: 2cad3dcbd5f7f962ef960e141f91e80619387bb57246b3e49a15db1760c92125
 Description:  nftables userspace utility with JSON support
 
 Package: odhcp6c
@@ -1363,20 +1363,20 @@ SHA256sum: 8cf3ca49c45c5cb1a9a49ad8ca004aec900c5f98ac69e459e6bcb3e5917ef14c
 Description:  RealTek RTL8821AE firmware
 
 Package: terminfo
-Version: 6.3-2
+Version: 6.4-1
 Depends: libc
 Source: package/libs/ncurses
 SourceName: terminfo
 License: MIT
 LicenseFiles: README
 Section: libs
-SourceDateEpoch: 1666208423
+SourceDateEpoch: 1672873913
 CPE-ID: cpe:/a:gnu:ncurses
 Architecture: mipsel_24kc
-Installed-Size: 7287
-Filename: terminfo_6.3-2_mipsel_24kc.ipk
-Size: 8004
-SHA256sum: d24b9f3a756ea887a65ef7281abe6e488b7092f1c0d826ae4536a7c7dedfd7bc
+Installed-Size: 7308
+Filename: terminfo_6.4-1_mipsel_24kc.ipk
+Size: 8036
+SHA256sum: 1a8a1c797590cd584dfd2e79144e25c657e8fc740519f43469d5829fb7ca5792
 Description:  Terminal Info Database (ncurses)
 
 Package: ubox
