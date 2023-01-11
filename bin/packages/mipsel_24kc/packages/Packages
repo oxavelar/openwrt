@@ -36,10 +36,10 @@ Depends: libc, libubox20220927, libubus20220601
 License: GPL-2.0-or-later
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 7730
+Installed-Size: 7574
 Filename: cgi-io_2022-08-10-901b0f04-21_mipsel_24kc.ipk
-Size: 8337
-SHA256sum: 607aa7b231f541bda9a58cb2fddfbe6df2b29a6cbf7da7288333916796eae675
+Size: 8173
+SHA256sum: 9a9c0fa599315b732cbf0023631c8da482003f0450c4d99b2bbab1f46e77073f
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
 Package: collectd-mod-conntrack
@@ -48,10 +48,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 2143
+Installed-Size: 1982
 Filename: collectd-mod-conntrack_5.12.0-41_mipsel_24kc.ipk
-Size: 2800
-SHA256sum: 2b95c0181185b67be8641035b37491ba6c834b20f4fcba0ea44d3a252774afd3
+Size: 2627
+SHA256sum: ecb4dc47c402f46e5b91648f1b52c3edf30b821566d7e2aebda57226e54c6600
 Description:  connection tracking table size input plugin
 
 Package: collectd-mod-cpu
@@ -60,10 +60,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 4913
+Installed-Size: 4749
 Filename: collectd-mod-cpu_5.12.0-41_mipsel_24kc.ipk
-Size: 5501
-SHA256sum: ddd8d0c9ae7cd1957fd74b45891b9b13db8db5c1c12d9ab18b7c3f754d4789c5
+Size: 5336
+SHA256sum: 58baafd351142912b27a7d1bc56390447886e0d9cff219b29782868c7b98e667
 Description:  CPU input plugin
 
 Package: collectd-mod-dhcpleases
@@ -72,10 +72,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 2060
+Installed-Size: 1861
 Filename: collectd-mod-dhcpleases_5.12.0-41_mipsel_24kc.ipk
-Size: 2720
-SHA256sum: ba6f735ac08ded2c6b5e7dc062120e272bd0a36e8987331f3c0aee74b3ffaca1
+Size: 2525
+SHA256sum: 2dd8f53e230198944174d59e9a7cfa4f1fd4a2438d02ae6c94d09fdb6fb0e368
 Description:  show dhcpleases plugin
 
 Package: collectd-mod-entropy
@@ -84,10 +84,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 1706
+Installed-Size: 1523
 Filename: collectd-mod-entropy_5.12.0-41_mipsel_24kc.ipk
-Size: 2390
-SHA256sum: c721cedf25a88e70dd19e4db90a8f834bc66b3ea58b17905b353a3f28ba7539e
+Size: 2202
+SHA256sum: e27d4602ccc6df39da19c548a71dc31d8e3e7f5a1af526e1880fba0288da6235
 Description:  Entropy amount input plugin
 
 Package: collectd-mod-exec
@@ -96,10 +96,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 24551
+Installed-Size: 24528
 Filename: collectd-mod-exec_5.12.0-41_mipsel_24kc.ipk
-Size: 25251
-SHA256sum: 7764e4cfd9ef90f586be29d6e4472e870b7b308817fafa1bf1c3e8cafb4123c7
+Size: 25200
+SHA256sum: 335365be6bbe68ab47b4146d302d70354005be3b1eb4d697cdc5e8cc415e2ea2
 Description:  process exec input plugin
 
 Package: collectd-mod-interface
@@ -108,10 +108,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 3897
+Installed-Size: 3737
 Filename: collectd-mod-interface_5.12.0-41_mipsel_24kc.ipk
-Size: 4478
-SHA256sum: 69766eb79a886259dc4338d1317ac02bb32dcd12a3a022ea6afec61b4035d285
+Size: 4314
+SHA256sum: 5d48d3e80372c95cc591721d5a2a198b75e8af9c77b1cb64d9675f5d6c6d9e79
 Description:  network interfaces input plugin
 
 Package: collectd-mod-iwinfo
@@ -120,10 +120,10 @@ Depends: libc, collectd, libiwinfo20210430
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 3978
+Installed-Size: 3807
 Filename: collectd-mod-iwinfo_5.12.0-41_mipsel_24kc.ipk
-Size: 4580
-SHA256sum: c99826aeb1485a293834f9a063be7f07f504a485e7b70263634235d9884e1e41
+Size: 4427
+SHA256sum: 234ba10bfc73cb377a9c8302f4084a1abb5ffb8c4f7bc14afb2511319476fada
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -132,10 +132,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 2352
+Installed-Size: 2181
 Filename: collectd-mod-load_5.12.0-41_mipsel_24kc.ipk
-Size: 3002
-SHA256sum: f79b8b07e2a429ea5fea5ee09970cc3e5aaa5078408a447aa765ba9e3705e06b
+Size: 2825
+SHA256sum: 076d741dfe28d1c00ceefb9eeca55ced38d5b47c38dfc9095e6e41762bebdf2e
 Description:  system load input plugin
 
 Package: collectd-mod-memory
@@ -144,10 +144,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 3056
+Installed-Size: 2904
 Filename: collectd-mod-memory_5.12.0-41_mipsel_24kc.ipk
-Size: 3675
-SHA256sum: 419c41be20ef189236ae7f556f8619de7bbed15b8f686776cf253373abcdd619
+Size: 3533
+SHA256sum: ad34e00aa43dd5f3bdc31b6932b8b7ac6495bed14a974871a13e20d6876ba7db
 Description:  physical memory usage input plugin
 
 Package: collectd-mod-network
@@ -156,10 +156,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 15755
+Installed-Size: 15643
 Filename: collectd-mod-network_5.12.0-41_mipsel_24kc.ipk
-Size: 16318
-SHA256sum: 560fd5dfcd9efd196a859015ca81d059bb21ac91f167835d7ec23bf4a223d046
+Size: 16220
+SHA256sum: 62fd8330fb90db313c5fe2650a1afede479737079f887bdb46115f6ffed78247
 Description:  network input/output plugin
 
 Package: collectd-mod-rrdtool
@@ -168,10 +168,10 @@ Depends: libc, collectd, librrd1
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 12358
+Installed-Size: 12202
 Filename: collectd-mod-rrdtool_5.12.0-41_mipsel_24kc.ipk
-Size: 12950
-SHA256sum: b79fd1bb5041379ab3c7c88aa21930890f731a5568ddfad60eb0c1fdf605cc6b
+Size: 12763
+SHA256sum: 06d8baa76fab98996f4cf0f9a5bcfb94629cb4983ed3293b2da756c5ffa54355
 Description:  RRDtool output plugin
 
 Package: collectd-mod-thermal
@@ -180,10 +180,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 4440
+Installed-Size: 4273
 Filename: collectd-mod-thermal_5.12.0-41_mipsel_24kc.ipk
-Size: 5016
-SHA256sum: d0163c398e807bd6c52193d71948fa9fca671e20860b196296f33f4d88e662d2
+Size: 4859
+SHA256sum: 120b682369c2de22d6251213bfa126ec2be81301684efe57b9746e363c9757ac
 Description:  system temperatures input plugin
 
 Package: collectd-mod-wireless
@@ -192,10 +192,10 @@ Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 2808
+Installed-Size: 2610
 Filename: collectd-mod-wireless_5.12.0-41_mipsel_24kc.ipk
-Size: 3445
-SHA256sum: ccda865a8c1b796a36170b1baa519314ab61a82198fc6d1351d5efe7d5ba8405
+Size: 3240
+SHA256sum: 01019691d584187f33840768a1c486357df83fa875c202a3a6fd9e312e87879d
 Description:  wireless status input plugin
 
 Package: collectd
@@ -204,10 +204,10 @@ Depends: libc, libpthread, zlib, libltdl7, jshn
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 90960
+Installed-Size: 91193
 Filename: collectd_5.12.0-41_mipsel_24kc.ipk
-Size: 91565
-SHA256sum: 55557fd4d02559049f1775e21bfbe14db2bb85a2a5ef5fb045a3a3908e1939c4
+Size: 91788
+SHA256sum: 39a74cb4e8abf192f768674ee90681cefb7a768c4eaa36987ce43c5ee880cf27
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
@@ -218,10 +218,10 @@ License: GPL-2.0-or-later
 Section: admin
 CPE-ID: cpe:/a:htop:htop
 Architecture: mipsel_24kc
-Installed-Size: 82352
+Installed-Size: 82242
 Filename: htop_3.2.1-1_mipsel_24kc.ipk
-Size: 83088
-SHA256sum: f503a8cf2c8e6e9d73b46406f4ee894ed1810687e3fa7d47bede3e08db611445
+Size: 82918
+SHA256sum: 7319faeed881da0e1bd56daeb46e2b1b35817677e2bc548358576c9c19c78b71
 Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
@@ -232,10 +232,10 @@ Depends: libc, libiperf3
 License: BSD-3-Clause
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 2303
+Installed-Size: 2144
 Filename: iperf3_3.12-1_mipsel_24kc.ipk
-Size: 2999
-SHA256sum: 9f5edd12fad8f3d1522ffbf67469304a8dfee26e70261d2a8a96ce7e5bf5244a
+Size: 2846
+SHA256sum: 4728182d2669f45f733c69182248fff123d682c4c91482e244e610846e4d0e30
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
@@ -246,10 +246,10 @@ Depends: libc
 License: GPL-2.0-or-later
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 46455
+Installed-Size: 46465
 Filename: irqbalance_1.9.2-1_mipsel_24kc.ipk
-Size: 47099
-SHA256sum: a47bb6e847e5b23d4a07b3301c8a5c85f882db2947ab6f2d94c466485376d72d
+Size: 47138
+SHA256sum: 3ae745ee2d55f723ab0fb1207ce7c1efd4c2a5730c404be9f3c60f773ebe0657
 Description:  The purpose of irqbalance is to distribute hardware interrupts across
  processors/cores on a multiprocessor/multicore system in order to
  increase performance.
@@ -260,10 +260,10 @@ Depends: libc
 License: BSD-3-Clause
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 57743
+Installed-Size: 57185
 Filename: libiperf3_3.12-1_mipsel_24kc.ipk
-Size: 58559
-SHA256sum: 9ff5c731c332a3cc0a2e87dd571f8ba44c7b5cfc143ba211aa9677eaf02e4593
+Size: 57959
+SHA256sum: 02aed8426b69706d93f8e05e623b355db326ee3a0c1f414a5668bb847ca4eb13
 Description:  Libiperf is a library providing an API for iperf3 functionality.
 
 Package: librrd1
@@ -271,10 +271,10 @@ Version: 1.0.50-5
 Depends: libc, zlib
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 129540
+Installed-Size: 129337
 Filename: librrd1_1.0.50-5_mipsel_24kc.ipk
-Size: 130311
-SHA256sum: 74803fbb72e612b552f7179b3a86e24d58a884d83cb6d20dd3317cc696bd7813
+Size: 130366
+SHA256sum: cf226432c6c68273e13f7aa2fe118a4253b0d891202c7a7b5377676e32a1302a
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -293,10 +293,10 @@ Version: 1.0.50-5
 Depends: libc, librrd1
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 12252
+Installed-Size: 11740
 Filename: rrdtool1_1.0.50-5_mipsel_24kc.ipk
-Size: 13117
-SHA256sum: f771874dd6ba7940ade75f0eaf018fb20b41574841c008b1f633af25353ce427
+Size: 12626
+SHA256sum: 58d857f49945b6b2b42b133cc0a559a22d8ff42c69147fffd77b90e1fc031efd
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
