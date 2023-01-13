@@ -52,81 +52,6 @@ Description:  Provides support for 6to4 tunnels in /etc/config/network.
  Refer to https://openwrt.org/docs/guide-user/base-system/basic-networking
  configuration details.
 
-Package: ar3k-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: ar3k-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 959228
-Filename: ar3k-firmware_20221214-3_mipsel_24kc.ipk
-Size: 959440
-SHA256sum: cce55627bc47ac63b3e2d51972e3168ab4121d26c02f39d4bdd5049ac37dae3d
-Description:  ath3k firmware
-
-Package: ath9k-htc-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: ath9k-htc-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 61876
-Filename: ath9k-htc-firmware_20221214-3_mipsel_24kc.ipk
-Size: 62227
-SHA256sum: 115a652461d292986a1b31ac935690d4069580b1f92b379519c3df732366b7ba
-Description:  AR9271/AR7010 firmware
-
-Package: bnx2-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: bnx2-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 105166
-Filename: bnx2-firmware_20221214-3_mipsel_24kc.ipk
-Size: 105831
-SHA256sum: a00d3915e9fab4e734f975cfa77e15c3ed3dba04708b8f4424c27e965080475c
-Description:  Broadcom BCM5706/5708/5709/5716 firmware
-
-Package: bnx2x-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: bnx2x-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 2421823
-Filename: bnx2x-firmware_20221214-3_mipsel_24kc.ipk
-Size: 2415487
-SHA256sum: 69acc730e4f844866f916345382a187f44cd146db92467ce2dcde4191fbda0d9
-Description:  =QLogic 5771x/578xx firmware
-
-Package: brcmfmac-firmware-usb
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: brcmfmac-firmware-usb
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 502980
-Filename: brcmfmac-firmware-usb_20221214-3_mipsel_24kc.ipk
-Size: 503681
-SHA256sum: c4217be09f559ee1913a38aca7c31d7571d6c5bdeed42f8a639ba4c94dbd9d77
-Description:  Broadcom BCM43xx fullmac USB firmware
-
 Package: busybox
 Version: 1.36.0-1
 Depends: libc
@@ -144,8 +69,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 213292
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 214093
-SHA256sum: 7215866a2569b95ff277184cadea8f9e2d752f11a2240497c92a00106da76715
+Size: 214096
+SHA256sum: 3345b52cebb0c0d024a93e647d6b7ddb90b57957d5c8fb5324070f8b2e8b214b
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -179,39 +104,6 @@ Size: 123417
 SHA256sum: a97e605eb2efca866c207e6be83abb8b88c8e0e6e123842cbf02f6e036af3ce1
 Description:  System CA certificates
 
-Package: carl9170-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: carl9170-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 9762
-Filename: carl9170-firmware_20221214-3_mipsel_24kc.ipk
-Size: 10492
-SHA256sum: 55b76652bf1910e29aa84321bb7539d9a3068f03b432cde58d3583992bb9c67d
-Description:  AR9170 firmware
-
-Package: chat
-Version: 2.4.9.git-2021-01-04-4
-Depends: libc
-Source: package/network/services/ppp
-SourceName: chat
-License: BSD-4-Clause
-Section: net
-SourceDateEpoch: 1664291802
-CPE-ID: cpe:/a:samba:ppp
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 8539
-Filename: chat_2.4.9.git-2021-01-04-4_mipsel_24kc.ipk
-Size: 9196
-SHA256sum: 32afb6fd0a23eef6418208d25242da7d7c63b18c35d067a0b0d985905c0c8032
-Description:  This package contains an utility to establish conversation with other PPP servers
- (via a modem).
-
 Package: dnsmasq
 Version: 2.88-1
 Depends: libc, libubus20220601
@@ -229,36 +121,6 @@ Filename: dnsmasq_2.88-1_mipsel_24kc.ipk
 Size: 135356
 SHA256sum: ab6a645ec683c585ac793acba7f4d6ab4ec75de22c3aba527cc750e07d0e7b77
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
-
-Package: e100-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: e100-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 834
-Filename: e100-firmware_20221214-3_mipsel_24kc.ipk
-Size: 1553
-SHA256sum: 7ad392592673f05f031e8dc4ee35d5b3fb2d3493baacb9cfe718dcd68d0a0cdd
-Description:  Intel e100
-
-Package: edgeport-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: edgeport-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 18899
-Filename: edgeport-firmware_20221214-3_mipsel_24kc.ipk
-Size: 19582
-SHA256sum: 6b21d7014f12a4bbdc2c6e77206d14c197130ac8ab4986a832278d0dc6fd2f0d
-Description:  USB Inside Out Edgeport Serial Driver firmware
 
 Package: firewall4
 Version: 2022-11-29-700a925f-2
@@ -680,7 +542,7 @@ Architecture: mipsel_24kc
 Installed-Size: 982618
 Filename: libopenssl1.1_1.1.1s-1_mipsel_24kc.ipk
 Size: 973121
-SHA256sum: 46a3a0f21b343bb649e97f0eac1d0a4a871932e3b9c7907c2f0f15cf8891204c
+SHA256sum: b1ebaa92e651a743e7de380b0e36cf203c8bf7abb37e16011dfbaab3ed143c9a
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -852,66 +714,6 @@ Filename: logd_2022-08-13-4c7b720b-2_mipsel_24kc.ipk
 Size: 11444
 SHA256sum: cebe07fd41dd275a720caf76a725ed87f1e6fca20c900ef981b9d1455c74982e
 Description:  OpenWrt system log implementation
-
-Package: mt7601u-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: mt7601u-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 26413
-Filename: mt7601u-firmware_20221214-3_mipsel_24kc.ipk
-Size: 27119
-SHA256sum: 00d43e9d04927660174e1194d9be1f2a996af71934d24905dcc2af6ddd07f7b4
-Description:  MediaTek MT7601U firmware
-
-Package: mwifiex-pcie-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: mwifiex-pcie-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 514901
-Filename: mwifiex-pcie-firmware_20221214-3_mipsel_24kc.ipk
-Size: 515539
-SHA256sum: a79910d39e1481c79450bcbb140051eed021d676a5c8a3ef27ae3532b7a61ede
-Description:  Marvell 8897 firmware
-
-Package: mwifiex-sdio-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: mwifiex-sdio-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 876715
-Filename: mwifiex-sdio-firmware_20221214-3_mipsel_24kc.ipk
-Size: 876985
-SHA256sum: 4fd0be6bd27ff502e79593765b86bcfc2afda5eb7abbd899dce41189b4e3b3c5
-Description:  Marvell 8887/8997 firmware
-
-Package: mwl8k-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: mwl8k-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 192357
-Filename: mwl8k-firmware_20221214-3_mipsel_24kc.ipk
-Size: 193192
-SHA256sum: 5d3844ce96985cb981d1e12020fd01316fe22d6009ffe6322b0cd3f6e1fcf067
-Description:  Marvell 8366/8687 firmware
 
 Package: netifd
 Version: 2022-12-30-81c1fbcb-1
@@ -1131,36 +933,6 @@ Size: 55564
 SHA256sum: b5bf133ee8d205d0e659953321d7708080d5b179054ed9ade7128dd85d8bdc3c
 Description:  OpenWrt system process manager
 
-Package: r8152-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: r8152-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 9401
-Filename: r8152-firmware_20221214-3_mipsel_24kc.ipk
-Size: 10128
-SHA256sum: a1debed2fe5a4961ce4f20719bbae118114c1737dbeba85a9df0fc5a6caa9460
-Description:  RealTek RTL8152 firmware
-
-Package: r8169-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: r8169-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 23816
-Filename: r8169-firmware_20221214-3_mipsel_24kc.ipk
-Size: 24489
-SHA256sum: ee4ff7f0e5fc876426dcafcb4e3b70360c7634a0a278dfd8c42e0ea76243ecc4
-Description:  RealTek RTL8169 firmware
-
 Package: rpcd-mod-file
 Version: 2022-12-15-7de4820c-1
 Depends: libc, libubus20220601, libubox20220927, rpcd
@@ -1241,126 +1013,6 @@ Size: 23485
 SHA256sum: 85240453061b28e165425cff5dfca6c3d55f2e81aa05c62a6cd739eea756c9e8
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
-
-Package: rs9113-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rs9113-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 84653
-Filename: rs9113-firmware_20221214-3_mipsel_24kc.ipk
-Size: 85217
-SHA256sum: 7064b6db82207478fb7584a1b283cff62cfa60a8225c854bdb8c2d50a007173c
-Description:  RedPine Signals rs9113 firmware
-
-Package: rt2800-pci-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rt2800-pci-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 3960
-Filename: rt2800-pci-firmware_20221214-3_mipsel_24kc.ipk
-Size: 4679
-SHA256sum: 05e0f4ed002bac55cfe028896fecd1dbd2ff74c2d30fc1bdcccb79c19289ed30
-Description:  Ralink RT28xx/3xxx PCI/SoC firmware
-
-Package: rt2800-usb-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rt2800-usb-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 2929
-Filename: rt2800-usb-firmware_20221214-3_mipsel_24kc.ipk
-Size: 3635
-SHA256sum: cf49a170a75f82fef4a49e41a46beb126553282b61978fd2d5897182732b684a
-Description:  Ralink RT28xx/3xxx USB firmware
-
-Package: rtl8192ce-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rtl8192ce-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 20752
-Filename: rtl8192ce-firmware_20221214-3_mipsel_24kc.ipk
-Size: 21452
-SHA256sum: c9d9e6059da63925f396d125f690c349c2f8124b9ce2489d0861e4dc5a3067cb
-Description:  RealTek RTL8192CE firmware
-
-Package: rtl8192cu-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rtl8192cu-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 18706
-Filename: rtl8192cu-firmware_20221214-3_mipsel_24kc.ipk
-Size: 19459
-SHA256sum: 1e5f3f1148d7494e5d14e15e6dabc4d4077a96cd938604c4bde0cdd9ca530958
-Description:  RealTek RTL8192CU firmware
-
-Package: rtl8192de-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rtl8192de-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 13524
-Filename: rtl8192de-firmware_20221214-3_mipsel_24kc.ipk
-Size: 14252
-SHA256sum: c5b9237d8823f18196cb2779fbc071095aa6aa74e8baa2bb17df59d11546b909
-Description:  RealTek RTL8192DE firmware
-
-Package: rtl8192se-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rtl8192se-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 36769
-Filename: rtl8192se-firmware_20221214-3_mipsel_24kc.ipk
-Size: 37457
-SHA256sum: f190e27f088ce99bbcb1ea5f8bbd31aeeb6bb9bf71d8a13482d129f70544d1bb
-Description:  RealTek RTL8192SE firmware
-
-Package: rtl8821ae-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: rtl8821ae-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 23989
-Filename: rtl8821ae-firmware_20221214-3_mipsel_24kc.ipk
-Size: 24676
-SHA256sum: 8cf3ca49c45c5cb1a9a49ad8ca004aec900c5f98ac69e459e6bcb3e5917ef14c
-Description:  RealTek RTL8821AE firmware
 
 Package: terminfo
 Version: 6.4-1
@@ -1636,21 +1288,6 @@ Size: 11480
 SHA256sum: e39ba7a674856e23fdc10ad13a22747ae83d05af0a6b49d5d8fa1b2e44c6faf6
 Description:  OpenWrt signature verification utility
 
-Package: wil6210-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: wil6210-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 254940
-Filename: wil6210-firmware_20221214-3_mipsel_24kc.ipk
-Size: 255727
-SHA256sum: 91fa2f4dc8895753123816382a0b5108736da92cc4d4897c226bd182b2609f8e
-Description:  wil6210 firmware
-
 Package: wireless-regdb
 Version: 2022.08.12-1
 Depends: libc
@@ -1666,36 +1303,6 @@ Size: 2911
 SHA256sum: 18806a103bc2d002b5029b0519fdcc8c125b745a444c571e5b0447bab1dc89ac
 Description:  Wireless Regulatory Database
 
-Package: wl12xx-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: wl12xx-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 1175081
-Filename: wl12xx-firmware_20221214-3_mipsel_24kc.ipk
-Size: 1175079
-SHA256sum: aba42914823f5e1817eb00348f2794df5215673cb4178243699e6adf32ee458d
-Description:  TI WL12xx firmware
-
-Package: wl18xx-firmware
-Version: 20221214-3
-Depends: libc
-Source: package/firmware/linux-firmware
-SourceName: wl18xx-firmware
-Section: firmware
-SourceDateEpoch: 1672319755
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: mipsel_24kc
-Installed-Size: 343328
-Filename: wl18xx-firmware_20221214-3_mipsel_24kc.ipk
-Size: 343923
-SHA256sum: fb2e95d190134a5c3c973198fbf041fb69a832d0eb9c8b12d9ae3b8f105f85e4
-Description:  TI WL18xx firmware
-
 Package: wpad-basic-wolfssl
 Version: 2022-07-29-b704dc72-17.2
 Depends: hostapd-common (=2022-07-29-b704dc72-17.2), libc, libnl-tiny2022-11-01, hostapd-common, libubus20220601, libwolfssl5.5.4.e624513f
@@ -1710,10 +1317,10 @@ SourceDateEpoch: 1672603614
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 391811
+Installed-Size: 386510
 Filename: wpad-basic-wolfssl_2022-07-29-b704dc72-17.2_mipsel_24kc.ipk
-Size: 392363
-SHA256sum: fe6e50bfbcd38258431307846082dc6fa4e7bc58253de98d60aa2a4e9ffc501b
+Size: 387062
+SHA256sum: 624dae8fc20b3d080c3578f8aef8f6f147023af4e4c8f2ca00754a7c6d1196ef
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
@@ -1730,28 +1337,12 @@ SourceDateEpoch: 1672603614
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 630578
+Installed-Size: 624669
 Filename: wpad-openssl_2022-07-29-b704dc72-17.2_mipsel_24kc.ipk
-Size: 630707
-SHA256sum: 404d3fb6906d4094a6fa439bf7f09c2501b3107262ffee070ecabb5946bfaf52
+Size: 624824
+SHA256sum: 376d828f0657b732d30f4c6c15687fc7de47d71b265a696088a995e6b51695cd
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
-
-Package: wwan
-Version: 2019-04-29-5
-Depends: libc
-Source: package/network/utils/wwan
-SourceName: wwan
-License: GPL-2.0
-Section: net
-SourceDateEpoch: 1589389283
-Maintainer: John Crispin <john@phrozen.org>
-Architecture: mipsel_24kc
-Installed-Size: 9983
-Filename: wwan_2019-04-29-5_mipsel_24kc.ipk
-Size: 9810
-SHA256sum: d1e6b83cc9a746a0115d43859497d790cc9afc4424be4fd123715bf337f9447b
-Description:  Generic OpenWrt 3G/4G proto handler
 
 Package: zlib
 Version: 1.2.13-1
