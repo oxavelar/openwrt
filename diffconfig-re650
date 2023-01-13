@@ -1,7 +1,7 @@
 # OpenWRT Customized RE650 Image
 #
 # ./scripts/feeds update -a && ./scripts/feeds install -a
-# cp diffconfig-re650 .config && make defconfig && time make -j3
+# cp diffconfig-re650 .config && time make defconfig download world -j $(nproc)
 #
 
 CONFIG_TARGET_ramips=y
@@ -10,8 +10,8 @@ CONFIG_TARGET_MULTI_PROFILE=y
 CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_tplink_re650-v2=y
 CONFIG_TARGET_DEVICE_PACKAGES_ramips_mt7621_DEVICE_tplink_re650-v2="-opkg -iptables -odhcpd -ppp -ppp-mod-pppoe"
 
-CONFIG_ALL_KMODS=y
-CONFIG_ALL_NONSHARED=y
+CONFIG_ALL_KMODS=n
+CONFIG_ALL_NONSHARED=n
 CONFIG_DEVEL=y
 CONFIG_TARGET_PER_DEVICE_ROOTFS=y
 
