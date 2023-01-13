@@ -40,13 +40,13 @@ Depends: libc, luci-base, attendedsysupgrade-common, cgi-io
 Source: feeds/luci/applications/luci-app-attendedsysupgrade
 SourceName: luci-app-attendedsysupgrade
 Section: luci
-SourceDateEpoch: 1672994664
+SourceDateEpoch: 1673598347
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 4267
 Filename: luci-app-attendedsysupgrade_git-22.285.67526-18bfcca_all.ipk
-Size: 5096
-SHA256sum: 6aea64d15a37032225bd273900490deff8d32d5eaf5f6919e5d23106cac4426e
+Size: 5102
+SHA256sum: 97ae0419cd189b2f3b7201254835aa2c684b676e840a30ab939b6d036c92b61b
 Description:  LuCI support for attended sysupgrades
 
 Package: luci-app-commands
@@ -72,13 +72,13 @@ Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1673293470
+SourceDateEpoch: 1673598347
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 14237
+Installed-Size: 14236
 Filename: luci-app-firewall_git-22.089.67453-0eb3aeb_all.ipk
-Size: 15073
-SHA256sum: 92550aa283b1f4e4a542f9289699da5eae5c890cb94a17dde6a6e8f259a31d68
+Size: 15072
+SHA256sum: be27553af5e6109360e60e4c821126f851f5deb73788b7a55a669abd01d27235
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-opkg
@@ -87,13 +87,13 @@ Depends: libc, opkg
 Source: feeds/luci/applications/luci-app-opkg
 SourceName: luci-app-opkg
 Section: luci
-SourceDateEpoch: 1673305315
+SourceDateEpoch: 1673598347
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 9135
+Installed-Size: 9134
 Filename: luci-app-opkg_git-23.009.82915-ec3aac4_all.ipk
 Size: 9996
-SHA256sum: 2355949f2977b609b25e556adbf1039035ddbb726abd13ab961c6ef7906637e4
+SHA256sum: b12edf66e86e778b5a9d36ef091d94ae63240edadc37019e77dd3f1ebbbf5734
 Description:  OPKG package management application
 
 Package: luci-app-statistics
@@ -118,13 +118,13 @@ Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1673293470
+SourceDateEpoch: 1673598347
 Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
-Installed-Size: 122785
+Installed-Size: 122787
 Filename: luci-base_git-22.361.69865-deed682_mipsel_24kc.ipk
-Size: 123764
-SHA256sum: 20069037832047a210d02dbf5dcdd33fd1b0f8698f0f9be649980754b2549a11
+Size: 123778
+SHA256sum: bb7f09c3101ba6a2a0f2495701e91d4e830dd19699e3c91316a93ff28c2fc0e9
 Description:  LuCI core runtime
 
 Package: luci-mod-admin-full
