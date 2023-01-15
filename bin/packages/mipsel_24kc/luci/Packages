@@ -82,15 +82,15 @@ SHA256sum: cdd9f1e42e82b9d8dae83e8166bd7441d44ac28ba008ebaea87ece6acdc0204c
 Description:  LuCI Statistics Application
 
 Package: luci-base
-Version: git-22.361.69865-deed682
+Version: git-23.013.73089-9634086
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
 Installed-Size: 122787
-Filename: luci-base_git-22.361.69865-deed682_mipsel_24kc.ipk
-Size: 123778
-SHA256sum: bb7f09c3101ba6a2a0f2495701e91d4e830dd19699e3c91316a93ff28c2fc0e9
+Filename: luci-base_git-23.013.73089-9634086_mipsel_24kc.ipk
+Size: 123787
+SHA256sum: 067e38a27f29a8b68e6641959ab62030f0b8bc972cc5c96bda55e500e28abdea
 Description:  LuCI core runtime
 
 Package: luci-mod-admin-full
@@ -106,15 +106,15 @@ SHA256sum: ce7a95a5a10fe88c98144207495d7844817b71ff100bfe244e20443a454c776b
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-network
-Version: git-23.005.74128-8414f91
+Version: git-23.014.31243-0c1be9a
 Depends: libc, luci-base, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 50703
-Filename: luci-mod-network_git-23.005.74128-8414f91_all.ipk
-Size: 51632
-SHA256sum: 187865483d30790a0fe6b6722a04304919b6df41b3aa99149da731ff7dbc4ea1
+Installed-Size: 50725
+Filename: luci-mod-network_git-23.014.31243-0c1be9a_all.ipk
+Size: 51657
+SHA256sum: b73e45ee70b7fdce37af1975c976096ae3bd1ef77ded40a9957970d5900a2831
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
@@ -130,15 +130,15 @@ SHA256sum: e7605277739413735b83ed8fcf979dc2474ba556537967d3ace96378bd462842
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
-Version: git-22.297.83017-f478fe6
+Version: git-23.013.73089-0186d7e
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 17644
-Filename: luci-mod-system_git-22.297.83017-f478fe6_all.ipk
-Size: 18513
-SHA256sum: b2cd16cc34dd100ff2f2f90bbf6b678078685c09aa472e8e6375448808b443ef
+Installed-Size: 17646
+Filename: luci-mod-system_git-23.013.73089-0186d7e_all.ipk
+Size: 18520
+SHA256sum: 9b480692ef7a40808fd5eaa0e745e43de43467ddff3ab927a204287b8b1d1bce
 Description:  LuCI Administration - Global System Settings
 
 Package: luci-proto-ipv6
