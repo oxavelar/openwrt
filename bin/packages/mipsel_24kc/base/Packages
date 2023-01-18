@@ -51,8 +51,8 @@ Essential: yes
 Architecture: mipsel_24kc
 Installed-Size: 213292
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 214093
-SHA256sum: 0d2bef3b61951636ef307e317dc685ad6e30961e14aef3634ab0e8cc3b8a22f3
+Size: 214094
+SHA256sum: 6432b78059ab72b98fff1ded9e520c21ed37967e2297b4b335dc3c3bffed853a
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -419,8 +419,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 982618
 Filename: libopenssl1.1_1.1.1s-1_mipsel_24kc.ipk
-Size: 973078
-SHA256sum: c0eefe90b029ee11fb4000c42bda6ed86a5adaf241fb3344203eb6a583d376d1
+Size: 973121
+SHA256sum: 3aee4e8589be5fa4955cddacb62fc4c23c0e6679ff1db1659ec37ebdc9a04c12
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -686,40 +686,40 @@ SHA256sum: 98cdd3add0f43abb95a1985c88b7c55651815c552038a9c7c524b4806a761f6a
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
-Version: 2022-11-10-039b88f7-3
+Version: 2023-01-16-190f13a7-1
 Depends: libc, libubox20220927, libblobmsg-json20220927
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
-Installed-Size: 18307
-Filename: procd-seccomp_2022-11-10-039b88f7-3_mipsel_24kc.ipk
-Size: 18238
-SHA256sum: 37e5f8a3b42f13780ec45f0944578aec968a669ecdbaf33cd0a6f3a0c15530fc
+Installed-Size: 18304
+Filename: procd-seccomp_2023-01-16-190f13a7-1_mipsel_24kc.ipk
+Size: 18231
+SHA256sum: f6e38cae3362af1cfddeb0f0c8a7d02396d1abf161707b39ed6ea947118506b2
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd-ujail
-Version: 2022-11-10-039b88f7-3
+Version: 2023-01-16-190f13a7-1
 Depends: libc, libubox20220927, libubus20220601, libuci20130104, libblobmsg-json20220927
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
-Installed-Size: 40071
-Filename: procd-ujail_2022-11-10-039b88f7-3_mipsel_24kc.ipk
-Size: 40512
-SHA256sum: 4e36757ed985546463a2517affe4dd8560d998596444798cb4780bf02af435bc
+Installed-Size: 40092
+Filename: procd-ujail_2023-01-16-190f13a7-1_mipsel_24kc.ipk
+Size: 40258
+SHA256sum: d9aca12afa34c9232d720fbd19dd278ac2faddd824f15c0a0fbdeed452a61fff
 Description:  OpenWrt process jail helper
 
 Package: procd
-Version: 2022-11-10-039b88f7-3
+Version: 2023-01-16-190f13a7-1
 Depends: libc, ubusd, ubus, libjson-script20220927, ubox, libubox20220927, libubus20220601, libblobmsg-json20220927, libjson-c5, jshn
 Conflicts: procd-selinux
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
-Installed-Size: 56081
-Filename: procd_2022-11-10-039b88f7-3_mipsel_24kc.ipk
-Size: 55564
-SHA256sum: b5bf133ee8d205d0e659953321d7708080d5b179054ed9ade7128dd85d8bdc3c
+Installed-Size: 56141
+Filename: procd_2023-01-16-190f13a7-1_mipsel_24kc.ipk
+Size: 55649
+SHA256sum: 0baa93b0590540f59f4792eceaa81479cc6334b7acfa1670d591b9e78c7a364f
 Description:  OpenWrt system process manager
 
 Package: rpcd-mod-file
