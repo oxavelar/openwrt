@@ -64,10 +64,10 @@ Version: git-23.009.82915-ec3aac4
 Depends: libc, opkg
 Section: luci
 Architecture: all
-Installed-Size: 9136
+Installed-Size: 9137
 Filename: luci-app-opkg_git-23.009.82915-ec3aac4_all.ipk
-Size: 9996
-SHA256sum: 26b09cd7a977e19596f16f10c1af00123345ba8b0c163a3a2382d43bcb0a75d2
+Size: 10005
+SHA256sum: 7f24ea1895a8ee378e7eb876bff28d0261beb16a1e081c8e9ab98fc08b0e33a8
 Description:  OPKG package management application
 
 Package: luci-app-statistics
@@ -77,8 +77,8 @@ Section: luci
 Architecture: all
 Installed-Size: 31126
 Filename: luci-app-statistics_git-23.010.50531-9f321b8_all.ipk
-Size: 32035
-SHA256sum: 618fe20808409f9bcbd76cd8e2d36af24ea207ab57428ed9ff48ff733ecb2ca0
+Size: 32029
+SHA256sum: d9ca43f8df3a5d4bf56a75beb97e4044274a5f1772af84fd4e69e95da73ea4b3
 Description:  LuCI Statistics Application
 
 Package: luci-base
@@ -87,10 +87,10 @@ Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 122785
+Installed-Size: 122791
 Filename: luci-base_git-23.013.73089-9634086_mipsel_24kc.ipk
-Size: 123769
-SHA256sum: c932269722d0218b855836cdc2570f6f17fe08e2170ad456b89faaedbf5d3766
+Size: 123772
+SHA256sum: a16625c84e7ec39ca4a1b7c69bbf19388cfc320422acb347795959630b32b2db
 Description:  LuCI core runtime
 
 Package: luci-mod-admin-full
@@ -119,14 +119,14 @@ Description:  LuCI Network Administration
 
 Package: luci-mod-status
 Version: git-22.364.46313-a18b1a6
-Depends: libc, luci-base, libiwinfo20210430, rpcd-mod-iwinfo
+Depends: libc, luci-base, libiwinfo20230121, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: mipsel_24kc
 Installed-Size: 35164
 Filename: luci-mod-status_git-22.364.46313-a18b1a6_mipsel_24kc.ipk
-Size: 35928
-SHA256sum: e7605277739413735b83ed8fcf979dc2474ba556537967d3ace96378bd462842
+Size: 35927
+SHA256sum: f1ea6668814de45a3126d30df2e6f6301132cef8ecafa7294d1668c8fa958d1c
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -206,10 +206,10 @@ Depends: libc, rpcd, libubox20220927, libubus20220601, libnl-tiny2022-11-01
 License: Apache-2.0
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 12412
+Installed-Size: 12432
 Filename: rpcd-mod-luci_20210614_mipsel_24kc.ipk
-Size: 13079
-SHA256sum: 7a71347d6b3a1a9ee4be74998cb7f3d196f63eba38501cdcbd1c0860e1bcc24f
+Size: 13106
+SHA256sum: ff552cb2f3d9cd66c85bf375422afd86e31862fe9967a98ffad20c53a55ed7ab
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
