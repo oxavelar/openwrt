@@ -1,213 +1,181 @@
-Package: attendedsysupgrade-common
-Version: 8
-Depends: libc, rpcd, rpcd-mod-rpcsys
-License: GPL-2.0
-Section: utils
-Architecture: all
-Installed-Size: 517
-Filename: attendedsysupgrade-common_8_all.ipk
-Size: 1539
-SHA256sum: 2697e2f58f507116bc606292d581bc35d77a375a38fa2a878744b028fc8690e3
-Description:  Common needed files for attendedsysupgrade tool
- 
- Manages dependencies and brings settings used by clients.
- 
- UCI options:
- 
- * attendedsysupgrade.server.url
- URL of compatible upgrade server [1]
- 
- * attendedsysupgrade.client.upgrade_packages
- Client should request image also if no new release but new packages
- upgrade are available.
- 
- * attendedsysupgrade.client.advanced_mode
- Offer advanced options like editing packages before request and show
- additional information.
- 
- * attendedsysupgrade.client.auto_search
- Tells the client to automattically search for upgrades
- 
- [1]: https://github.com/aparcar/asu
-
 Package: cgi-io
 Version: 2022-08-10-901b0f04-21
-Depends: libc, libubox20220927, libubus20220601
+Depends: libc, libubox20220927, libubus20220615
 License: GPL-2.0-or-later
 Section: net
 Architecture: mipsel_24kc
 Installed-Size: 7574
 Filename: cgi-io_2022-08-10-901b0f04-21_mipsel_24kc.ipk
 Size: 8173
-SHA256sum: 9a9c0fa599315b732cbf0023631c8da482003f0450c4d99b2bbab1f46e77073f
+SHA256sum: 603b81c4bad7c665ffd80271853dc82bed0efd2b253cce544b2045fbfb9919fd
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
 Package: collectd-mod-conntrack
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 1982
-Filename: collectd-mod-conntrack_5.12.0-41_mipsel_24kc.ipk
-Size: 2627
-SHA256sum: ecb4dc47c402f46e5b91648f1b52c3edf30b821566d7e2aebda57226e54c6600
+Installed-Size: 1986
+Filename: collectd-mod-conntrack_5.12.0-42_mipsel_24kc.ipk
+Size: 2643
+SHA256sum: 6ec1a89ba9ac72bbd6fe05d028a378cbf0d01e010e74595e8b4720e1728ac604
 Description:  connection tracking table size input plugin
 
 Package: collectd-mod-cpu
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 4749
-Filename: collectd-mod-cpu_5.12.0-41_mipsel_24kc.ipk
-Size: 5336
-SHA256sum: 58baafd351142912b27a7d1bc56390447886e0d9cff219b29782868c7b98e667
+Installed-Size: 4753
+Filename: collectd-mod-cpu_5.12.0-42_mipsel_24kc.ipk
+Size: 5330
+SHA256sum: bdc1fb606f9ff23befd04edbb5b2a9faadfc59b37f54d91b97235406307e0763
 Description:  CPU input plugin
 
 Package: collectd-mod-dhcpleases
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 1861
-Filename: collectd-mod-dhcpleases_5.12.0-41_mipsel_24kc.ipk
-Size: 2525
-SHA256sum: 2dd8f53e230198944174d59e9a7cfa4f1fd4a2438d02ae6c94d09fdb6fb0e368
+Installed-Size: 1863
+Filename: collectd-mod-dhcpleases_5.12.0-42_mipsel_24kc.ipk
+Size: 2524
+SHA256sum: 3fd79dd2e04d4b5c0a233a0e3692cb7d23820eb500029bab744730982d50abe5
 Description:  show dhcpleases plugin
 
 Package: collectd-mod-entropy
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 1523
-Filename: collectd-mod-entropy_5.12.0-41_mipsel_24kc.ipk
+Installed-Size: 1529
+Filename: collectd-mod-entropy_5.12.0-42_mipsel_24kc.ipk
 Size: 2202
-SHA256sum: e27d4602ccc6df39da19c548a71dc31d8e3e7f5a1af526e1880fba0288da6235
+SHA256sum: 0ea45baadc35afa25264977cefcae47831514a33d83346d513607e79cde3cd53
 Description:  Entropy amount input plugin
 
 Package: collectd-mod-exec
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 24528
-Filename: collectd-mod-exec_5.12.0-41_mipsel_24kc.ipk
-Size: 25200
-SHA256sum: 335365be6bbe68ab47b4146d302d70354005be3b1eb4d697cdc5e8cc415e2ea2
+Installed-Size: 24532
+Filename: collectd-mod-exec_5.12.0-42_mipsel_24kc.ipk
+Size: 25198
+SHA256sum: 13e0d7bc8f782c8e8112aebf8ae212a902a67d4828d25385117dca9db59c4ed1
 Description:  process exec input plugin
 
 Package: collectd-mod-interface
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 3737
-Filename: collectd-mod-interface_5.12.0-41_mipsel_24kc.ipk
-Size: 4314
-SHA256sum: 5d48d3e80372c95cc591721d5a2a198b75e8af9c77b1cb64d9675f5d6c6d9e79
+Installed-Size: 3744
+Filename: collectd-mod-interface_5.12.0-42_mipsel_24kc.ipk
+Size: 4328
+SHA256sum: 469eec2bd08cb3f027dd8e46ece59e6eb6c856f541b6fe9a5d7e48a03d94f9b9
 Description:  network interfaces input plugin
 
 Package: collectd-mod-iwinfo
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd, libiwinfo20230121
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 3807
-Filename: collectd-mod-iwinfo_5.12.0-41_mipsel_24kc.ipk
-Size: 4430
-SHA256sum: 9fb3a074fdbc581a2e3ed7dbadcad4d00f0361187f553f4bcaa66fb7dabccca8
+Installed-Size: 3812
+Filename: collectd-mod-iwinfo_5.12.0-42_mipsel_24kc.ipk
+Size: 4440
+SHA256sum: fc99c48fc812fb13b92b3e36a0a174a634f26922cb113f348131e7765182ce1b
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 2181
-Filename: collectd-mod-load_5.12.0-41_mipsel_24kc.ipk
-Size: 2825
-SHA256sum: 076d741dfe28d1c00ceefb9eeca55ced38d5b47c38dfc9095e6e41762bebdf2e
+Installed-Size: 2185
+Filename: collectd-mod-load_5.12.0-42_mipsel_24kc.ipk
+Size: 2835
+SHA256sum: cb357fee4fd5bcfc170b6734cd1fc5c26502eee81d458e28b9d94d6e18cacedb
 Description:  system load input plugin
 
 Package: collectd-mod-memory
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 2904
-Filename: collectd-mod-memory_5.12.0-41_mipsel_24kc.ipk
-Size: 3533
-SHA256sum: ad34e00aa43dd5f3bdc31b6932b8b7ac6495bed14a974871a13e20d6876ba7db
+Installed-Size: 2910
+Filename: collectd-mod-memory_5.12.0-42_mipsel_24kc.ipk
+Size: 3530
+SHA256sum: e5e672fe73f4d7699609c10e2d16a387baf641e4184acf9c4140c06d6a2cbd3e
 Description:  physical memory usage input plugin
 
 Package: collectd-mod-network
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 15643
-Filename: collectd-mod-network_5.12.0-41_mipsel_24kc.ipk
-Size: 16220
-SHA256sum: 62fd8330fb90db313c5fe2650a1afede479737079f887bdb46115f6ffed78247
+Installed-Size: 15650
+Filename: collectd-mod-network_5.12.0-42_mipsel_24kc.ipk
+Size: 16236
+SHA256sum: 2e91c47db4dae4fbe4ec210eaf90890863d050636c4b006fe0ef880968303112
 Description:  network input/output plugin
 
 Package: collectd-mod-rrdtool
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd, librrd1
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 12202
-Filename: collectd-mod-rrdtool_5.12.0-41_mipsel_24kc.ipk
-Size: 12763
-SHA256sum: 06d8baa76fab98996f4cf0f9a5bcfb94629cb4983ed3293b2da756c5ffa54355
+Installed-Size: 12208
+Filename: collectd-mod-rrdtool_5.12.0-42_mipsel_24kc.ipk
+Size: 12782
+SHA256sum: d115e84fdea6c2f077d778c79e841366df484002ade47379111d6d29d1ac6629
 Description:  RRDtool output plugin
 
 Package: collectd-mod-thermal
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 4273
-Filename: collectd-mod-thermal_5.12.0-41_mipsel_24kc.ipk
-Size: 4859
-SHA256sum: 120b682369c2de22d6251213bfa126ec2be81301684efe57b9746e363c9757ac
+Installed-Size: 4278
+Filename: collectd-mod-thermal_5.12.0-42_mipsel_24kc.ipk
+Size: 4870
+SHA256sum: f1b7eeb3be69b473085b0c6576109bd8e32749feb9b1e245a7435411cadcc0df
 Description:  system temperatures input plugin
 
 Package: collectd-mod-wireless
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, collectd
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 2610
-Filename: collectd-mod-wireless_5.12.0-41_mipsel_24kc.ipk
-Size: 3240
-SHA256sum: 01019691d584187f33840768a1c486357df83fa875c202a3a6fd9e312e87879d
+Installed-Size: 2612
+Filename: collectd-mod-wireless_5.12.0-42_mipsel_24kc.ipk
+Size: 3238
+SHA256sum: 034c60f455b0fb9e197e75d3d5173d5dd16c941642db9337efbe3ce9674d2075
 Description:  wireless status input plugin
 
 Package: collectd
-Version: 5.12.0-41
+Version: 5.12.0-42
 Depends: libc, libpthread, zlib, libltdl7, jshn
 Section: utils
 CPE-ID: cpe:/a:collectd:collectd
 Architecture: mipsel_24kc
-Installed-Size: 91193
-Filename: collectd_5.12.0-41_mipsel_24kc.ipk
-Size: 91788
-SHA256sum: 39a74cb4e8abf192f768674ee90681cefb7a768c4eaa36987ce43c5ee880cf27
+Installed-Size: 91195
+Filename: collectd_5.12.0-42_mipsel_24kc.ipk
+Size: 91813
+SHA256sum: 6f39bf65d1003c641f6b73c2680b0cc3a0ae93aa10b9d587835978bceb5fb439
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
