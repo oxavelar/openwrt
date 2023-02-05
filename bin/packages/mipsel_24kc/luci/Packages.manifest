@@ -51,19 +51,19 @@ SHA256sum: 26ff6ecc88a4801f661a91e3dc8b884415fe067e48ac0b31bab1fd0939d845a0
 Description:  LuCI Shell Command Module
 
 Package: luci-app-firewall
-Version: git-22.089.67453-0eb3aeb
+Version: git-23.035.45612-c54efde
 Depends: libc, uci-firewall
 Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1674330345
+SourceDateEpoch: 1675514412
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 14233
-Filename: luci-app-firewall_git-22.089.67453-0eb3aeb_all.ipk
-Size: 15071
-SHA256sum: 0a065a50ccb2c4930822180416128963f2b4df7578b9e3f8442fa2fb16946830
+Installed-Size: 14293
+Filename: luci-app-firewall_git-23.035.45612-c54efde_all.ipk
+Size: 15137
+SHA256sum: 353733176dbf8c7f4a6ebcd801d09e1cda39728fcf416348db5e149649259370
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-statistics
@@ -72,29 +72,29 @@ Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod
 Source: feeds/luci/applications/luci-app-statistics
 SourceName: luci-app-statistics
 Section: luci
-SourceDateEpoch: 1674294754
+SourceDateEpoch: 1675274036
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 31126
+Installed-Size: 31127
 Filename: luci-app-statistics_git-23.010.50531-9f321b8_all.ipk
-Size: 32029
-SHA256sum: d9ca43f8df3a5d4bf56a75beb97e4044274a5f1772af84fd4e69e95da73ea4b3
+Size: 32034
+SHA256sum: 80884d7761c831fdf245085823aa87df267d2698414de1ce8ac9c00fad08014d
 Description:  LuCI Statistics Application
 
 Package: luci-base
-Version: git-23.013.73089-9634086
+Version: git-23.035.76973-dd47f3f
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1674679784
+SourceDateEpoch: 1675545773
 Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
-Installed-Size: 122779
-Filename: luci-base_git-23.013.73089-9634086_mipsel_24kc.ipk
-Size: 123752
-SHA256sum: 1fb2acd098d55ac0dbafd21ca5e7d4b6fbe6cc1bba1ab3331b2f56a872dca4d0
+Installed-Size: 122804
+Filename: luci-base_git-23.035.76973-dd47f3f_mipsel_24kc.ipk
+Size: 123804
+SHA256sum: 614f3b8edc1d7980497609bafe41c0e3605be71d1b8adeea0883519653231213
 Description:  LuCI core runtime
 
 Package: luci-light
