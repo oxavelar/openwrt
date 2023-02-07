@@ -82,19 +82,19 @@ SHA256sum: 80884d7761c831fdf245085823aa87df267d2698414de1ce8ac9c00fad08014d
 Description:  LuCI Statistics Application
 
 Package: luci-base
-Version: git-23.035.76973-dd47f3f
+Version: git-23.036.69764-c9939a8
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1675545773
+SourceDateEpoch: 1675624964
 Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
-Installed-Size: 122804
-Filename: luci-base_git-23.035.76973-dd47f3f_mipsel_24kc.ipk
-Size: 123804
-SHA256sum: 614f3b8edc1d7980497609bafe41c0e3605be71d1b8adeea0883519653231213
+Installed-Size: 122901
+Filename: luci-base_git-23.036.69764-c9939a8_mipsel_24kc.ipk
+Size: 123879
+SHA256sum: dbcbb09ec4bd2e91c90696a94a83e3afda47e7973a01b2237d8ea13095ccfe65
 Description:  LuCI core runtime
 
 Package: luci-light
@@ -130,35 +130,35 @@ SHA256sum: ce7a95a5a10fe88c98144207495d7844817b71ff100bfe244e20443a454c776b
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-network
-Version: git-23.027.46833-7c91e62
+Version: git-23.036.67048-c13ef94
 Depends: libc, luci-base, rpcd-mod-iwinfo
 Source: feeds/luci/modules/luci-mod-network
 SourceName: luci-mod-network
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1674824433
+SourceDateEpoch: 1675622248
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 50732
-Filename: luci-mod-network_git-23.027.46833-7c91e62_all.ipk
-Size: 51651
-SHA256sum: dbaf663b3830f555ce1111d035e283b73695bd46937d2918004a867f71cf7537
+Installed-Size: 50741
+Filename: luci-mod-network_git-23.036.67048-c13ef94_all.ipk
+Size: 51667
+SHA256sum: a2225c4c48d324509fc6f14c6c72bec9ea2563279da1c567d111a6914f37624a
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
-Version: git-23.026.34736-025d8e7
+Version: git-23.034.66681-2f1c6fa
 Depends: libc, luci-base, libiwinfo20230121, rpcd-mod-iwinfo
 Source: feeds/luci/modules/luci-mod-status
 SourceName: luci-mod-status
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1674725936
+SourceDateEpoch: 1675449081
 Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
-Installed-Size: 35161
-Filename: luci-mod-status_git-23.026.34736-025d8e7_mipsel_24kc.ipk
-Size: 35934
-SHA256sum: ddb53ad8140ca368b81030adc3420b5fd819f9446fdd9e01907dce52237d2128
+Installed-Size: 35675
+Filename: luci-mod-status_git-23.034.66681-2f1c6fa_mipsel_24kc.ipk
+Size: 36421
+SHA256sum: 4872ab523d685f30c10c045485694e507a36571dfbe18752a149bde8ff40138b
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -225,19 +225,19 @@ SHA256sum: c1aae9283d7cc818b0f0374888c05d0877abcd7deb0494aa65b4bee1e9df5f9e
 Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
 
 Package: luci-theme-bootstrap
-Version: git-23.009.43662-21b4065
+Version: git-23.036.69764-56a737e
 Depends: libc
 Source: feeds/luci/themes/luci-theme-bootstrap
 SourceName: luci-theme-bootstrap
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1673266062
+SourceDateEpoch: 1675624964
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 15810
-Filename: luci-theme-bootstrap_git-23.009.43662-21b4065_all.ipk
-Size: 16710
-SHA256sum: 8ad9629ae768ef8efe805da5ab76ba8278e1e723b1b1f96ecedd4fe127808cbe
+Installed-Size: 15820
+Filename: luci-theme-bootstrap_git-23.036.69764-56a737e_all.ipk
+Size: 16727
+SHA256sum: 6ad3f3e1c9f2a28688d1a70718ae9c72e0c2088adad8eec88324ed515fff2eef
 Description:  Bootstrap Theme (default)
 
 Package: rpcd-mod-luci
