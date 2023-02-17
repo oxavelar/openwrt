@@ -259,6 +259,26 @@ Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
 
+Package: htop
+Version: 3.2.2-1
+Depends: libc, libncurses6
+Source: feeds/packages/admin/htop
+SourceName: htop
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1675631397
+CPE-ID: cpe:/a:htop:htop
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mipsel_24kc
+Installed-Size: 84503
+Filename: htop_3.2.2-1_mipsel_24kc.ipk
+Size: 85249
+SHA256sum: 7d00a970e54375e70673fd982b2889d04340c0a7de136bb531c40ae68122df65
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
 Package: iperf3
 Version: 3.12-1
 Depends: libc, libiperf3
@@ -278,20 +298,20 @@ Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  characteristics.
 
 Package: irqbalance
-Version: 1.9.2-1
+Version: 1.9.2-2
 Depends: libc
 Source: feeds/packages/utils/irqbalance
 SourceName: irqbalance
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1667755865
+SourceDateEpoch: 1676497918
 Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 46465
-Filename: irqbalance_1.9.2-1_mipsel_24kc.ipk
-Size: 47138
-SHA256sum: 3ae745ee2d55f723ab0fb1207ce7c1efd4c2a5730c404be9f3c60f773ebe0657
+Installed-Size: 46461
+Filename: irqbalance_1.9.2-2_mipsel_24kc.ipk
+Size: 47148
+SHA256sum: c13cba5f49713b11b8d7efe5fd09d735708c6c236005742ef40065304e9d8a57
 Description:  The purpose of irqbalance is to distribute hardware interrupts across
  processors/cores on a multiprocessor/multicore system in order to
  increase performance.
