@@ -1,14 +1,13 @@
 # OpenWRT Customized RE650 Image
 #
 # ./scripts/feeds update -a && ./scripts/feeds install -a
-# cp diffconfig-re650 .config && time make defconfig download world -j $(nproc)
+# cp diffconfig-re650 .config && time make defconfig download world -j $(nproc) PACKAGES="-opkg -dnsmasq -ppp -ppp-mod-pppoe -iptables -ip6tables -odhcpd -odhcp6c -kmod-ipv6 -kmod-ip6tables"
 #
 
 CONFIG_TARGET_ramips=y
 CONFIG_TARGET_ramips_mt7621=y
 CONFIG_TARGET_MULTI_PROFILE=y
 CONFIG_TARGET_DEVICE_ramips_mt7621_DEVICE_tplink_re650-v2=y
-CONFIG_TARGET_DEVICE_PACKAGES_ramips_mt7621_DEVICE_tplink_re650-v2="-opkg -iptables -odhcpd -ppp -ppp-mod-pppoe"
 
 CONFIG_ALL_KMODS=n
 CONFIG_ALL_NONSHARED=n
@@ -35,7 +34,6 @@ CONFIG_PACKAGE_irqbalance=y
 CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_iperf3=y
 CONFIG_PACKAGE_kmod-cryptodev=y
-CONFIG_PACKAGE_libopenssl-devcrypto=y
 
 # IPv6 support
 CONFIG_PACKAGE_6in4=y
@@ -45,15 +43,13 @@ CONFIG_PACKAGE_6rd=y
 # WLAN/WPS support
 CONFIG_PACKAGE_hostapd-utils=y
 CONFIG_WPA_MSG_MIN_PRIORITY=4
-CONFIG_PACKAGE_wpad-openssl=y
-# CONFIG_PACKAGE_wpad-basic-wolfssl is not set
-# CONFIG_PACKAGE_libustream-wolfssl is not set
+CONFIG_PACKAGE_wpad-wolfssl=y
 
 # SSL certificates
 CONFIG_PACKAGE_ca-certificates=y
 
 # Luci (SSL from OpenSSL)
-CONFIG_PACKAGE_luci-ssl-openssl=y
+CONFIG_PACKAGE_luci-ssl=y
 CONFIG_PACKAGE_luci-app-commands=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
 
