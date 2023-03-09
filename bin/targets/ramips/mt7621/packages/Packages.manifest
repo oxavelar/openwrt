@@ -1,5 +1,5 @@
 Package: base-files
-Version: 1526-r22304-738d6f25ac
+Version: 1526-r22319-ce007450c6
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 Source: package/base-files
 SourceName: base-files
@@ -7,10 +7,10 @@ License: GPL-2.0
 Section: base
 SourceDateEpoch: 1677279396
 Architecture: mipsel_24kc
-Installed-Size: 56124
-Filename: base-files_1526-r22304-738d6f25ac_mipsel_24kc.ipk
+Installed-Size: 56125
+Filename: base-files_1526-r22319-ce007450c6_mipsel_24kc.ipk
 Size: 57084
-SHA256sum: cb12929b36b3112fa8bb599cb5b44b716c999fc089b1791a86559e27df18cdda
+SHA256sum: c4dee43943d10b58812a8b52df563733ff317a72e0a1a1fcea611bb0abb4b410
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: dropbear
@@ -25,10 +25,10 @@ Section: net
 SourceDateEpoch: 1656284235
 CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: mipsel_24kc
-Installed-Size: 113500
+Installed-Size: 111674
 Filename: dropbear_2022.82-2_mipsel_24kc.ipk
-Size: 114141
-SHA256sum: 8c9c6ae7503d5f615ed261ebf8bbe525950142c18f04ef8ff0a0dc9639882020
+Size: 112353
+SHA256sum: 9dd9813a1d160d4b58aa9039d14d7a9e1c5c61ae81003e85bb015284f80db51e
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: fstools
@@ -842,6 +842,26 @@ Size: 4032
 SHA256sum: d00b4b7ef6eb5bbd7e2d3d0d4ca97cf9581eb7f596985c62c1e61be1a82c51b5
 Description:  Serial Line Header Compression
 
+Package: libatomic1
+Version: 12.2.0-4
+Depends: libgcc1
+Provides: libatomic
+Source: package/libs/toolchain
+SourceName: libatomic
+License: GPL-3.0-with-GCC-exception
+Section: libs
+SourceDateEpoch: 1648814098
+ABIVersion: 1
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipsel_24kc
+Installed-Size: 5260
+Filename: libatomic1_12.2.0-4_mipsel_24kc.ipk
+Size: 5856
+SHA256sum: b9cf98b38e12e4b6de1e8c87ee3cdc4567a3d3f20442477766fd63b28e6baf95
+Description:  Atomic support library
+
 Package: libgcc1
 Version: 12.2.0-4
 Provides: libgcc
@@ -888,10 +908,10 @@ License: GPL-2.0+
 Section: utils
 SourceDateEpoch: 1615966925
 Architecture: mipsel_24kc
-Installed-Size: 13119
+Installed-Size: 12995
 Filename: mtd_26_mipsel_24kc.ipk
-Size: 13702
-SHA256sum: a07994bf0875d0a5c85cbed742c3cdbda41a2401eb66fa7a552ad9677bd6ea2d
+Size: 13584
+SHA256sum: b263a901e6a69828334a298b703fc417e1b02ae3fecdab5e6c5aa7fb6233efa1
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -906,10 +926,10 @@ SourceDateEpoch: 1666461352
 CPE-ID: cpe:/a:mtd-utils_project:mtd-utils
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
-Installed-Size: 92884
+Installed-Size: 91973
 Filename: ubi-utils_2.1.5-1_mipsel_24kc.ipk
-Size: 91644
-SHA256sum: 27eaf449436463680b1012a4dcac4500a472d8c85e6b955d207b8211b37bc210
+Size: 90768
+SHA256sum: d3c0dfafd5dc61578e0dc3e1daf442fefee9c73aa92208692c6419edfec03735
 Description:  Utilities for manipulating memory technology devices.
 
 Package: uboot-envtools
@@ -920,11 +940,11 @@ SourceName: uboot-envtools
 License: GPL-2.0 GPL-2.0+
 LicenseFiles: Licenses/README
 Section: utils
-SourceDateEpoch: 1677446568
+SourceDateEpoch: 1678194302
 Architecture: mipsel_24kc
-Installed-Size: 13417
+Installed-Size: 13421
 Filename: uboot-envtools_2023.01-1_mipsel_24kc.ipk
-Size: 14010
-SHA256sum: 68e252b9f6d4af20e2d248ea996a524f4fdda10707f98314b3e549ee8f82411b
+Size: 14013
+SHA256sum: ec9e7cb67c1a18f3aa0c2a1da273aaeb49d21e5c820a34054c1dc7ea1d584baa
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 

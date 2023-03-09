@@ -34,22 +34,6 @@ Size: 7484
 SHA256sum: 4ef742d3ebdace1c4ddebab3ecd86240e3a09b036183a11bebe7cc4dbb4bd21e
 Description:  LuCI HTTP utility library
 
-Package: luci-app-commands
-Version: git-22.299.76611-9d8feac
-Depends: libc
-Source: feeds/luci/applications/luci-app-commands
-SourceName: luci-app-commands
-License: Apache-2.0
-Section: luci
-SourceDateEpoch: 1678125216
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 5011
-Filename: luci-app-commands_git-22.299.76611-9d8feac_all.ipk
-Size: 5843
-SHA256sum: c8647a86bceaad85932d6975eff2ab3a7e3d56f2b0f72ff3258150f0a4e68fe3
-Description:  LuCI Shell Command Module
-
 Package: luci-app-firewall
 Version: git-23.035.45612-c54efde
 Depends: libc, uci-firewall
@@ -155,10 +139,10 @@ Section: luci
 SourceDateEpoch: 1677928670
 Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
-Installed-Size: 34796
+Installed-Size: 34783
 Filename: luci-mod-status_git-23.063.40670-8c7c56f_mipsel_24kc.ipk
-Size: 35542
-SHA256sum: cea83ce5b420f5d5088e1ef72017d143ad4729e090d30ffc009f8d2c424d804c
+Size: 35524
+SHA256sum: 7681a64ef0b723e669689ef3439cf4a13718c60284af8624dab66bc74cf096b8
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -209,21 +193,20 @@ Size: 3028
 SHA256sum: 3cee72379b01778427e517632cd559c3e908d7421031d082071ef3ed26c117af
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
-Package: luci-ssl
-Version: git-23.035.26083-7550ad6
-Depends: libc, luci-light, libustream-mbedtls20201210, px5g-mbedtls
-Source: feeds/luci/collections/luci-ssl
-SourceName: luci-ssl
-License: Apache-2.0
+Package: luci-ssl-openssl
+Version: git-23.024.33244-34dee82
+Depends: libc, luci-light, libustream-openssl20201210, openssl-util
+Source: feeds/luci/collections/luci-ssl-openssl
+SourceName: luci-ssl-openssl
 Section: luci
-SourceDateEpoch: 1675494883
+SourceDateEpoch: 1674551644
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 96
-Filename: luci-ssl_git-23.035.26083-7550ad6_all.ipk
-Size: 978
-SHA256sum: 44a62fbb3f7217b1aadf8355d8b391110ac90b9937ada281a34a92308e8a7e1a
-Description:  LuCI with HTTPS support (mbedtls as SSL backend)
+Filename: luci-ssl-openssl_git-23.024.33244-34dee82_all.ipk
+Size: 1044
+SHA256sum: c1aae9283d7cc818b0f0374888c05d0877abcd7deb0494aa65b4bee1e9df5f9e
+Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
 
 Package: luci-theme-bootstrap
 Version: git-23.038.32982-f416c27
