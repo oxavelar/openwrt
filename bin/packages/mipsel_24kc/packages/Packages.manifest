@@ -213,6 +213,25 @@ Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
 
+Package: irqbalance
+Version: 1.9.2-2
+Depends: libc
+Source: feeds/packages/utils/irqbalance
+SourceName: irqbalance
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1676497918
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mipsel_24kc
+Installed-Size: 46397
+Filename: irqbalance_1.9.2-2_mipsel_24kc.ipk
+Size: 47088
+SHA256sum: 62de2872239b3464142a6934cd632cc07d1ad493aaad8e911f10868de63feb83
+Description:  The purpose of irqbalance is to distribute hardware interrupts across
+ processors/cores on a multiprocessor/multicore system in order to
+ increase performance.
+
 Package: libiperf3
 Version: 3.12-1
 Depends: libc

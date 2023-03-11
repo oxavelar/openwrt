@@ -42,17 +42,17 @@ Description:  Provides support for 6to4 tunnels in /etc/config/network.
 
 Package: busybox
 Version: 1.36.0-1
-Depends: libc
+Depends: libc, jsonfilter
 Conflicts: busybox-selinux
 License: GPL-2.0
 Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: mipsel_24kc
-Installed-Size: 210404
+Installed-Size: 212578
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 211063
-SHA256sum: 01f259f253f4a2cdc456608aec87c5261047cd7380b122fb9370bf21d1fb2ebd
+Size: 213251
+SHA256sum: bd5ad6c461ff53b4392748f2f9f79ea29ae504b6c3d1b792e667ddc890eb1906
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -436,8 +436,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 1346215
 Filename: libopenssl3_3.0.8-4_mipsel_24kc.ipk
-Size: 1333052
-SHA256sum: 95e2141cf258598eec38573c207afc8b5a58573efd95d2e6564cd10714ea88aa
+Size: 1333020
+SHA256sum: cedf5a428f99ba127414b0e8093baf02d0d9f4fa0d67bbb68008c38aa16269ec
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength

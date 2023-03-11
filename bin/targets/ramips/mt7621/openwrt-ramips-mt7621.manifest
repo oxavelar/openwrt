@@ -1,7 +1,7 @@
 6in4 - 28
 6rd - 12
 6to4 - 13
-base-files - 1526-r22326-999a4cedb1
+base-files - 1526-r22327-61727d1ce2
 busybox - 1.36.0-1
 ca-bundle - 20211016-1
 ca-certificates - 20211016-1
@@ -25,6 +25,7 @@ hostapd-common - 2022-07-29-b704dc72-22.2
 hostapd-utils - 2022-07-29-b704dc72-22.2
 htop - 3.2.2-1
 iperf3 - 3.12-1
+irqbalance - 1.9.2-2
 iwinfo - 2023-02-06-c7eb8ebe-1
 jansson4 - 2.14-3
 jshn - 2022-09-27-ea560134-1
@@ -89,7 +90,7 @@ libustream-openssl20201210 - 2023-02-25-498f6e26-1
 logd - 2022-08-13-4c7b720b-2
 luci-app-firewall - git-23.035.45612-c54efde
 luci-app-statistics - git-23.010.50531-9f321b8
-luci-base - git-23.039.28596-41e9b8d
+luci-base - git-23.069.52569-24d7da2
 luci-light - git-23.024.33244-34dee82
 luci-mod-admin-full - git-19.253.48496-3f93650
 luci-mod-network - git-23.058.13675-92cce9a
