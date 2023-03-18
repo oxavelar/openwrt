@@ -49,10 +49,10 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: mipsel_24kc
-Installed-Size: 212578
+Installed-Size: 212580
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 213251
-SHA256sum: bd5ad6c461ff53b4392748f2f9f79ea29ae504b6c3d1b792e667ddc890eb1906
+Size: 213252
+SHA256sum: 4be2cc79866663b7601e8ba3689c443f524ebf5da70caa12cd4e84b82044624e
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -434,10 +434,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 1346215
+Installed-Size: 1346218
 Filename: libopenssl3_3.0.8-4_mipsel_24kc.ipk
-Size: 1333020
-SHA256sum: cedf5a428f99ba127414b0e8093baf02d0d9f4fa0d67bbb68008c38aa16269ec
+Size: 1333065
+SHA256sum: 9fa2d646788dccd455cfb02708043071b49734c4767400d0b19d8e4671d86be9
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -581,15 +581,15 @@ SHA256sum: 29c24024fd7e43362d372152a4f04353f0c3470bff08a0d55d1ec5233a978f76
 Description:  nftables userspace utility with JSON support
 
 Package: odhcp6c
-Version: 2022-08-05-7d21e8d8-19
+Version: 2022-08-05-7d21e8d8-20
 Depends: libc, libubox20220927
 License: GPL-2.0
 Section: net
 Architecture: mipsel_24kc
-Installed-Size: 24234
-Filename: odhcp6c_2022-08-05-7d21e8d8-19_mipsel_24kc.ipk
-Size: 24870
-SHA256sum: 981af31dfd00f4bb0f018b4de9dc4aacc47213c4918e10082bc2de1f7f085d57
+Installed-Size: 24250
+Filename: odhcp6c_2022-08-05-7d21e8d8-20_mipsel_24kc.ipk
+Size: 24888
+SHA256sum: cca93c42a72bcb29e07768293d990780d501b5bcb884845bbb4f610110eb50a8
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
@@ -723,51 +723,51 @@ SHA256sum: 9737b9e4ae5a4593de6e29b276c1e7b8bec9d7fae60548adc3b51eca0a1261b2
 Description:  OpenWrt system process manager
 
 Package: rpcd-mod-file
-Version: 2023-01-21-c0df2a7a-2
+Version: 2023-03-14-d9788300-1
 Depends: libc, libubus20220615, libubox20220927, rpcd
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 6497
-Filename: rpcd-mod-file_2023-01-21-c0df2a7a-2_mipsel_24kc.ipk
-Size: 7279
-SHA256sum: 4fe7e555f74d8911bb4a0a08872314157e019b5557e5a062141da9f1998a59dd
+Installed-Size: 6498
+Filename: rpcd-mod-file_2023-03-14-d9788300-1_mipsel_24kc.ipk
+Size: 7282
+SHA256sum: 9ecf6dd386c6382028ebe8d820d92bd5b40da58bd12ef34993c5da5282fe97d4
 Description:  Provides ubus calls for file and directory operations.
 
 Package: rpcd-mod-iwinfo
-Version: 2023-01-21-c0df2a7a-2
+Version: 2023-03-14-d9788300-1
 Depends: libiwinfo (>= 2023-01-21), libc, libubus20220615, libubox20220927, rpcd, libiwinfo20230121
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 6783
-Filename: rpcd-mod-iwinfo_2023-01-21-c0df2a7a-2_mipsel_24kc.ipk
-Size: 7589
-SHA256sum: 3f0891fa6b5e5f4c8eb5148c216189ca9bd94695e763b1c0b376e5ce20b22d0e
+Installed-Size: 6782
+Filename: rpcd-mod-iwinfo_2023-03-14-d9788300-1_mipsel_24kc.ipk
+Size: 7593
+SHA256sum: e5fba351cd098de60f868466c88b1abcadcabc9071a623d3b8b009cb6904a5f8
 Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-ucode
-Version: 2023-01-21-c0df2a7a-2
+Version: 2023-03-14-d9788300-1
 Depends: libc, libubus20220615, libubox20220927, rpcd, libucode20220812
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
 Installed-Size: 7865
-Filename: rpcd-mod-ucode_2023-01-21-c0df2a7a-2_mipsel_24kc.ipk
-Size: 8628
-SHA256sum: 6fc3a1684b4e161feb6ccbd99b40544b4e62140e7045ddb21b2f3a3892bd198f
+Filename: rpcd-mod-ucode_2023-03-14-d9788300-1_mipsel_24kc.ipk
+Size: 8623
+SHA256sum: 9f18683ec74083c942b55de5d883f543d79855a9e270cc39432c7eba5fb7fc8f
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
-Version: 2023-01-21-c0df2a7a-2
+Version: 2023-03-14-d9788300-1
 Depends: libc, libubus20220615, libubox20220927, libuci20130104, libblobmsg-json20220927, libjson-c5
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 22756
-Filename: rpcd_2023-01-21-c0df2a7a-2_mipsel_24kc.ipk
-Size: 23499
-SHA256sum: d2d200c3a9da62edadb38e5fd72fd81408f87b0b6bd03fab250a9670d0ce0354
+Installed-Size: 23102
+Filename: rpcd_2023-03-14-d9788300-1_mipsel_24kc.ipk
+Size: 23785
+SHA256sum: a3a34d7a6f2803005c8b44ec2385ad8afc38e62fc53c2e3f9fccc58159ac5c8a
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
