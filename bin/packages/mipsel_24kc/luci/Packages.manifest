@@ -41,13 +41,13 @@ Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1678946048
+SourceDateEpoch: 1679434733
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 15205
+Installed-Size: 15203
 Filename: luci-app-firewall_git-23.074.82978-3d0313d_all.ipk
-Size: 16024
-SHA256sum: 13075bf8075b5a4cdf5e6ab8f5a827bc310405940ac3a3737cb632b64cf0e953
+Size: 16014
+SHA256sum: e43f6d694e70f13189d587750fa411945caa4176bd93220d099b7be122fdeede
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-statistics
@@ -56,13 +56,13 @@ Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod
 Source: feeds/luci/applications/luci-app-statistics
 SourceName: luci-app-statistics
 Section: luci
-SourceDateEpoch: 1678946048
+SourceDateEpoch: 1679329806
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 31128
+Installed-Size: 31132
 Filename: luci-app-statistics_git-23.010.50531-9f321b8_all.ipk
-Size: 32032
-SHA256sum: 5f384e87555c072eb6b894fbe564e078c2373caab96d9949638e4433c2a8f8f8
+Size: 32023
+SHA256sum: 8052465d6ee23f071edd6bbc0304bc115116c673a7a9267dfbe7ad6cc27e3402
 Description:  LuCI Statistics Application
 
 Package: luci-base
@@ -72,13 +72,13 @@ Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1678946048
+SourceDateEpoch: 1679434733
 Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
-Installed-Size: 123021
+Installed-Size: 123027
 Filename: luci-base_git-23.074.82619-6ad6a24_mipsel_24kc.ipk
-Size: 124006
-SHA256sum: 73b2cd31a7b0be18059f5e2dddd63a9f18e28da42ca4aa26160df581b9e6b9eb
+Size: 124014
+SHA256sum: 2ba3afe0eb43d4fbd73af000278e35193da7d7de329e003d27b7f4bf22319b59
 Description:  LuCI core runtime
 
 Package: luci-light
