@@ -67,10 +67,10 @@ CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 212576
+Installed-Size: 212577
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 213154
-SHA256sum: fa3ede61b8ad0376ebd44bf1cdb0660a6b7c5ab28aace76da6a2ac5c90dc03ac
+Size: 213165
+SHA256sum: 4c7769dadcd410a9ba1d839e46609dadede177efef72eca8bb01ca192dd88c21
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -123,20 +123,20 @@ SHA256sum: a45b05ae08c874258035a6ee7bd0c4e38a2a16df3cf0abf7883545fd22c32069
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: firewall4
-Version: 2022-11-29-700a925f-2
+Version: 2023-03-23-04a06bd7-1
 Depends: ucode (>= 2022-03-22), libc, kmod-nft-core, kmod-nft-fib, kmod-nft-offload, kmod-nft-nat, nftables-json, ucode, ucode-mod-fs, ucode-mod-ubus, ucode-mod-uci
 Provides: uci-firewall
 Source: package/network/config/firewall4
 SourceName: firewall4
 License: ISC
 Section: net
-SourceDateEpoch: 1670399696
+SourceDateEpoch: 1679649323
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 28010
-Filename: firewall4_2022-11-29-700a925f-2_mipsel_24kc.ipk
-Size: 28965
-SHA256sum: c22efc2fd74759aea53418de0ddc8faf20017151b9cf22feadfaa64d16da2303
+Installed-Size: 28719
+Filename: firewall4_2023-03-23-04a06bd7-1_mipsel_24kc.ipk
+Size: 29702
+SHA256sum: ec94a33b1ec2aa0c63bb2894fba27787d1aa9b2fe01dfc7eef03f54cdd51f846
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
 
@@ -562,8 +562,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 1346217
 Filename: libopenssl3_3.0.8-4_mipsel_24kc.ipk
-Size: 1333090
-SHA256sum: 271888c032295325923b4aceba5423b30207d8e7977b041b9ff172b47c9f497f
+Size: 1333100
+SHA256sum: 416a5d0b919101e220013d393837199a4e33123b8579e43c2f37980a48fe2df2
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -764,19 +764,19 @@ SHA256sum: cca93c42a72bcb29e07768293d990780d501b5bcb884845bbb4f610110eb50a8
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
-Version: 2023-03-22-7c0f603a-1
+Version: 2023-03-24-29c934d7-1
 Depends: libc, libubox20220927, libuci20130104, libubus20220615, libnl-tiny2022-11-01
 Source: package/network/services/odhcpd
 SourceName: odhcpd-ipv6only
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1679463591
+SourceDateEpoch: 1679619667
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 39402
-Filename: odhcpd-ipv6only_2023-03-22-7c0f603a-1_mipsel_24kc.ipk
-Size: 40129
-SHA256sum: c7531496f6b61c2fa6968ece0cfc434617c725c0d037d9223bc95b66301b0f1e
+Installed-Size: 39392
+Filename: odhcpd-ipv6only_2023-03-24-29c934d7-1_mipsel_24kc.ipk
+Size: 40096
+SHA256sum: a17b478ddd5519bb801d7a153b9395ddac89f1d521d73dc331505592ae7bf65a
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.

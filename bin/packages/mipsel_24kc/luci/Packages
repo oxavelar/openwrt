@@ -30,10 +30,10 @@ Depends: libc, uci-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 15203
+Installed-Size: 15206
 Filename: luci-app-firewall_git-23.074.82978-3d0313d_all.ipk
-Size: 16014
-SHA256sum: e43f6d694e70f13189d587750fa411945caa4176bd93220d099b7be122fdeede
+Size: 16022
+SHA256sum: bda593803bced77cadf9e673f42a7e8f77b015fc9d7ab7cbdbb32a2bbc715906
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-statistics
@@ -41,10 +41,10 @@ Version: git-23.010.50531-9f321b8
 Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Section: luci
 Architecture: all
-Installed-Size: 31132
+Installed-Size: 31128
 Filename: luci-app-statistics_git-23.010.50531-9f321b8_all.ipk
 Size: 32023
-SHA256sum: 8052465d6ee23f071edd6bbc0304bc115116c673a7a9267dfbe7ad6cc27e3402
+SHA256sum: 0380c7dca9b5042c7a424ca82e558202268ab6014f0de20dcc5938f6ffa1b217
 Description:  LuCI Statistics Application
 
 Package: luci-base
@@ -53,10 +53,10 @@ Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 123027
+Installed-Size: 123034
 Filename: luci-base_git-23.074.82619-6ad6a24_mipsel_24kc.ipk
-Size: 124014
-SHA256sum: 2ba3afe0eb43d4fbd73af000278e35193da7d7de329e003d27b7f4bf22319b59
+Size: 124036
+SHA256sum: 1fd15730c18e15bd637ed7012eda8b1f6b5d9ca8c6c1ca4d212eb81e4bca95fb
 Description:  LuCI core runtime
 
 Package: luci-light
