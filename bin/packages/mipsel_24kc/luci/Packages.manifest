@@ -209,19 +209,19 @@ SHA256sum: c1aae9283d7cc818b0f0374888c05d0877abcd7deb0494aa65b4bee1e9df5f9e
 Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
 
 Package: luci-theme-bootstrap
-Version: git-23.038.32982-f416c27
+Version: git-23.085.34270-d94a728
 Depends: libc
 Source: feeds/luci/themes/luci-theme-bootstrap
 SourceName: luci-theme-bootstrap
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1675760982
+SourceDateEpoch: 1679823070
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 15844
-Filename: luci-theme-bootstrap_git-23.038.32982-f416c27_all.ipk
-Size: 16745
-SHA256sum: 56d5d5e4b07d422aa8692e68922fe9edf22b83a2efcf2f4de774b24c517ce1f7
+Installed-Size: 15838
+Filename: luci-theme-bootstrap_git-23.085.34270-d94a728_all.ipk
+Size: 16739
+SHA256sum: 9966bec5bf6d901c924f343820a62a1c97d02c606b035fdd4fc29a44b74fe8f5
 Description:  Bootstrap Theme (default)
 
 Package: rpcd-mod-luci
