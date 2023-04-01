@@ -70,7 +70,7 @@ Architecture: mipsel_24kc
 Installed-Size: 212577
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
 Size: 213165
-SHA256sum: 5d70d3791b884859ab2643049f1dda3e52e31bbae7f665874bbdb3b33ce774a5
+SHA256sum: 331460beaf2d0a9e75b245e659e809df86298f47f3c42dcf249fc5494fc4326b
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -560,10 +560,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 1346216
+Installed-Size: 1346217
 Filename: libopenssl3_3.0.8-4_mipsel_24kc.ipk
-Size: 1333232
-SHA256sum: c7c79f139e34b222bc6a8ddb3889fc2033a09b24f20e019e6572c28bc05cbb68
+Size: 1333100
+SHA256sum: 8344221d261aa43160592cae4e0f679edcd2e7d2399cf03b9cd87df971c16ad4
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength

@@ -1,7 +1,7 @@
 6in4 - 28
 6rd - 12
 6to4 - 13
-base-files - 1526-r22504-be76c0a03d
+base-files - 1526-r22551-aff8442a69
 busybox - 1.36.0-1
 ca-bundle - 20211016-1
 ca-certificates - 20211016-1
@@ -87,7 +87,7 @@ libuclient20201210 - 2021-05-14-6a6011df-1
 libucode20220812 - 2023-02-13-ab2f3f70-1
 libustream-openssl20201210 - 2023-02-25-498f6e26-1
 logd - 2022-08-13-4c7b720b-2
-luci-app-firewall - git-23.074.82978-3d0313d
+luci-app-firewall - git-23.089.66165-f941042
 luci-app-statistics - git-23.010.50531-9f321b8
 luci-base - git-23.074.82619-6ad6a24
 luci-light - git-23.024.33244-34dee82
