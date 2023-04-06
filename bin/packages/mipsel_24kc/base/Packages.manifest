@@ -69,8 +69,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 213442
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 214253
-SHA256sum: 8596cf84bb0f510aa3a514697f1b6cd9fdf885bd7379e3658d993ad5a17c99fd
+Size: 214259
+SHA256sum: 372b4a56d94b146e108b81f1c1072dd9e7265e7db2a09cd8a8c02ba1a2e26fbe
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -503,21 +503,21 @@ SHA256sum: 420c28d2fced35cd9716e9d63293ccb52dbe53543c74d11b03101110b938404e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.8-4
+Version: 3.0.8-7
 Depends: libc, libopenssl3
 Source: package/libs/openssl
 SourceName: libopenssl-conf
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1680693889
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 5135
-Filename: libopenssl-conf_3.0.8-4_mipsel_24kc.ipk
-Size: 6129
-SHA256sum: 8eef3e945ce836c5ff34fb567e37b0dd995745a9225b18b8c786a86712388308
+Installed-Size: 5448
+Filename: libopenssl-conf_3.0.8-7_mipsel_24kc.ipk
+Size: 6452
+SHA256sum: b142370dcd1a8cbcec5bd06981100f949e4be89fe06e6ee58062260cb6f26c90
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -525,29 +525,29 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.8-4
+Version: 3.0.8-7
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 Source: package/libs/openssl
 SourceName: libopenssl-devcrypto
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1680693889
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 8304
-Filename: libopenssl-devcrypto_3.0.8-4_mipsel_24kc.ipk
-Size: 9391
-SHA256sum: 4922e3ac8cb5be490ea356ebdb79b1abf180041a8e34af516dddefc915305e45
+Installed-Size: 8314
+Filename: libopenssl-devcrypto_3.0.8-7_mipsel_24kc.ipk
+Size: 9401
+SHA256sum: 2921941eb4afa794fdb1ec4bb31d44f322b754f6f7a6d0708399c61b29979636
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
- See https://www.openssl.org/docs/man1.1.1/man5/config.html#Engine-Configuration-Module
+ See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
  and https://openwrt.org/docs/techref/hardware/cryptographic.hardware.accelerators
  The engine_id is "devcrypto"
 
 Package: libopenssl3
-Version: 3.0.8-4
+Version: 3.0.8-7
 Depends: libc, libatomic1
 Provides: libopenssl
 Source: package/libs/openssl
@@ -555,15 +555,15 @@ SourceName: libopenssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1680693889
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 1346216
-Filename: libopenssl3_3.0.8-4_mipsel_24kc.ipk
-Size: 1333185
-SHA256sum: 196a4d3601ee19e1f47d7c57590f15a2864144d3ac678235d3458831bfc65b72
+Installed-Size: 1383842
+Filename: libopenssl3_3.0.8-7_mipsel_24kc.ipk
+Size: 1370436
+SHA256sum: ac14383c98e1d2efbf78953542e4f6fb96438bbae013bd3eec5f309a752298a4
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -764,19 +764,19 @@ SHA256sum: cca93c42a72bcb29e07768293d990780d501b5bcb884845bbb4f610110eb50a8
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
-Version: 2023-03-24-29c934d7-1
+Version: 2023-04-05-40ab806b-1
 Depends: libc, libubox20220927, libuci20130104, libubus20220615, libnl-tiny2023-04-02
 Source: package/network/services/odhcpd
 SourceName: odhcpd-ipv6only
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1679619667
+SourceDateEpoch: 1680583403
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 39392
-Filename: odhcpd-ipv6only_2023-03-24-29c934d7-1_mipsel_24kc.ipk
-Size: 40095
-SHA256sum: b2a1b3c7a15bde83f2718869f517cae962816e5a14bba2c504638febca26235a
+Installed-Size: 39830
+Filename: odhcpd-ipv6only_2023-04-05-40ab806b-1_mipsel_24kc.ipk
+Size: 40542
+SHA256sum: 68f0220f0a0e67ed96ee9531e642126718f9756dcfede618cb2c37cfb206a3f3
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -786,21 +786,21 @@ Description:  odhcpd is a daemon for serving and relaying IP management protocol
  routed (non-bridged) interfaces in case no delegated prefixes are available.
 
 Package: openssl-util
-Version: 3.0.8-4
+Version: 3.0.8-7
 Depends: libc, libopenssl3, libopenssl-conf
 Source: package/libs/openssl
 SourceName: openssl-util
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1680693889
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 297048
-Filename: openssl-util_3.0.8-4_mipsel_24kc.ipk
-Size: 295522
-SHA256sum: 243129683c2513c1676d3f8a57018dd8dc92a0a283a2dc8118cbbfdf05a4e81b
+Installed-Size: 297140
+Filename: openssl-util_3.0.8-7_mipsel_24kc.ipk
+Size: 295748
+SHA256sum: db469983955bd2d4c7dbfd709e7bc0bfc72a2fd25aed4e9b44b5ffb36c3b261a
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
