@@ -20,14 +20,14 @@ Depends: libc, collectd
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-cpu
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 4756
+Installed-Size: 4757
 Filename: collectd-mod-cpu_5.12.0-42_mipsel_24kc.ipk
-Size: 5340
-SHA256sum: 80f4b02590bccf773aa26e6e15ed2db647825658ac0ebb53c9cd3a195502ce83
+Size: 5347
+SHA256sum: 64456695500fbe979ed86dd0be6bb4a446178b9d10e6c0f8d98496a7285d4940
 Description:  CPU input plugin
 
 Package: collectd-mod-exec
@@ -36,14 +36,14 @@ Depends: libc, collectd
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-exec
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 24090
+Installed-Size: 24092
 Filename: collectd-mod-exec_5.12.0-42_mipsel_24kc.ipk
-Size: 24687
-SHA256sum: d365a60203058cba90ca930dbccca31a6aa4521e0708b7c20fdc8e4f2a7eb91a
+Size: 24686
+SHA256sum: 38abeee6986124298586880506cf0832693a94b7621aaa38442ef03a2ddac23f
 Description:  process exec input plugin
 
 Package: collectd-mod-interface
@@ -52,14 +52,14 @@ Depends: libc, collectd
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-interface
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 3746
+Installed-Size: 3745
 Filename: collectd-mod-interface_5.12.0-42_mipsel_24kc.ipk
-Size: 4326
-SHA256sum: 955dab0a577127c794d9f9f475a277fa8091d10b0af088e66e82f8cdcf56b815
+Size: 4335
+SHA256sum: d70097e30f97f936b714bd2c3cd0af4e380571de83d8a9a352e927a9eced6826
 Description:  network interfaces input plugin
 
 Package: collectd-mod-iwinfo
@@ -68,14 +68,14 @@ Depends: libc, collectd, libiwinfo20230121
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-iwinfo
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 3814
 Filename: collectd-mod-iwinfo_5.12.0-42_mipsel_24kc.ipk
-Size: 4436
-SHA256sum: dc328038ffeed0ad825cc2851af0704bdadf95f712a42a80e16c7c59715de3f3
+Size: 4430
+SHA256sum: a0cb2f29bf0f262d4cce0fb35a76c699631f4d5c95450623d8318b7192d767e6
 Description:  libiwinfo wireless statistics plugin
 
 Package: collectd-mod-load
@@ -84,14 +84,14 @@ Depends: libc, collectd
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-load
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 2185
+Installed-Size: 2187
 Filename: collectd-mod-load_5.12.0-42_mipsel_24kc.ipk
-Size: 2833
-SHA256sum: 3f8d78db1b5891a47d5fc172f4351d14ff632a44b157f7a052a015e1de78c265
+Size: 2832
+SHA256sum: b52dbe60f722bee88ebb534001212144b4b64072b96007bd07dd8aa4fed9f96f
 Description:  system load input plugin
 
 Package: collectd-mod-memory
@@ -100,14 +100,14 @@ Depends: libc, collectd
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-memory
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 2913
+Installed-Size: 2911
 Filename: collectd-mod-memory_5.12.0-42_mipsel_24kc.ipk
-Size: 3536
-SHA256sum: 45dbee114d6f00ca288fb7c400d880d68e03673aaa335d5d74ad30f2bff94fa4
+Size: 3532
+SHA256sum: fb2f9d0d64d2bac5f620d649d35c71101ae8b1f21ce862d39f4baf3c8bfc4769
 Description:  physical memory usage input plugin
 
 Package: collectd-mod-network
@@ -116,14 +116,14 @@ Depends: libc, collectd
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-network
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 14808
 Filename: collectd-mod-network_5.12.0-42_mipsel_24kc.ipk
-Size: 15376
-SHA256sum: 4e4ce756109f0aacec80c66519d3dfa5995923cf39b679099f55f331ddfc1ebf
+Size: 15379
+SHA256sum: de33290eaeb59be899e8ddb6f751722e4cd89fed5ad67328a11f4e63ab9919b7
 Description:  network input/output plugin
 
 Package: collectd-mod-rrdtool
@@ -132,14 +132,14 @@ Depends: libc, collectd, librrd1
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-rrdtool
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 11893
+Installed-Size: 11894
 Filename: collectd-mod-rrdtool_5.12.0-42_mipsel_24kc.ipk
-Size: 12582
-SHA256sum: 1ef1cb2feb3ac3cc3934b9367fcb015f00a652cbd1f885b65c13c2f2d49dff00
+Size: 12580
+SHA256sum: 1e9015fe14d2780a4bb278d8d246a0b857aa82e679f21ec74e9545db6f7a998c
 Description:  RRDtool output plugin
 
 Package: collectd-mod-wireless
@@ -148,14 +148,14 @@ Depends: libc, collectd
 Source: feeds/packages/utils/collectd
 SourceName: collectd-mod-wireless
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 2613
+Installed-Size: 2612
 Filename: collectd-mod-wireless_5.12.0-42_mipsel_24kc.ipk
-Size: 3245
-SHA256sum: 98f3ddd274579e060555dffd4a3db47ed88b367149244429e0e465059cc94368
+Size: 3257
+SHA256sum: 9b303df4661d54793f7662fa4f41da188149d708b4ceac9a19d12c45793d7b31
 Description:  wireless status input plugin
 
 Package: collectd
@@ -164,14 +164,14 @@ Depends: libc, libpthread, zlib, libltdl7, jshn
 Source: feeds/packages/utils/collectd
 SourceName: collectd
 Section: utils
-SourceDateEpoch: 1679565727
+SourceDateEpoch: 1680935934
 CPE-ID: cpe:/a:collectd:collectd
 Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 90251
+Installed-Size: 90250
 Filename: collectd_5.12.0-42_mipsel_24kc.ipk
-Size: 91105
-SHA256sum: b29cba072f716505982625d529c58c06a385efa5bfb806bf6225829c2734c3f6
+Size: 91090
+SHA256sum: ba80f15e3a2ab44611a89a08a0eedb71492c80e91e5703bf90ad41761000916a
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 

@@ -41,10 +41,10 @@ Version: git-23.093.38867-dd11114
 Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Section: luci
 Architecture: all
-Installed-Size: 31216
+Installed-Size: 31214
 Filename: luci-app-statistics_git-23.093.38867-dd11114_all.ipk
-Size: 32117
-SHA256sum: f57205ed43f87e896fa22ffe9340b18e22827149ce7567d407f320bc28078011
+Size: 32128
+SHA256sum: 4f30cc3c996169ba109d7915b37c3fa70bdf18889a4eac10a9dea1e855f04f6d
 Description:  LuCI Statistics Application
 
 Package: luci-base
@@ -53,10 +53,10 @@ Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 123032
+Installed-Size: 123029
 Filename: luci-base_git-23.093.56957-2145121_mipsel_24kc.ipk
-Size: 124002
-SHA256sum: ab639dfeb6f23672c3e4e3e1b7d08d4c19c0d865bdb4e9c52b2a08a86882fd26
+Size: 124011
+SHA256sum: 02bc9ecc3b5a9a33935d0ab4415f88bff41e31932803fb638aa0b6b6e8a9dd12
 Description:  LuCI core runtime
 
 Package: luci-light
