@@ -25,15 +25,15 @@ SHA256sum: 74ce32f6ac4ce30e79747ed254e01eeda7126fb6a078e30e4f076a27f06ef9e2
 Description:  LuCI HTTP utility library
 
 Package: luci-app-firewall
-Version: git-23.089.66165-f941042
+Version: git-23.095.34229-148759a5
 Depends: libc, uci-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 16964
-Filename: luci-app-firewall_git-23.089.66165-f941042_all.ipk
-Size: 17863
-SHA256sum: d0444fe6429838a0ee154c62b28e14c326b1c1a9ce1f4d6d4ab959048df4ca1c
+Installed-Size: 16990
+Filename: luci-app-firewall_git-23.095.34229-148759a5_all.ipk
+Size: 17897
+SHA256sum: 1929c886eedefaf29a45081d89ad412984abd22fa35e09b6b56da78ae5f737eb
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-statistics
@@ -41,22 +41,22 @@ Version: git-23.093.38867-dd11114
 Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Section: luci
 Architecture: all
-Installed-Size: 31214
+Installed-Size: 31215
 Filename: luci-app-statistics_git-23.093.38867-dd11114_all.ipk
-Size: 32128
-SHA256sum: 4f30cc3c996169ba109d7915b37c3fa70bdf18889a4eac10a9dea1e855f04f6d
+Size: 32132
+SHA256sum: f4f75c7f306f06df5cd5043ae43facaa2a726b554837e416a0dbb58d32f80a86
 Description:  LuCI Statistics Application
 
 Package: luci-base
-Version: git-23.093.56957-2145121
+Version: git-23.104.28202-588c6a1
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 123029
-Filename: luci-base_git-23.093.56957-2145121_mipsel_24kc.ipk
-Size: 124011
-SHA256sum: 02bc9ecc3b5a9a33935d0ab4415f88bff41e31932803fb638aa0b6b6e8a9dd12
+Installed-Size: 123025
+Filename: luci-base_git-23.104.28202-588c6a1_mipsel_24kc.ipk
+Size: 124033
+SHA256sum: 20bc6c57102cd79a046f10aaaa27a958e9cf1e6f42ba5402855f91ecda0d98b4
 Description:  LuCI core runtime
 
 Package: luci-light

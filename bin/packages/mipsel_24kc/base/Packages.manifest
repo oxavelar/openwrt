@@ -67,10 +67,10 @@ CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 213441
+Installed-Size: 213442
 Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 214254
-SHA256sum: 9a190ce870613d82df7826f66be3a63931bc9537abfb6584eaf009eba89dcde7
+Size: 214253
+SHA256sum: 25fea38afee8f1b5e34384776d15b4f0137a58fb990dffbadc90bb78378556af
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -560,10 +560,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 1383435
+Installed-Size: 1383436
 Filename: libopenssl3_3.0.8-8_mipsel_24kc.ipk
-Size: 1370237
-SHA256sum: 0d75821e6d953f49423a8e79abd05a8ffcc5da81ab8410d1594cd93c0f1020c9
+Size: 1370208
+SHA256sum: 71cad10ce247c64a57f17122006adca5444a66e52783889c3875f68635d03dd5
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -625,21 +625,21 @@ SHA256sum: 034d3b9171aa006bcf5a8157effd68f169eb5007ec73a9028e05d9085bc8f8f6
 Description:  C library for the Unified Configuration Interface (UCI)
 
 Package: libuclient20201210
-Version: 2021-05-14-6a6011df-1
+Version: 2023-04-13-007d9454-1
 Depends: libc, libubox20220927
 Provides: libuclient
 Source: package/libs/uclient
 SourceName: libuclient
 License: ISC
 Section: libs
-SourceDateEpoch: 1621028442
+SourceDateEpoch: 1681411865
 ABIVersion: 20201210
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 9138
-Filename: libuclient20201210_2021-05-14-6a6011df-1_mipsel_24kc.ipk
-Size: 9780
-SHA256sum: c7aca8de65672855f4ce751eadbd10cd940494b9fa4f3009044fa1ff964c6809
+Installed-Size: 9130
+Filename: libuclient20201210_2023-04-13-007d9454-1_mipsel_24kc.ipk
+Size: 9768
+SHA256sum: b6c09a5c7b7bf2d6e5e0ed27af963ceefd5a51f95b937219e6d367a0a99870c6
 Description:  HTTP/1.1 client library
 
 Package: libucode20220812
@@ -715,19 +715,19 @@ SHA256sum: d35c95f6633021324d7e6d07c19203012ef24105ffc25dbe9ea87c5780472878
 Description:  OpenWrt system log implementation
 
 Package: netifd
-Version: 2023-02-25-463a1207-1
+Version: 2023-04-17-7de5440a-1
 Depends: libc, libuci20130104, libnl-tiny2023-04-02, libubus20220615, ubus, ubusd, jshn, libubox20220927
 Source: package/network/config/netifd
 SourceName: netifd
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1680381635
+SourceDateEpoch: 1681730083
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 78693
-Filename: netifd_2023-02-25-463a1207-1_mipsel_24kc.ipk
-Size: 79441
-SHA256sum: 0b071ae2abb21b7f78cb6d210280958e327b3e956749d92edee6424c0f5886fd
+Installed-Size: 78690
+Filename: netifd_2023-04-17-7de5440a-1_mipsel_24kc.ipk
+Size: 79493
+SHA256sum: 9b2c2af8e8e7a3036977e5cd606d9dbb5975c8234f51b9616355a75dc66f1d00
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -1081,7 +1081,7 @@ SHA256sum: da20660612f325724b105177f6e5548b53838151d295dce46d2f2895d3d94f2c
 Description:  Utility for the Unified Configuration Interface (UCI)
 
 Package: uclient-fetch
-Version: 2021-05-14-6a6011df-1
+Version: 2023-04-13-007d9454-1
 Depends: libc, libuclient20201210
 Provides: wget
 Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
@@ -1089,13 +1089,13 @@ Source: package/libs/uclient
 SourceName: uclient-fetch
 License: ISC
 Section: net
-SourceDateEpoch: 1621028442
+SourceDateEpoch: 1681411865
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 7036
-Filename: uclient-fetch_2021-05-14-6a6011df-1_mipsel_24kc.ipk
-Size: 7643
-SHA256sum: 4f73d42914c585a25a0db45f30a8959888f918428a48b134177b53698c168973
+Installed-Size: 7035
+Filename: uclient-fetch_2023-04-13-007d9454-1_mipsel_24kc.ipk
+Size: 7639
+SHA256sum: 24d02011cbd85abce00279f3cabc29a58ced286bacab6626abb70bc35cd7dafe
 Description:  Tiny wget replacement using libuclient
 
 Package: ucode-mod-fs
