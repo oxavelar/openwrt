@@ -10,8 +10,8 @@ Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: mipsel_24kc
 Installed-Size: 7585
 Filename: cgi-io_2022-08-10-901b0f04-21_mipsel_24kc.ipk
-Size: 8184
-SHA256sum: 74b4c146a046cb6e1107b7ea75b43f87b1968e0729eda5361ee117d2eb92532b
+Size: 8183
+SHA256sum: e720e8736ac12e99a63bedf62a222831f8a8894bbb9f20d99dd516df1eba2dd9
 Description:  This package contains an cgi utility that is useful for up/downloading files
 
 Package: collectd-mod-cpu
@@ -171,7 +171,7 @@ Architecture: mipsel_24kc
 Installed-Size: 90250
 Filename: collectd_5.12.0-42_mipsel_24kc.ipk
 Size: 91090
-SHA256sum: ba80f15e3a2ab44611a89a08a0eedb71492c80e91e5703bf90ad41761000916a
+SHA256sum: 0aeffb0829cd0114306b9381011374efde666919207752d8ad431562f451e8f5
 Description:  collectd is a small daemon which collects system information periodically
  and provides mechanismns to store the values in a variety of ways.
 
@@ -187,28 +187,28 @@ SourceDateEpoch: 1675631397
 CPE-ID: cpe:/a:htop:htop
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 84365
+Installed-Size: 84364
 Filename: htop_3.2.2-1_mipsel_24kc.ipk
-Size: 85048
-SHA256sum: 08f88183a9adeae8948beaa30092a982ea34d21a31e606ff3cb68b76a30b0a4f
+Size: 85041
+SHA256sum: f47aaf8ec2155a9fac0e94afcb2168d4d3c6e8d24f3198a7dc74861deec7e324
 Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
 
 Package: iperf3
-Version: 3.12-1
+Version: 3.13-1
 Depends: libc, libiperf3
 Source: feeds/packages/net/iperf3
 SourceName: iperf3
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1665131178
+SourceDateEpoch: 1682495536
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 2156
-Filename: iperf3_3.12-1_mipsel_24kc.ipk
-Size: 2848
-SHA256sum: 335a69609a0842d597bcecce567804feb2631c60bd1a85f00a7e83201cefb44c
+Installed-Size: 2155
+Filename: iperf3_3.13-1_mipsel_24kc.ipk
+Size: 2853
+SHA256sum: 28ba49cd8424ea72de74026ed327af3b9909cf248a868b6e3eb27304e83d8bfa
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
@@ -224,28 +224,28 @@ Section: utils
 SourceDateEpoch: 1676497918
 Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
-Installed-Size: 46397
+Installed-Size: 46403
 Filename: irqbalance_1.9.2-2_mipsel_24kc.ipk
-Size: 47088
-SHA256sum: 62de2872239b3464142a6934cd632cc07d1ad493aaad8e911f10868de63feb83
+Size: 47087
+SHA256sum: 8025b6792d29c3447c5d91ed075b01ebc86d277bdfaa2604822f87030b37712e
 Description:  The purpose of irqbalance is to distribute hardware interrupts across
  processors/cores on a multiprocessor/multicore system in order to
  increase performance.
 
 Package: libiperf3
-Version: 3.12-1
+Version: 3.13-1
 Depends: libc
 Source: feeds/packages/net/iperf3
 SourceName: libiperf3
 License: BSD-3-Clause
 Section: libs
-SourceDateEpoch: 1665131178
+SourceDateEpoch: 1682495536
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 56413
-Filename: libiperf3_3.12-1_mipsel_24kc.ipk
-Size: 57154
-SHA256sum: d21a4c55387a47cc9aa60a571233199672cc2e37530bdda5789cc3a23d8f8929
+Installed-Size: 56613
+Filename: libiperf3_3.13-1_mipsel_24kc.ipk
+Size: 57396
+SHA256sum: e12cae175d40cc0cbf3817743743f73a22cfec015f03ab71bed5149cc0999099
 Description:  Libiperf is a library providing an API for iperf3 functionality.
 
 Package: librrd1
@@ -257,10 +257,10 @@ Section: libs
 SourceDateEpoch: 1664998557
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 128106
+Installed-Size: 128111
 Filename: librrd1_1.0.50-5_mipsel_24kc.ipk
-Size: 129023
-SHA256sum: 2c5e7925cbe06d383a582ee1a5098cc1e3e58eaa9de6139ddc15deb1a65df794
+Size: 129025
+SHA256sum: 8b162aac10b97304006b11ee5748a11e497d6f53469ab6398fd674da1e3b5c4e
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will
@@ -283,10 +283,10 @@ Section: utils
 SourceDateEpoch: 1664998557
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 11700
+Installed-Size: 11701
 Filename: rrdtool1_1.0.50-5_mipsel_24kc.ipk
-Size: 12587
-SHA256sum: 9492d9336c86b84ec3d9111ddf1a3840c8724b1c820cfe9d0cd9926581d15bdf
+Size: 12586
+SHA256sum: 287a02a05c97564a64efff969c5faacd412dc8d157efd5e7b1f6acfc13080dc0
 Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
  display time-series data (i.e. network bandwidth, machine-room temperature,
  server load average). It stores the data in a very compact way that will

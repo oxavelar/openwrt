@@ -41,13 +41,13 @@ Source: feeds/luci/applications/luci-app-firewall
 SourceName: luci-app-firewall
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1681724573
+SourceDateEpoch: 1684331848
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 16990
+Installed-Size: 16986
 Filename: luci-app-firewall_git-23.095.34229-148759a5_all.ipk
-Size: 17897
-SHA256sum: 1929c886eedefaf29a45081d89ad412984abd22fa35e09b6b56da78ae5f737eb
+Size: 17876
+SHA256sum: 58526c76118aca59334b4241b55c3bfc9861a54177bdb5b15461d00a8b7340be
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-statistics
@@ -56,29 +56,29 @@ Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod
 Source: feeds/luci/applications/luci-app-statistics
 SourceName: luci-app-statistics
 Section: luci
-SourceDateEpoch: 1681724573
+SourceDateEpoch: 1684081277
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 31215
 Filename: luci-app-statistics_git-23.093.38867-dd11114_all.ipk
-Size: 32132
-SHA256sum: f4f75c7f306f06df5cd5043ae43facaa2a726b554837e416a0dbb58d32f80a86
+Size: 32130
+SHA256sum: 932a7209599135cd12ee12f11cbc0e8692126c756789baf7d4937acf07a824fc
 Description:  LuCI Statistics Application
 
 Package: luci-base
-Version: git-23.104.28202-588c6a1
+Version: git-23.118.79121-6fb185f
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 Source: feeds/luci/modules/luci-base
 SourceName: luci-base
 License: MIT
 Section: luci
-SourceDateEpoch: 1681724573
+SourceDateEpoch: 1684331848
 Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
-Installed-Size: 123025
-Filename: luci-base_git-23.104.28202-588c6a1_mipsel_24kc.ipk
-Size: 124033
-SHA256sum: 20bc6c57102cd79a046f10aaaa27a958e9cf1e6f42ba5402855f91ecda0d98b4
+Installed-Size: 123133
+Filename: luci-base_git-23.118.79121-6fb185f_mipsel_24kc.ipk
+Size: 124126
+SHA256sum: 188e873064f508ae3819bd7ce6e7b04952d66e2baa783243207d6d9b0c03f47a
 Description:  LuCI core runtime
 
 Package: luci-light
@@ -114,19 +114,19 @@ SHA256sum: ce7a95a5a10fe88c98144207495d7844817b71ff100bfe244e20443a454c776b
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-network
-Version: git-23.074.82619-6ad6a24
+Version: git-23.118.74544-b2476ba
 Depends: libc, luci-base, rpcd-mod-iwinfo
 Source: feeds/luci/modules/luci-mod-network
 SourceName: luci-mod-network
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1678921019
+SourceDateEpoch: 1682714544
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 51544
-Filename: luci-mod-network_git-23.074.82619-6ad6a24_all.ipk
+Installed-Size: 51548
+Filename: luci-mod-network_git-23.118.74544-b2476ba_all.ipk
 Size: 52496
-SHA256sum: 1c40e4e45c7770ffa1118463c0483e7db141fbf1c00507da8164d4f3d0eb411b
+SHA256sum: 069325c13a6d3bdc10e4ace3c6fb259677a2bc48992bfac6af5a92171054e668
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
@@ -141,24 +141,24 @@ Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
 Installed-Size: 34783
 Filename: luci-mod-status_git-23.063.40670-8c7c56f_mipsel_24kc.ipk
-Size: 35524
-SHA256sum: 7681a64ef0b723e669689ef3439cf4a13718c60284af8624dab66bc74cf096b8
+Size: 35530
+SHA256sum: fb24719be798f69009f9132533cca2cc4f50c6a82f5d6f1f9032386a913dbeed
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
-Version: git-23.013.73089-0186d7e
+Version: git-23.118.78765-58f7b27
 Depends: libc, luci-base
 Source: feeds/luci/modules/luci-mod-system
 SourceName: luci-mod-system
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1673641089
+SourceDateEpoch: 1682718765
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 17646
-Filename: luci-mod-system_git-23.013.73089-0186d7e_all.ipk
-Size: 18520
-SHA256sum: 9b480692ef7a40808fd5eaa0e745e43de43467ddff3ab927a204287b8b1d1bce
+Installed-Size: 17628
+Filename: luci-mod-system_git-23.118.78765-58f7b27_all.ipk
+Size: 18498
+SHA256sum: 90c38d3bc2c400eac77a44da51106d66ac27f86404a04ad92a42d77af1b7c39e
 Description:  LuCI Administration - Global System Settings
 
 Package: luci-proto-ipv6
