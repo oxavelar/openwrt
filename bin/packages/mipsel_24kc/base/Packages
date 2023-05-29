@@ -41,7 +41,7 @@ Description:  Provides support for 6to4 tunnels in /etc/config/network.
  configuration details.
 
 Package: busybox
-Version: 1.36.0-1
+Version: 1.36.1-1
 Depends: libc, jsonfilter
 Conflicts: busybox-selinux
 License: GPL-2.0
@@ -49,35 +49,35 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: mipsel_24kc
-Installed-Size: 213864
-Filename: busybox_1.36.0-1_mipsel_24kc.ipk
-Size: 214623
-SHA256sum: 1bbfcd5d79ae1a2e8292b89ce30038da080219303a57e769f84c9bc968eadced
+Installed-Size: 213867
+Filename: busybox_1.36.1-1_mipsel_24kc.ipk
+Size: 214635
+SHA256sum: 4b528e4f39982af2f90e86e6828570d52e987067a0f5aad36fab64d67933b8fc
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
 Package: ca-bundle
-Version: 20211016-1
+Version: 20230311-1
 Depends: libc
 Provides: ca-certs
 Section: base
 Architecture: all
-Installed-Size: 113265
-Filename: ca-bundle_20211016-1_all.ipk
-Size: 114085
-SHA256sum: 840a092f90292bc163878ecc09f854064dfd97af209016576d4e66d70dcebb5b
+Installed-Size: 123476
+Filename: ca-bundle_20230311-1_all.ipk
+Size: 124258
+SHA256sum: 0f498c6cd3aaccfb904f4ca48ea1e17c28d41a5cdaa6c1d0208de1411b62a7a1
 Description:  System CA certificates as a bundle
 
 Package: ca-certificates
-Version: 20211016-1
+Version: 20230311-1
 Depends: libc
 Provides: ca-certs
 Section: base
 Architecture: all
-Installed-Size: 122716
-Filename: ca-certificates_20211016-1_all.ipk
-Size: 123417
-SHA256sum: a97e605eb2efca866c207e6be83abb8b88c8e0e6e123842cbf02f6e036af3ce1
+Installed-Size: 133837
+Filename: ca-certificates_20230311-1_all.ipk
+Size: 134537
+SHA256sum: 45e3429372833d0baebb768c47ad27562bd209575a04c06b9a8db21f7d5f8f85
 Description:  System CA certificates
 
 Package: dnsmasq
@@ -126,10 +126,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 12610
+Installed-Size: 12607
 Filename: hostapd-common_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 13397
-SHA256sum: 1de4d318138006f2fbe0924f55cfbec2323939014696d1e0fa9e1027715bc963
+Size: 13390
+SHA256sum: a9a9ca986d248a3aad5f2a65a25045e2823816d694d600562dc87e5b9763fa98
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
@@ -139,10 +139,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 14708
+Installed-Size: 14705
 Filename: hostapd-utils_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 15495
-SHA256sum: c86e1f903672510a7bbfb07fd1d85cbd4761d593e5d313b8d6af9023267bedce
+Size: 15491
+SHA256sum: a7b36e28d4c6b2284cfde3f7caee2307b36d39ffeff352abd9d241810dcaec29
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
@@ -251,7 +251,7 @@ Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
 Package: libjson-c5
-Version: 0.16-2
+Version: 0.16-3
 Depends: libc
 Provides: libjson-c
 License: MIT
@@ -259,10 +259,10 @@ Section: libs
 ABIVersion: 5
 CPE-ID: cpe:/a:json-c_project:json-c
 Architecture: mipsel_24kc
-Installed-Size: 22488
-Filename: libjson-c5_0.16-2_mipsel_24kc.ipk
-Size: 23167
-SHA256sum: a0770d5eafc6e32b3c8568f8421decac431d52f40dd9654337500766979ad60c
+Installed-Size: 22487
+Filename: libjson-c5_0.16-3_mipsel_24kc.ipk
+Size: 23158
+SHA256sum: cdeab7a7c71e718f359ec74ce9ba7d76a2272750f6d921b487a00c2b093c7806
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script20220927
@@ -398,10 +398,10 @@ License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 5445
+Installed-Size: 5449
 Filename: libopenssl-conf_3.0.8-9_mipsel_24kc.ipk
-Size: 6440
-SHA256sum: 75cab18268bbd90c078e719deb24e910a32c802205aa62b8b50a1aaab95e8d24
+Size: 6444
+SHA256sum: 69c1fcb424eefd01f5563bb61599945869121e1fae3e4999b23b44740b0019e7
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -415,10 +415,10 @@ License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 8310
+Installed-Size: 8312
 Filename: libopenssl-devcrypto_3.0.8-9_mipsel_24kc.ipk
-Size: 9386
-SHA256sum: 10230aa00e6873b962f9cd9966c52ad42b00af6c0cb1efa599d5adbc5f4eea5f
+Size: 9393
+SHA256sum: 758793ef8f5cf1abf560ce37d40c8721766a71ffb74782b5ab7028df18f4d5c5
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -434,10 +434,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 1382610
+Installed-Size: 1382612
 Filename: libopenssl3_3.0.8-9_mipsel_24kc.ipk
-Size: 1369647
-SHA256sum: 09ba6a49d8960fede7bbd674683149963c49d4565d98db3a57f83caf9dc437b8
+Size: 1369636
+SHA256sum: dab0edc90824d984f3a41ecb9b96034c79978abd6ac2c635c3edf3ddf95d1ae5
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -617,10 +617,10 @@ License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 297192
+Installed-Size: 297197
 Filename: openssl-util_3.0.8-9_mipsel_24kc.ipk
-Size: 295934
-SHA256sum: 7fd98d2793aa90e56126396988f54277933f09b7cec40596915c619e25bc26ac
+Size: 296000
+SHA256sum: 2a0582f660a69d5aff6cc80676003a7804db58a6518dca8ffc01188562b1aec8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1002,10 +1002,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 392527
+Installed-Size: 392510
 Filename: wpad-basic-mbedtls_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 393032
-SHA256sum: 31294ce955efb9b99d4046acfdcf2dc3122648e871afd851f2987b592f44e98c
+Size: 393015
+SHA256sum: b5182e8dd079a07f143703f16eab46fd7d2eb3f9c34c95bb07ad26aa5f94f404
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
@@ -1017,10 +1017,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 627162
+Installed-Size: 627157
 Filename: wpad-openssl_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 627098
-SHA256sum: 4672358ba6cdb859270b34c840ec12ae2e199df243ab1df66a8984c6107665a4
+Size: 627199
+SHA256sum: 4edc5969dffa3d0baca83e890ea9d754e631ff96eb4274add389ce27a9661662
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
