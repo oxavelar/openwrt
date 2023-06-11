@@ -52,7 +52,7 @@ Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
 Size: 214627
-SHA256sum: b6711fe3581f79eb5bc790af5070c54b21213694627c69ffc888e7e6456ab253
+SHA256sum: bba5f03d9b9064957d04fa3f1f14f9ba8513e78b15979fc8af11976e0adda79d
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -392,16 +392,16 @@ SHA256sum: 420c28d2fced35cd9716e9d63293ccb52dbe53543c74d11b03101110b938404e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.8-10
+Version: 3.0.9-1
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 5446
-Filename: libopenssl-conf_3.0.8-10_mipsel_24kc.ipk
-Size: 6449
-SHA256sum: 8d3a76256d99bc53098cbecb093375625ad2eb70f784eb35f52bcb69e719e8ef
+Installed-Size: 5460
+Filename: libopenssl-conf_3.0.9-1_mipsel_24kc.ipk
+Size: 6457
+SHA256sum: 676d24b005c8bbc9485a9bf23e8d17b68e056de652811671b3db267285a6fe39
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -409,16 +409,16 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.8-10
+Version: 3.0.9-1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 8312
-Filename: libopenssl-devcrypto_3.0.8-10_mipsel_24kc.ipk
-Size: 9393
-SHA256sum: 32282639acbb293235eedf28c5b06533013eb335e36ea8353dbb7a6690c9668c
+Filename: libopenssl-devcrypto_3.0.9-1_mipsel_24kc.ipk
+Size: 9397
+SHA256sum: 22555bababf879b8c795719a5f7cb4798b1f7b2f3dca6295432a75cb15389112
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -426,7 +426,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl3
-Version: 3.0.8-10
+Version: 3.0.9-1
 Depends: libc, libatomic1
 Provides: libopenssl
 License: Apache-2.0
@@ -434,10 +434,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 1382608
-Filename: libopenssl3_3.0.8-10_mipsel_24kc.ipk
-Size: 1369613
-SHA256sum: 03bcf82d4052f09ef747e1ac413afbe256f81dcb3f7607adba42836a1de51a91
+Installed-Size: 1382983
+Filename: libopenssl3_3.0.9-1_mipsel_24kc.ipk
+Size: 1370216
+SHA256sum: d45519374fa6d685f005aa0ac1b808374e4ba2911d7cbdbbf4aaf03f454900e8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -611,16 +611,16 @@ Description:  odhcpd is a daemon for serving and relaying IP management protocol
  routed (non-bridged) interfaces in case no delegated prefixes are available.
 
 Package: openssl-util
-Version: 3.0.8-10
+Version: 3.0.9-1
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 297197
-Filename: openssl-util_3.0.8-10_mipsel_24kc.ipk
-Size: 296025
-SHA256sum: cdf2bbbb15ba1b5a6fbee923c2595c2f10c932cd367829b8769a4872720e9c36
+Installed-Size: 297565
+Filename: openssl-util_3.0.9-1_mipsel_24kc.ipk
+Size: 296045
+SHA256sum: 547e0aac8c9f8b1bc4c11ddfa87dee4102584e8c36db4bf6a4d2300197e49622
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1017,10 +1017,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 627157
+Installed-Size: 627158
 Filename: wpad-openssl_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 627152
-SHA256sum: da97e7c4a029f6432ec23156fbd98cca78a648057652786c1e0f0b6ae5d56960
+Size: 627155
+SHA256sum: bea95f0ae782b67747fdf6c1ce8de90796c8dead7eca7495759f43c902f039d4
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
