@@ -70,7 +70,7 @@ Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
 Size: 214635
-SHA256sum: 27cf39c34d6e9fe12c933387283d7df62e2f3433c80c5aff26856ba7af9363c9
+SHA256sum: a2504590febeb39d9d79fdcabd78a9fb55ca724918e4ad729fe361f2cd5c5561
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -560,10 +560,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 1382956
+Installed-Size: 1382957
 Filename: libopenssl3_3.0.9-2_mipsel_24kc.ipk
-Size: 1370223
-SHA256sum: 739d7ffcd9bcf34f0c4648117271d66336e260f034897df1d36939c8f696aaf9
+Size: 1370224
+SHA256sum: 0cb247579657895699690e3420607856100e90ef1b8278c390fe36b6b989dc05
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -715,19 +715,19 @@ SHA256sum: affcbb509a1c7ce9a0241caa01784a2ed174361094595cae133adafc07f0cba7
 Description:  OpenWrt system log implementation
 
 Package: netifd
-Version: 2023-06-04-ec9dba72-1
+Version: 2023-06-23-edf3aced-1
 Depends: libc, libuci20130104, libnl-tiny2023-04-02, libubus20220615, ubus, ubusd, jshn, libubox20230523
 Source: package/network/config/netifd
 SourceName: netifd
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1685896649
+SourceDateEpoch: 1687521464
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 78933
-Filename: netifd_2023-06-04-ec9dba72-1_mipsel_24kc.ipk
-Size: 79593
-SHA256sum: 9dc32285df4f8348922fdb46f4f50ed00340ba2db4e1131f24bbe47ebdf09ad2
+Installed-Size: 79574
+Filename: netifd_2023-06-23-edf3aced-1_mipsel_24kc.ipk
+Size: 80375
+SHA256sum: 6456683db5bf53c7344c1fe0a07c62852b3d1ec80bafbe2d778e3ab4b5486fdc
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
