@@ -69,8 +69,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214624
-SHA256sum: 94d6815b2bb3411463ec9d08ef58c80a224211b55afd01303359eae0173eda0e
+Size: 214632
+SHA256sum: ae8708a8c604be6d4b24c749050b2aa85697c8f0b5247a9dded9acc18eacb2a5
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -157,37 +157,37 @@ SHA256sum: b459b049d3dec16b014b8c9c0c301c78809885acf9bf76d8aaf8fbf2c307744c
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
-Version: 2023-03-29-bb945b98-1.2
+Version: 2023-06-22-599d00be-1.2
 Depends: libc
 Source: package/network/services/hostapd
 SourceName: hostapd-common
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1686872524
+SourceDateEpoch: 1689322174
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 12639
-Filename: hostapd-common_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 13428
-SHA256sum: 8043bc2263b37cc66579918aafd59d4b7c2c2ada13119e6868522333a5da1b10
+Filename: hostapd-common_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
+Size: 13422
+SHA256sum: ed4b025425e0cae5a703442becd22d821269dc47587a9be193d80c1c51577df3
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
-Version: 2023-03-29-bb945b98-1.2
+Version: 2023-06-22-599d00be-1.2
 Depends: libc
 Source: package/network/services/hostapd
 SourceName: hostapd-utils
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1686872524
+SourceDateEpoch: 1689322174
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 14710
-Filename: hostapd-utils_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 15495
-SHA256sum: fdd8853e67aded7b509f6ab6e1027aad0b7067878c34a98f175f849a55d33660
+Filename: hostapd-utils_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
+Size: 15494
+SHA256sum: 44e7225028dad01afeff0ec71292ade398c63af27e9f0f1c639d9af4b40e3405
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
@@ -464,7 +464,7 @@ SHA256sum: 22b5ad3c14448ef1256edeed48506e893df826d63ccce5044a16c57ace135182
 Description:  Terminal handling library (Unicode)
 
 Package: libnftnl11
-Version: 1.2.5-2
+Version: 1.2.6-1
 Depends: libc, libmnl0
 Provides: libnftnl
 Source: package/libs/libnftnl
@@ -472,15 +472,15 @@ SourceName: libnftnl
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1684402529
+SourceDateEpoch: 1689683839
 ABIVersion: 11
 CPE-ID: cpe:/a:netfilter:libnftnl
 Maintainer: Steven Barth <steven@midlink.org>
 Architecture: mipsel_24kc
-Installed-Size: 45221
-Filename: libnftnl11_1.2.5-2_mipsel_24kc.ipk
-Size: 45936
-SHA256sum: 24a063ed829b60673387acc264391a61f40dbc32490c4736204b421938b347a9
+Installed-Size: 45216
+Filename: libnftnl11_1.2.6-1_mipsel_24kc.ipk
+Size: 45919
+SHA256sum: f4699b7c4a641c635ae6592b81a1524ba50cc2ede6d69ff11ed0055cca7ed5b3
 Description:  libnftnl is a userspace library providing a low-level netlink
  programming interface (API) to the in-kernel nf_tables subsystem.
 
@@ -560,10 +560,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 1382960
+Installed-Size: 1382944
 Filename: libopenssl3_3.0.9-2_mipsel_24kc.ipk
-Size: 1370116
-SHA256sum: 6b36ef2d5f16fbeb840319b31e44bbb158439acd2e6a461cc858517cebc97c1f
+Size: 1370187
+SHA256sum: b1d7ed8d7ea5944d918f3fa72dfd1d2781cdce6c9985622db75c0156c9b43168
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -731,7 +731,7 @@ SHA256sum: 8676ffab368731a8611c7a632c0bfc3a1eb8e934701d7ecd7c78854d2671f4cf
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
-Version: 1.0.7-1
+Version: 1.0.8-1
 Depends: libc, kmod-nft-core, libnftnl11, jansson4
 Provides: nftables
 Source: package/network/utils/nftables
@@ -739,12 +739,12 @@ SourceName: nftables-json
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1679419702
+SourceDateEpoch: 1689683839
 Architecture: mipsel_24kc
-Installed-Size: 278772
-Filename: nftables-json_1.0.7-1_mipsel_24kc.ipk
-Size: 277384
-SHA256sum: bd837641849a96d6a9b84e306f3dbe980ddbfb795c0fe82da4cd3f67fcc11b9e
+Installed-Size: 283047
+Filename: nftables-json_1.0.8-1_mipsel_24kc.ipk
+Size: 281463
+SHA256sum: 4bdbe49f3c98553a199aafb498d9349afa23fd3ba73b7e8f842d4a8cc2dab3fa
 Description:  nftables userspace utility with JSON support
 
 Package: odhcp6c
@@ -1287,8 +1287,8 @@ SHA256sum: d85e34b8d2dad98b3f380088dc34824c771f96e64e3dfe20fd42c22ac3e4b28b
 Description:  Wireless Regulatory Database
 
 Package: wpad-basic-mbedtls
-Version: 2023-03-29-bb945b98-1.2
-Depends: hostapd-common (=2023-03-29-bb945b98-1.2), libc, libnl-tiny2023-07-01, hostapd-common, libubus20220615, libmbedtls12
+Version: 2023-06-22-599d00be-1.2
+Depends: hostapd-common (=2023-06-22-599d00be-1.2), libc, libnl-tiny2023-07-01, hostapd-common, libubus20220615, libmbedtls12
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1296,19 +1296,19 @@ SourceName: wpad-basic-mbedtls
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1686872524
+SourceDateEpoch: 1689322174
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 392526
-Filename: wpad-basic-mbedtls_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 393087
-SHA256sum: 6cf312336e1841689776884c9ef88ff75f288f0ba314103ed10188c7044e676c
+Installed-Size: 396466
+Filename: wpad-basic-mbedtls_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
+Size: 396950
+SHA256sum: 2be058e0a2d37c07bc48a07b2a2ac112e4532e391a5a4b521786dd756c27baa1
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
-Version: 2023-03-29-bb945b98-1.2
-Depends: hostapd-common (=2023-03-29-bb945b98-1.2), libc, libnl-tiny2023-07-01, hostapd-common, libubus20220615, libopenssl3
+Version: 2023-06-22-599d00be-1.2
+Depends: hostapd-common (=2023-06-22-599d00be-1.2), libc, libnl-tiny2023-07-01, hostapd-common, libubus20220615, libopenssl3
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1316,14 +1316,14 @@ SourceName: wpad-openssl
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1686872524
+SourceDateEpoch: 1689322174
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 627165
-Filename: wpad-openssl_2023-03-29-bb945b98-1.2_mipsel_24kc.ipk
-Size: 627019
-SHA256sum: bdabf5e854f72704f71449c9852ba23430c0261f357d54de595d66ca6d92520a
+Installed-Size: 631653
+Filename: wpad-openssl_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
+Size: 631723
+SHA256sum: 07dfae51122e7a5fa95203b23c078f212c3456a83dc3281145eba38b0ae4e9db
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
