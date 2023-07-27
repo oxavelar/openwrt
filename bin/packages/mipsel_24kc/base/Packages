@@ -51,8 +51,8 @@ Essential: yes
 Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214632
-SHA256sum: ae8708a8c604be6d4b24c749050b2aa85697c8f0b5247a9dded9acc18eacb2a5
+Size: 214635
+SHA256sum: 7058de0537acd288356b525685a44777e0d0c1849764086134637ad0509c5a1f
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -392,16 +392,16 @@ SHA256sum: 3b9a7780573032b8ad61c047a626fdb43cc69b7b0e0f792bec3bede0c9ec9bcf
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.9-2
+Version: 3.0.9-3
 Depends: libc, libopenssl3
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 5460
-Filename: libopenssl-conf_3.0.9-2_mipsel_24kc.ipk
-Size: 6461
-SHA256sum: 6dd9bbb8855f5ad5287dfc17298728d6eae755980c207579bd59c39d4dedd8ef
+Installed-Size: 5459
+Filename: libopenssl-conf_3.0.9-3_mipsel_24kc.ipk
+Size: 6458
+SHA256sum: 1b886aa16f6fd15ad39488efb1554da6cf19b0f2a93e390c4a7e87344d8a6221
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -409,16 +409,16 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.9-2
+Version: 3.0.9-3
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 License: Apache-2.0
 Section: libs
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 8313
-Filename: libopenssl-devcrypto_3.0.9-2_mipsel_24kc.ipk
-Size: 9397
-SHA256sum: 2a4f5297e9c71eb2b3be8379e693512ea24dd05badbbcd32dc83728d987e8802
+Installed-Size: 8312
+Filename: libopenssl-devcrypto_3.0.9-3_mipsel_24kc.ipk
+Size: 9391
+SHA256sum: b2b50e31360404d0c32e4656d453733db4e569b6e96e824bb43e501da08168a0
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -426,7 +426,7 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl3
-Version: 3.0.9-2
+Version: 3.0.9-3
 Depends: libc, libatomic1
 Provides: libopenssl
 License: Apache-2.0
@@ -434,10 +434,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 1382944
-Filename: libopenssl3_3.0.9-2_mipsel_24kc.ipk
-Size: 1370187
-SHA256sum: b1d7ed8d7ea5944d918f3fa72dfd1d2781cdce6c9985622db75c0156c9b43168
+Installed-Size: 1382941
+Filename: libopenssl3_3.0.9-3_mipsel_24kc.ipk
+Size: 1370188
+SHA256sum: d84d0deb869861f594103927102130f39a9acde5beed15aa3720a1f65d1f9331
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -611,16 +611,16 @@ Description:  odhcpd is a daemon for serving and relaying IP management protocol
  routed (non-bridged) interfaces in case no delegated prefixes are available.
 
 Package: openssl-util
-Version: 3.0.9-2
+Version: 3.0.9-3
 Depends: libc, libopenssl3, libopenssl-conf
 License: Apache-2.0
 Section: utils
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 297563
-Filename: openssl-util_3.0.9-2_mipsel_24kc.ipk
-Size: 296131
-SHA256sum: 95255ad736631e194d576a62baefb742d24c3a5c1a394d7e940e9ceba2a5c13b
+Installed-Size: 297559
+Filename: openssl-util_3.0.9-3_mipsel_24kc.ipk
+Size: 295987
+SHA256sum: 7490a9678fa78176dde79a3fed94854bc944b0f25f2d2ed074e57791eb91eaa9
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -949,15 +949,15 @@ SHA256sum: 1cf4cc003e5479824850fbbe7ab61a662273d0241f50e4b8d3d841ac8a711f49
 Description:  /etc/urandom.seed handling for OpenWrt
 
 Package: urngd
-Version: 2020-01-21-c7f7b6b6-1
+Version: 2023-07-25-7aefb47b-1
 Depends: libc, libubox20230523
 License: GPL-2.0 BSD-3-Clause
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 4839
-Filename: urngd_2020-01-21-c7f7b6b6-1_mipsel_24kc.ipk
-Size: 5675
-SHA256sum: dcedc4087c29f06ed93280a0bf500bf50dc2e68dcdde6b14cc8eaf55ff1031ae
+Installed-Size: 8471
+Filename: urngd_2023-07-25-7aefb47b-1_mipsel_24kc.ipk
+Size: 9327
+SHA256sum: d64b376c51b0c637d075d12fd1e5c51aabc91dad9b6136fb588542cb24ae675d
 Description:  urngd is OpenWrt's micro non-physical true random number generator based on
  timing jitter.
  
