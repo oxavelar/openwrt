@@ -69,8 +69,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214635
-SHA256sum: 7058de0537acd288356b525685a44777e0d0c1849764086134637ad0509c5a1f
+Size: 214626
+SHA256sum: 575ed870ba6d6300c9d1914e61f0be3b27eb00e32eb513ffb6dd162d59f298b2
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -163,14 +163,14 @@ Source: package/network/services/hostapd
 SourceName: hostapd-common
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1689322174
+SourceDateEpoch: 1691081460
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 12639
+Installed-Size: 14846
 Filename: hostapd-common_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
-Size: 13422
-SHA256sum: ed4b025425e0cae5a703442becd22d821269dc47587a9be193d80c1c51577df3
+Size: 15606
+SHA256sum: 03231b1e2bf96ad9f561dd7096e12822db6880d22d575b967bda272fa11c210e
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
@@ -180,20 +180,20 @@ Source: package/network/services/hostapd
 SourceName: hostapd-utils
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1689322174
+SourceDateEpoch: 1691081460
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 14710
+Installed-Size: 14752
 Filename: hostapd-utils_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
-Size: 15494
-SHA256sum: 44e7225028dad01afeff0ec71292ade398c63af27e9f0f1c639d9af4b40e3405
+Size: 15538
+SHA256sum: 7190e5bffff3283f3a4566390a02c0167e5723fd137518959905b88d76c826a8
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
 Package: iw
 Version: 5.19-1
-Depends: libc, libnl-tiny2023-07-01
+Depends: libc, libnl-tiny1
 Source: package/network/utils/iw
 SourceName: iw
 License: GPL-2.0
@@ -203,8 +203,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 43014
 Filename: iw_5.19-1_mipsel_24kc.ipk
-Size: 43591
-SHA256sum: 8b99d2043863dde1429477b8b317ba2e130c67359fb84969eb96099eab1e2dde
+Size: 43573
+SHA256sum: 11e5aa325a6415932437d2d4940293e357c9cc269105f224093cb3f5f6d05f1b
 Description:  cfg80211 interface configuration utility
 
 Package: iwinfo
@@ -217,10 +217,10 @@ Section: utils
 SourceDateEpoch: 1688206241
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 6348
+Installed-Size: 6349
 Filename: iwinfo_2023-07-01-ca79f641-1_mipsel_24kc.ipk
-Size: 7101
-SHA256sum: bfe68f574c3c637dd9e00d1f891b8a844c46b7217dd9f29e1304e525a81640b9
+Size: 7099
+SHA256sum: 0786fe7f98fa9a48709fe1f5484321458c85d8662735394bf8cbb0386c92e602
 Description:  Command line frontend for the wireless information library.
 
 Package: jansson4
@@ -310,7 +310,7 @@ Description:  libiwinfo Lua binding
 
 Package: libiwinfo20230701
 Version: 2023-07-01-ca79f641-1
-Depends: libc, libnl-tiny2023-07-01, libuci20130104, libubus20220615, libiwinfo-data
+Depends: libc, libnl-tiny1, libuci20130104, libubus20220615, libiwinfo-data
 Provides: libiwinfo
 Source: package/network/utils/iwinfo
 SourceName: libiwinfo
@@ -320,10 +320,10 @@ SourceDateEpoch: 1688206241
 ABIVersion: 20230701
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 22494
+Installed-Size: 22487
 Filename: libiwinfo20230701_2023-07-01-ca79f641-1_mipsel_24kc.ipk
-Size: 23225
-SHA256sum: 8562f6a0694b5521350c95635c3ffe13470841592148451757f0c88babe2669b
+Size: 23178
+SHA256sum: a42b5e07f7d33f706577e4485686df62b3ad4989c947f2e04a7c96b81f6e5aa3
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -484,22 +484,22 @@ SHA256sum: f4699b7c4a641c635ae6592b81a1524ba50cc2ede6d69ff11ed0055cca7ed5b3
 Description:  libnftnl is a userspace library providing a low-level netlink
  programming interface (API) to the in-kernel nf_tables subsystem.
 
-Package: libnl-tiny2023-07-01
-Version: 2023-07-01-d433990c-1
+Package: libnl-tiny1
+Version: 2023-07-27-bc92a280-1
 Depends: libc
 Provides: libnl-tiny
 Source: package/libs/libnl-tiny
 SourceName: libnl-tiny
 License: LGPL-2.1
 Section: libs
-SourceDateEpoch: 1688206025
-ABIVersion: 2023-07-01
+SourceDateEpoch: 1690452192
+ABIVersion: 1
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 12274
-Filename: libnl-tiny2023-07-01_2023-07-01-d433990c-1_mipsel_24kc.ipk
-Size: 12900
-SHA256sum: 3b9a7780573032b8ad61c047a626fdb43cc69b7b0e0f792bec3bede0c9ec9bcf
+Installed-Size: 12260
+Filename: libnl-tiny1_2023-07-27-bc92a280-1_mipsel_24kc.ipk
+Size: 12885
+SHA256sum: 3a54c5cb0acdb68a9cad4d1aef97c6899db8b5e233f3b1131bab2b6f437165ee
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
@@ -560,10 +560,10 @@ ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 1382941
+Installed-Size: 1382940
 Filename: libopenssl3_3.0.9-3_mipsel_24kc.ipk
-Size: 1370188
-SHA256sum: d84d0deb869861f594103927102130f39a9acde5beed15aa3720a1f65d1f9331
+Size: 1370185
+SHA256sum: 71faf9534c17d2650de057b573b09ad26c2db0358a5636c38e251b838db203ec
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -715,19 +715,19 @@ SHA256sum: affcbb509a1c7ce9a0241caa01784a2ed174361094595cae133adafc07f0cba7
 Description:  OpenWrt system log implementation
 
 Package: netifd
-Version: 2023-07-03-e94f7a81-1
-Depends: libc, libuci20130104, libnl-tiny2023-07-01, libubus20220615, ubus, ubusd, jshn, libubox20230523
+Version: 2023-07-17-0ff22a6a-1
+Depends: libc, libuci20130104, libnl-tiny1, libubus20220615, ubus, ubusd, jshn, libubox20230523
 Source: package/network/config/netifd
 SourceName: netifd
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1688378017
+SourceDateEpoch: 1690877294
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 79758
-Filename: netifd_2023-07-03-e94f7a81-1_mipsel_24kc.ipk
-Size: 80494
-SHA256sum: 8676ffab368731a8611c7a632c0bfc3a1eb8e934701d7ecd7c78854d2671f4cf
+Installed-Size: 79756
+Filename: netifd_2023-07-17-0ff22a6a-1_mipsel_24kc.ipk
+Size: 80508
+SHA256sum: accbcd8c36cb6f373263c0290133db9d8b820f351dc1209c8c342ea33e023036
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -765,7 +765,7 @@ Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
 Version: 2023-06-24-52112643-1
-Depends: libc, libubox20230523, libuci20130104, libubus20220615, libnl-tiny2023-07-01
+Depends: libc, libubox20230523, libuci20130104, libubus20220615, libnl-tiny1
 Source: package/network/services/odhcpd
 SourceName: odhcpd-ipv6only
 License: GPL-2.0
@@ -773,10 +773,10 @@ Section: net
 SourceDateEpoch: 1687626554
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 40202
+Installed-Size: 40206
 Filename: odhcpd-ipv6only_2023-06-24-52112643-1_mipsel_24kc.ipk
-Size: 40880
-SHA256sum: afe2c47b2fca6cace1503d2d3fe97b2d4fd1a72fee38ba2ef1daf4a3c77cd5f1
+Size: 40890
+SHA256sum: e19e172371e699ec34d0e44bd8b62cdf895e41a2f7e7ddf292bafe9279fafae2
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -883,39 +883,39 @@ SHA256sum: 4bdc41ab196e2136e904787e8087cd7b0f9cb95a982a6b4873ba9c1c1ccf851a
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
 
 Package: procd-seccomp
-Version: 2023-06-25-2db83655-1
+Version: 2023-06-25-2db83655-2
 Depends: libc, libubox20230523, libblobmsg-json20230523
 Source: package/system/procd
 SourceName: procd-seccomp
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1687726135
+SourceDateEpoch: 1690457478
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 18305
-Filename: procd-seccomp_2023-06-25-2db83655-1_mipsel_24kc.ipk
-Size: 18134
-SHA256sum: 8848701d47268993c9b57dab5aaca87e467638edeec1e334026feac6c99aad26
+Filename: procd-seccomp_2023-06-25-2db83655-2_mipsel_24kc.ipk
+Size: 18210
+SHA256sum: a2bf5a33b58c486a785d491548a04f9b7b931361c879aae377b167e7f300f45f
 Description:  OpenWrt process seccomp helper + utrace
 
 Package: procd-ujail
-Version: 2023-06-25-2db83655-1
+Version: 2023-06-25-2db83655-2
 Depends: libc, libubox20230523, libubus20220615, libuci20130104, libblobmsg-json20230523
 Source: package/system/procd
 SourceName: procd-ujail
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1687726135
+SourceDateEpoch: 1690457478
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
-Installed-Size: 40088
-Filename: procd-ujail_2023-06-25-2db83655-1_mipsel_24kc.ipk
+Installed-Size: 40086
+Filename: procd-ujail_2023-06-25-2db83655-2_mipsel_24kc.ipk
 Size: 40231
-SHA256sum: c69fdfc58901ff7082338709bc1faa0e90a1675fd1f73634aecca198d3cf15ca
+SHA256sum: d7cfc2195465d75c41545cf67347b81703b8db16de788ace9a5220f2825eac1a
 Description:  OpenWrt process jail helper
 
 Package: procd
-Version: 2023-06-25-2db83655-1
+Version: 2023-06-25-2db83655-2
 Depends: libc, ubusd, ubus, libjson-script20230523, ubox, libubox20230523, libubus20220615, libblobmsg-json20230523, libjson-c5, jshn
 Conflicts: procd-selinux
 Source: package/system/procd
@@ -923,13 +923,13 @@ SourceName: procd
 License: GPL-2.0
 Section: base
 Require-User: :dialout=20 :audio=29
-SourceDateEpoch: 1687726135
+SourceDateEpoch: 1690457478
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
-Installed-Size: 56032
-Filename: procd_2023-06-25-2db83655-1_mipsel_24kc.ipk
-Size: 55520
-SHA256sum: 62fd98f2a5f05e1ee72359b8e2722de80e2fbcf2f8bba7144bac725fd581bc9f
+Installed-Size: 56176
+Filename: procd_2023-06-25-2db83655-2_mipsel_24kc.ipk
+Size: 55707
+SHA256sum: eec7b79946a094a9865f3ea1b458d31f47334cb9981943765765184a06435c25
 Description:  OpenWrt system process manager
 
 Package: rpcd-mod-file
@@ -1130,6 +1130,38 @@ Size: 3219
 SHA256sum: 9646f1a8aba9ae85228acf84f8fc56f1f22aef8d6f4e89c4c29fa03842320590
 Description:  The math plugin provides access to various <math.h> procedures.
 
+Package: ucode-mod-nl80211
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+Source: package/utils/ucode
+SourceName: ucode-mod-nl80211
+License: ISC
+Section: lang
+SourceDateEpoch: 1688036074
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 18229
+Filename: ucode-mod-nl80211_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
+Size: 18788
+SHA256sum: afadb7ea1e57b7163b8acb335ef128e7a675552d82d2cc8604136bfd6366a853
+Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
+
+Package: ucode-mod-rtnl
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libnl-tiny1, libubox20230523
+Source: package/utils/ucode
+SourceName: ucode-mod-rtnl
+License: ISC
+Section: lang
+SourceDateEpoch: 1688036074
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 24275
+Filename: ucode-mod-rtnl_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
+Size: 24476
+SHA256sum: e1cbb4e4649324b951128c2542e32ff9feaa8a300f02468d366f3a6f0fe42162
+Description:  The rtnl plugin provides access to the Linux routing netlink API.
+
 Package: ucode-mod-ubus
 Version: 2023-06-06-c7d84aae-1
 Depends: libc, ucode, libubus20220615, libblobmsg-json20230523
@@ -1162,6 +1194,23 @@ Filename: ucode-mod-uci_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
 Size: 6505
 SHA256sum: 9ba13a782708dcd77264e26a5e61cdc2e35a7cde114674e27ffe129262be44ff
 Description:  The uci module allows templates to read and modify uci configuration.
+
+Package: ucode-mod-uloop
+Version: 2023-06-06-c7d84aae-1
+Depends: libc, ucode, libubox20230523
+Source: package/utils/ucode
+SourceName: ucode-mod-uloop
+License: ISC
+Section: lang
+SourceDateEpoch: 1688036074
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mipsel_24kc
+Installed-Size: 6513
+Filename: ucode-mod-uloop_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
+Size: 7281
+SHA256sum: 28422954cc640b63aaca500152c3624faf1eee4cdbb5ed2a00bfc92cd92e94c7
+Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event
+ loop implementation.
 
 Package: ucode
 Version: 2023-06-06-c7d84aae-1
@@ -1237,12 +1286,12 @@ Source: package/system/urngd
 SourceName: urngd
 License: GPL-2.0 BSD-3-Clause
 Section: utils
-SourceDateEpoch: 1690272274
+SourceDateEpoch: 1690713763
 Architecture: mipsel_24kc
-Installed-Size: 8471
+Installed-Size: 8472
 Filename: urngd_2023-07-25-7aefb47b-1_mipsel_24kc.ipk
-Size: 9327
-SHA256sum: d64b376c51b0c637d075d12fd1e5c51aabc91dad9b6136fb588542cb24ae675d
+Size: 9321
+SHA256sum: 65e48669b883a5e2250f9fc7e8c634a831c9254586684cc0cb47097c403df874
 Description:  urngd is OpenWrt's micro non-physical true random number generator based on
  timing jitter.
  
@@ -1288,7 +1337,7 @@ Description:  Wireless Regulatory Database
 
 Package: wpad-basic-mbedtls
 Version: 2023-06-22-599d00be-1.2
-Depends: hostapd-common (=2023-06-22-599d00be-1.2), libc, libnl-tiny2023-07-01, hostapd-common, libubus20220615, libmbedtls12
+Depends: hostapd-common (=2023-06-22-599d00be-1.2), libc, libnl-tiny1, hostapd-common, ucode, libubus20220615, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libmbedtls12
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1296,19 +1345,19 @@ SourceName: wpad-basic-mbedtls
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1689322174
+SourceDateEpoch: 1691081460
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 396466
+Installed-Size: 404340
 Filename: wpad-basic-mbedtls_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
-Size: 396950
-SHA256sum: 2be058e0a2d37c07bc48a07b2a2ac112e4532e391a5a4b521786dd756c27baa1
+Size: 404692
+SHA256sum: 3f70a2c00d249510144683b814cf8fba9d7bba29b14f97ac8a88c7511485711f
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
 Version: 2023-06-22-599d00be-1.2
-Depends: hostapd-common (=2023-06-22-599d00be-1.2), libc, libnl-tiny2023-07-01, hostapd-common, libubus20220615, libopenssl3
+Depends: hostapd-common (=2023-06-22-599d00be-1.2), libc, libnl-tiny1, hostapd-common, ucode, libubus20220615, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1316,14 +1365,14 @@ SourceName: wpad-openssl
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1689322174
+SourceDateEpoch: 1691081460
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 631653
+Installed-Size: 645029
 Filename: wpad-openssl_2023-06-22-599d00be-1.2_mipsel_24kc.ipk
-Size: 631723
-SHA256sum: 07dfae51122e7a5fa95203b23c078f212c3456a83dc3281145eba38b0ae4e9db
+Size: 644756
+SHA256sum: fb69d857e15dc0753d43d4ad07df250bda465a40ed9b14d82f3f2513b40aac14
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
