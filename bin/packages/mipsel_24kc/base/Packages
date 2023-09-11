@@ -51,8 +51,8 @@ Essential: yes
 Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214627
-SHA256sum: 7be6d109d2ca78e29feafb4a91b7d3756dac06109aba82e3d4e036cb7d8f16f6
+Size: 214626
+SHA256sum: 076b1b6ef116b65d5fbe90fd4dd3fffc8e5d8576ab2d4fef937e9045fb9044b2
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -126,10 +126,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 14858
+Installed-Size: 14866
 Filename: hostapd-common_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 15620
-SHA256sum: d5cc87b9920601d9cc025e37bc5147ea2f2446d1b9ce62629acb139d91fc92a9
+Size: 15622
+SHA256sum: eaba16c15de041f22566b6cea2850c3fa289b7ac60bfc241d7211bcd24e4dd61
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
@@ -139,10 +139,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 14668
+Installed-Size: 14667
 Filename: hostapd-utils_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 15442
-SHA256sum: 1c892cea1dd074194adadc8269c415eebf2f1c71ad976dd5e837ec3289ca4a00
+Size: 15449
+SHA256sum: 56294f27ab3f4bab7233651e3f0ab8502b40ce96394ae9afad531f458da8350c
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
@@ -452,8 +452,8 @@ CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
 Installed-Size: 1383299
 Filename: libopenssl3_3.0.10-1_mipsel_24kc.ipk
-Size: 1370139
-SHA256sum: bfdf8d9460528f310871c081be10b0d5113ef77ad298c4684f823087d14de943
+Size: 1370156
+SHA256sum: ff6eee503cf45524c308c0d397cd39bdc1eecfd947c07ac0b2b4d721a3443906
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -1036,14 +1036,14 @@ SHA256sum: e0e3090ed2a46126bc3de4118b1b17dfb6926033b2001235c300ec2398b5671d
 Description:  OpenWrt signature verification utility
 
 Package: wireless-regdb
-Version: 2023.05.03-1
+Version: 2023.09.01-1
 Depends: libc
 Section: firmware
 Architecture: all
-Installed-Size: 2239
-Filename: wireless-regdb_2023.05.03-1_all.ipk
-Size: 2957
-SHA256sum: d85e34b8d2dad98b3f380088dc34824c771f96e64e3dfe20fd42c22ac3e4b28b
+Installed-Size: 2301
+Filename: wireless-regdb_2023.09.01-1_all.ipk
+Size: 3018
+SHA256sum: 948f47487f5eefb59983f22268892ba63500b518cb8bf822dc9c2ea50fc180e1
 Description:  Wireless Regulatory Database
 
 Package: wpad-basic-mbedtls
@@ -1055,10 +1055,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 404324
+Installed-Size: 404639
 Filename: wpad-basic-mbedtls_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 404828
-SHA256sum: 3a82187d045ee826c5653c4e55a501086c3d049cfb44343fbe2f0736033c3d56
+Size: 405170
+SHA256sum: 639d19eabb5124015ae9a8c017eb0ebe30ac96a814b5a2d020f9e7e12f9433bf
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
@@ -1070,10 +1070,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: mipsel_24kc
-Installed-Size: 645193
+Installed-Size: 645622
 Filename: wpad-openssl_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 645252
-SHA256sum: 72e3ac1e41abd83ad9616e30f3019474101aa174951c404de3f4e5b3a165e8ac
+Size: 645534
+SHA256sum: 0ac275d7d205d5fb034750117360c756c54ead469a643e03c397ac7fdd4d6be4
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
