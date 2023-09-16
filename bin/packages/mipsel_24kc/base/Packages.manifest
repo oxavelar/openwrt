@@ -69,8 +69,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214626
-SHA256sum: 076b1b6ef116b65d5fbe90fd4dd3fffc8e5d8576ab2d4fef937e9045fb9044b2
+Size: 214624
+SHA256sum: e2ed26c5e43b4dfb47fc36163799fbe7a6e5d11cfa6a24dfcb2b42d448747018
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -157,37 +157,37 @@ SHA256sum: b459b049d3dec16b014b8c9c0c301c78809885acf9bf76d8aaf8fbf2c307744c
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
-Version: 2023-06-22-599d00be-2
+Version: 2023-09-08-e5ccbfc6-3
 Depends: libc
 Source: package/network/services/hostapd
 SourceName: hostapd-common
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1693727488
+SourceDateEpoch: 1694803376
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 14866
-Filename: hostapd-common_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 15622
-SHA256sum: eaba16c15de041f22566b6cea2850c3fa289b7ac60bfc241d7211bcd24e4dd61
+Installed-Size: 16030
+Filename: hostapd-common_2023-09-08-e5ccbfc6-3_mipsel_24kc.ipk
+Size: 16804
+SHA256sum: fa499e53b97c61463eb1660fada53f704e8f4e8c90efc66cb69fb3723266ddc5
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
-Version: 2023-06-22-599d00be-2
+Version: 2023-09-08-e5ccbfc6-3
 Depends: libc
 Source: package/network/services/hostapd
 SourceName: hostapd-utils
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1693727488
+SourceDateEpoch: 1694803376
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 14667
-Filename: hostapd-utils_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 15449
-SHA256sum: 56294f27ab3f4bab7233651e3f0ab8502b40ce96394ae9afad531f458da8350c
+Installed-Size: 14668
+Filename: hostapd-utils_2023-09-08-e5ccbfc6-3_mipsel_24kc.ipk
+Size: 15444
+SHA256sum: 2b1574299fb406503ea54356af6d573b72a97706cddf28c211ebb806be7ec9e4
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
@@ -583,8 +583,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 1383299
 Filename: libopenssl3_3.0.10-1_mipsel_24kc.ipk
-Size: 1370156
-SHA256sum: ff6eee503cf45524c308c0d397cd39bdc1eecfd947c07ac0b2b4d721a3443906
+Size: 1370150
+SHA256sum: aec142d2707ac0a1aea5783fc4fcd142096adb048adcbdd5086e390f59d3f902
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -736,19 +736,19 @@ SHA256sum: fa64625f3e2f1608b910d341196a8adb451053b9d988e534695590ff3c6696ea
 Description:  OpenWrt system log implementation
 
 Package: netifd
-Version: 2023-08-31-1a07f1df-3
+Version: 2023-09-15.1-afcd3825-3
 Depends: libc, libuci20130104, libnl-tiny1, libubus20230605, ubus, ubusd, jshn, libubox20230523
 Source: package/network/config/netifd
 SourceName: netifd
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1693526593
+SourceDateEpoch: 1694803407
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 81108
-Filename: netifd_2023-08-31-1a07f1df-3_mipsel_24kc.ipk
-Size: 81931
-SHA256sum: 9201c2649ae7c0c2e0edc91ebabf45ded65784e6c4d77362c0edd61a2e1ed50e
+Installed-Size: 81038
+Filename: netifd_2023-09-15.1-afcd3825-3_mipsel_24kc.ipk
+Size: 81771
+SHA256sum: 6c5be4354ee53a6190ccf07118f2ea14b7c763fc4425327501999929aca8c5e4
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -1357,8 +1357,8 @@ SHA256sum: 948f47487f5eefb59983f22268892ba63500b518cb8bf822dc9c2ea50fc180e1
 Description:  Wireless Regulatory Database
 
 Package: wpad-basic-mbedtls
-Version: 2023-06-22-599d00be-2
-Depends: hostapd-common (=2023-06-22-599d00be-2), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libmbedtls12
+Version: 2023-09-08-e5ccbfc6-3
+Depends: hostapd-common (=2023-09-08-e5ccbfc6-3), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libmbedtls12
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1366,19 +1366,19 @@ SourceName: wpad-basic-mbedtls
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1693727488
+SourceDateEpoch: 1694803376
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 404639
-Filename: wpad-basic-mbedtls_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 405170
-SHA256sum: 639d19eabb5124015ae9a8c017eb0ebe30ac96a814b5a2d020f9e7e12f9433bf
+Installed-Size: 410589
+Filename: wpad-basic-mbedtls_2023-09-08-e5ccbfc6-3_mipsel_24kc.ipk
+Size: 411108
+SHA256sum: beadce22a34c9d71b61b32231b9ba9920a010927fd011b15202af51878ff55ea
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
-Version: 2023-06-22-599d00be-2
-Depends: hostapd-common (=2023-06-22-599d00be-2), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3, libopenssl-legacy
+Version: 2023-09-08-e5ccbfc6-3
+Depends: hostapd-common (=2023-09-08-e5ccbfc6-3), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3, libopenssl-legacy
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1386,14 +1386,14 @@ SourceName: wpad-openssl
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1693727488
+SourceDateEpoch: 1694803376
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 645622
-Filename: wpad-openssl_2023-06-22-599d00be-2_mipsel_24kc.ipk
-Size: 645534
-SHA256sum: 0ac275d7d205d5fb034750117360c756c54ead469a643e03c397ac7fdd4d6be4
+Installed-Size: 651666
+Filename: wpad-openssl_2023-09-08-e5ccbfc6-3_mipsel_24kc.ipk
+Size: 651656
+SHA256sum: f737ccbad8947983b9acdecbde20323df98b4bc54eab0340f13188a23250a93e
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
