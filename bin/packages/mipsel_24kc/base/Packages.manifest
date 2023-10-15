@@ -70,7 +70,7 @@ Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
 Size: 214626
-SHA256sum: fd94fedb01d324741b62485f6c4ff34ac7c031550d892a222fcb4cbb505a6510
+SHA256sum: aaf9499f40c8e85355f080f47c0fad87a25ce3ddcbc6e453b70ce1d509e52066
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -269,10 +269,10 @@ Section: base
 SourceDateEpoch: 1645878990
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 8185
+Installed-Size: 8186
 Filename: jsonfilter_2018-02-04-c7e938d6-1_mipsel_24kc.ipk
-Size: 8788
-SHA256sum: 0da14f3b694df47c3d85aab9719d950961b3e8b3ca91e45085741121da333f9f
+Size: 8792
+SHA256sum: bcdcf554dea3324633c4eb58154db0544e73526b485a2ba100792b7e3f108cf5
 Description:  OpenWrt JSON filter utility
 
 Package: libblobmsg-json20230523
@@ -329,7 +329,7 @@ Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
 Package: libjson-c5
-Version: 0.16-3
+Version: 0.17-1
 Depends: libc
 Provides: libjson-c
 Source: package/libs/libjson-c
@@ -337,15 +337,15 @@ SourceName: json-c
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1684496598
+SourceDateEpoch: 1697097006
 ABIVersion: 5
 CPE-ID: cpe:/a:json-c_project:json-c
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 22487
-Filename: libjson-c5_0.16-3_mipsel_24kc.ipk
-Size: 23157
-SHA256sum: fb59dfa69ba55ad6758adb7149ab4bcba61b3ac1d0f87b8a8ccca8102dbb9cfb
+Installed-Size: 23805
+Filename: libjson-c5_0.17-1_mipsel_24kc.ipk
+Size: 24481
+SHA256sum: c39c5a5c166c59d85dca7893191d3f27609e5fd435858d92cf68ca8fc8c89e95
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script20230523
@@ -386,7 +386,7 @@ SHA256sum: 30839fe10a67caa72737fdf0040ecc40bdeed8550705dbbe86c46666dbe623b6
 Description:  A generic dynamic object loading library
 
 Package: libmbedtls12
-Version: 2.28.4-1
+Version: 2.28.5-1
 Depends: libc
 Provides: libmbedtls
 Source: package/libs/mbedtls
@@ -394,14 +394,14 @@ SourceName: mbedtls
 License: GPL-2.0-or-later
 LicenseFiles: gpl-2.0.txt
 Section: libs
-SourceDateEpoch: 1691744588
+SourceDateEpoch: 1697291311
 ABIVersion: 12
 CPE-ID: cpe:/a:arm:mbed_tls
 Architecture: mipsel_24kc
-Installed-Size: 223679
-Filename: libmbedtls12_2.28.4-1_mipsel_24kc.ipk
-Size: 224065
-SHA256sum: 4f946768894ecf8b9a89b60466f546e1d6f332d6a530c61b08bc77a05bbf87e8
+Installed-Size: 224457
+Filename: libmbedtls12_2.28.5-1_mipsel_24kc.ipk
+Size: 224785
+SHA256sum: 89831e21f79b32da8a9fa80bc4a4fd798a74bfccc44581e0b82687de1013f747
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -585,7 +585,7 @@ Architecture: mipsel_24kc
 Installed-Size: 1383850
 Filename: libopenssl3_3.0.11-1_mipsel_24kc.ipk
 Size: 1370470
-SHA256sum: a2bad7c1742f05a4c41598b329a212ff6e6a3606d83c41f2c0121dd32b08fbee
+SHA256sum: 3bf8c620d32ff10cc84801bf9609ae3cb4c07725b1f9769b33d1bf21481a45ec
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
