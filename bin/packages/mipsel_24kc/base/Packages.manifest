@@ -69,8 +69,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214626
-SHA256sum: aaf9499f40c8e85355f080f47c0fad87a25ce3ddcbc6e453b70ce1d509e52066
+Size: 214627
+SHA256sum: 976a97c795239c823cb266835a19474c7951937fa244546f7adb08a3c7ae0ff1
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -113,13 +113,13 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1695646969
+SourceDateEpoch: 1697810699
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: mipsel_24kc
-Installed-Size: 133181
+Installed-Size: 133223
 Filename: dnsmasq_2.89-6_mipsel_24kc.ipk
-Size: 133525
-SHA256sum: 5f3564ff76fd7935903c95cf01b058d66394d40ee027437205e6db4657906f1a
+Size: 133506
+SHA256sum: 78beba0d1ac28a2a8d2835e0d2a4f21c9c009622d386f8d74535c55f8888d6c1
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: firewall4
@@ -215,13 +215,13 @@ Source: package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: utils
-SourceDateEpoch: 1688206241
+SourceDateEpoch: 1698604952
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 6348
+Installed-Size: 6345
 Filename: iwinfo_2023-07-01-ca79f641-1_mipsel_24kc.ipk
-Size: 7099
-SHA256sum: 318093bb59406a0fdd222bebc3d333e5806f863601bf58ad9fce5aa726f1f3ee
+Size: 7100
+SHA256sum: c67dfd66bcf676ab3e876b4af4cc674f952c1434794d1c425f2dd616b8476efb
 Description:  Command line frontend for the wireless information library.
 
 Package: jansson4
@@ -300,13 +300,13 @@ Source: package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1688206241
+SourceDateEpoch: 1698604952
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 3056
 Filename: libiwinfo-data_2023-07-01-ca79f641-1_mipsel_24kc.ipk
-Size: 3772
-SHA256sum: 2b3b5b7262bc50f3bd54651de4abdf05548714a2b505c17caff4cc52b5481ce5
+Size: 3770
+SHA256sum: 6eb76de1a1507dd83d6891c8e9ee050289d1ad26b45bfe4341368ceb96018546
 Description:  libiwinfo Lua binding
 
 Package: libiwinfo20230701
@@ -317,14 +317,14 @@ Source: package/network/utils/iwinfo
 SourceName: libiwinfo
 License: GPL-2.0
 Section: libs
-SourceDateEpoch: 1688206241
+SourceDateEpoch: 1698604952
 ABIVersion: 20230701
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 22486
+Installed-Size: 22485
 Filename: libiwinfo20230701_2023-07-01-ca79f641-1_mipsel_24kc.ipk
-Size: 23175
-SHA256sum: 10e514f64a08ae15acb2dd8dcf84c787d2eba475e44d416048dffc273d270289
+Size: 23165
+SHA256sum: 28bae99ede518ccca2556efc64db30969bb8da56dc1ea1650f88966834685b48
 Description:  Wireless information library with simplified API for nl80211
  and wext driver interfaces.
 
@@ -504,21 +504,21 @@ SHA256sum: 3a54c5cb0acdb68a9cad4d1aef97c6899db8b5e233f3b1131bab2b6f437165ee
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl-conf
-Version: 3.0.11-1
+Version: 3.0.12-1
 Depends: libc, libopenssl3
 Source: package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1695552114
+SourceDateEpoch: 1698271218
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 5458
-Filename: libopenssl-conf_3.0.11-1_mipsel_24kc.ipk
-Size: 6459
-SHA256sum: 40f6fcd469e516624c865f242604d67919445b15588955217e6b276ccf822a87
+Installed-Size: 5461
+Filename: libopenssl-conf_3.0.12-1_mipsel_24kc.ipk
+Size: 6463
+SHA256sum: b1d0ef3818622d4dfae236dbb0835b2d0f7bbc244f7a547abba72341d509bbdf
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -526,21 +526,21 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  This package installs the OpenSSL configuration file /etc/ssl/openssl.cnf.
 
 Package: libopenssl-devcrypto
-Version: 3.0.11-1
+Version: 3.0.12-1
 Depends: libc, libopenssl3, libopenssl-conf, kmod-cryptodev
 Source: package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1695552114
+SourceDateEpoch: 1698271218
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 8314
-Filename: libopenssl-devcrypto_3.0.11-1_mipsel_24kc.ipk
+Installed-Size: 8313
+Filename: libopenssl-devcrypto_3.0.12-1_mipsel_24kc.ipk
 Size: 9396
-SHA256sum: 91ad27b1b3a4909cbe629c49f01b0e659f78952a460516d12ee0536903c0acc0
+SHA256sum: 0521820e90516316d48d96d62fa0b23e3083f0e25ce2d3ef5d1ec07c09cdc40d
 Description:  This package adds an engine that enables hardware acceleration
  through the /dev/crypto kernel interface.
  See https://www.openssl.org/docs/man3.0/man5/config.html#Engine-Configuration
@@ -548,28 +548,28 @@ Description:  This package adds an engine that enables hardware acceleration
  The engine_id is "devcrypto"
 
 Package: libopenssl-legacy
-Version: 3.0.11-1
+Version: 3.0.12-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1695552114
+SourceDateEpoch: 1698271218
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 26345
-Filename: libopenssl-legacy_3.0.11-1_mipsel_24kc.ipk
-Size: 27044
-SHA256sum: 4c634f2f79b43863045bdeaacfd4a3aa262025841ec4f4c4fb83979259c5011d
+Installed-Size: 26349
+Filename: libopenssl-legacy_3.0.12-1_mipsel_24kc.ipk
+Size: 27052
+SHA256sum: 2cedc6d09bb3dfdf499b9db134b92d7cf4770a2f0b9ce2a5ffa14eb64de0db72
 Description:  The OpenSSL legacy provider supplies OpenSSL implementations of algorithms that
  have been deemed legacy. Such algorithms have commonly fallen out of use, have
  been deemed insecure by the cryptography community, or something similar.  See
  https://www.openssl.org/docs/man3.0/man7/OSSL_PROVIDER-legacy.html
 
 Package: libopenssl3
-Version: 3.0.11-1
+Version: 3.0.12-1
 Depends: libc, libatomic1
 Provides: libopenssl
 Source: package/libs/openssl
@@ -577,15 +577,15 @@ SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: libs
-SourceDateEpoch: 1695552114
+SourceDateEpoch: 1698271218
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 1383850
-Filename: libopenssl3_3.0.11-1_mipsel_24kc.ipk
-Size: 1370470
-SHA256sum: 3bf8c620d32ff10cc84801bf9609ae3cb4c07725b1f9769b33d1bf21481a45ec
+Installed-Size: 1384688
+Filename: libopenssl3_3.0.12-1_mipsel_24kc.ipk
+Size: 1371980
+SHA256sum: 321b3a989d18c86ddccabfce6aac8e650c3907c9257bc6ea4d9312b857ab222f
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -664,22 +664,22 @@ Size: 9772
 SHA256sum: 67c267a557da6f7f052d605fe934a9768dd30fe5786ed3250cb88980143a3d92
 Description:  HTTP/1.1 client library
 
-Package: libucode20220812
-Version: 2023-06-06-c7d84aae-1
+Package: libucode20230711
+Version: 2023-10-19-07c03173-1
 Depends: libc, libjson-c5
 Provides: libucode
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: libs
-SourceDateEpoch: 1688036074
-ABIVersion: 20220812
+SourceDateEpoch: 1698500296
+ABIVersion: 20230711
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 66036
-Filename: libucode20220812_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 66779
-SHA256sum: 0733ce733ffa91f38f3ce0572f5731c767866532f0153e12e97ea47608029487
+Installed-Size: 67768
+Filename: libucode20230711_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 68197
+SHA256sum: a24e8a1d81f0e419c0600bd1b23603df8c630d8b885962ef7b9b2373d0f3935e
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: libustream-mbedtls20201210
@@ -737,23 +737,23 @@ SHA256sum: ef5d2d4786b07a890bfdae0e2ecbdc530637d92dea1a6326cd4a210f04d55804
 Description:  OpenWrt system log implementation
 
 Package: netifd
-Version: 2023-09-19-7a58b995-2
+Version: 2023-10-20-5590a80e-2
 Depends: libc, libuci20130104, libnl-tiny1, libubus20230605, ubus, ubusd, jshn, libubox20230523
 Source: package/network/config/netifd
 SourceName: netifd
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1695646969
+SourceDateEpoch: 1697799764
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 81058
-Filename: netifd_2023-09-19-7a58b995-2_mipsel_24kc.ipk
-Size: 81798
-SHA256sum: 1a5afcdac92d226eeb77db1291688bae52da7fe28ec100f542f4b463bb58bca1
+Installed-Size: 81095
+Filename: netifd_2023-10-20-5590a80e-2_mipsel_24kc.ipk
+Size: 81770
+SHA256sum: 9a1ce8a1c4e42992a7195e1ec3c0167011213a8ea35681818a7eaece601c7977
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
-Version: 1.0.8-1
+Version: 1.0.9-1
 Depends: libc, kmod-nft-core, libnftnl11, jansson4
 Provides: nftables
 Source: package/network/utils/nftables
@@ -761,12 +761,12 @@ SourceName: nftables
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1689683839
+SourceDateEpoch: 1697805751
 Architecture: mipsel_24kc
-Installed-Size: 283047
-Filename: nftables-json_1.0.8-1_mipsel_24kc.ipk
-Size: 281464
-SHA256sum: fc8d5ad9540c82db11f9cd7327f728874507eee69d7631942869092a2dd1779d
+Installed-Size: 285457
+Filename: nftables-json_1.0.9-1_mipsel_24kc.ipk
+Size: 283894
+SHA256sum: e089cf905532ef78addd26be68f0a3bb6ab288c2bbc1fd0bc8efa1285ac4f2b0
 Description:  nftables userspace utility with JSON support
 
 Package: odhcp6c
@@ -786,19 +786,19 @@ SHA256sum: ce4099fd97ea10e78085a8bac98641a6152183f3e0526de7eb482cae678d693b
 Description:  Embedded DHCPv6-client for OpenWrt
 
 Package: odhcpd-ipv6only
-Version: 2023-06-24-52112643-1
+Version: 2023-10-24-d8118f6e-1
 Depends: libc, libubox20230523, libuci20130104, libubus20230605, libnl-tiny1
 Source: package/network/services/odhcpd
 SourceName: odhcpd
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1687626554
+SourceDateEpoch: 1698528812
 Maintainer: Hans Dedecker <dedeckeh@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 40205
-Filename: odhcpd-ipv6only_2023-06-24-52112643-1_mipsel_24kc.ipk
-Size: 40881
-SHA256sum: 5645433a9de4ed1f502dc018bcfc8d0495fcd309fd45c29b8eee5d924ee48bd6
+Installed-Size: 40658
+Filename: odhcpd-ipv6only_2023-10-24-d8118f6e-1_mipsel_24kc.ipk
+Size: 41386
+SHA256sum: 075eed2789eadb3730f8ff58e1c7fb911777712fa0d68d0632f8a8380013a34a
 Description:  odhcpd is a daemon for serving and relaying IP management protocols to
  configure clients and downstream routers. It tries to follow the RFC 6204
  requirements for IPv6 home routers.
@@ -808,21 +808,21 @@ Description:  odhcpd is a daemon for serving and relaying IP management protocol
  routed (non-bridged) interfaces in case no delegated prefixes are available.
 
 Package: openssl-util
-Version: 3.0.11-1
+Version: 3.0.12-1
 Depends: libc, libopenssl3, libopenssl-conf
 Source: package/libs/openssl
 SourceName: openssl
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1695552114
+SourceDateEpoch: 1698271218
 CPE-ID: cpe:/a:openssl:openssl
 Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
-Installed-Size: 297925
-Filename: openssl-util_3.0.11-1_mipsel_24kc.ipk
-Size: 296301
-SHA256sum: 6da826c55c0abe7b6061837091d446a95bf52f58934816f3e95842d1050ce6aa
+Installed-Size: 297924
+Filename: openssl-util_3.0.12-1_mipsel_24kc.ipk
+Size: 296266
+SHA256sum: 3a3d86c3da4c1f8ed8ccdcee6e934774aa016f490bffa3537c43e0c45aeec1f8
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -988,7 +988,7 @@ Description:  Provides ubus calls for accessing iwinfo data.
 
 Package: rpcd-mod-ucode
 Version: 2023-07-01-c07ab2f9-1
-Depends: libc, libubus20230605, libubox20230523, rpcd, libucode20220812
+Depends: libc, libubus20230605, libubox20230523, rpcd, libucode20230711
 Source: package/system/rpcd
 SourceName: rpcd
 License: ISC
@@ -996,10 +996,10 @@ Section: utils
 SourceDateEpoch: 1688206447
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 7866
+Installed-Size: 7871
 Filename: rpcd-mod-ucode_2023-07-01-c07ab2f9-1_mipsel_24kc.ipk
-Size: 8628
-SHA256sum: a145b5c899f6b9c7281a70ebf0d4115879e8b269bdf95f905ae7630b3ceeea14
+Size: 8629
+SHA256sum: 8c7ab9da40e6134b7970bfb6a4104c9a756b1c91d1ed39d64eb44ba7e90f1c6c
 Description:  Allows implementing plugins using ucode scripts.
 
 Package: rpcd
@@ -1121,133 +1121,131 @@ SHA256sum: 418e4f5fea3f736b0737b11feadf7f55b6f99edd719ec01ffb2dfa1f6ed6b2b3
 Description:  Tiny wget replacement using libuclient
 
 Package: ucode-mod-fs
-Version: 2023-06-06-c7d84aae-1
+Version: 2023-10-19-07c03173-1
 Depends: libc, ucode
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 8083
-Filename: ucode-mod-fs_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 8736
-SHA256sum: 715be14977c23a983cf7ce8dc445a3d72e006cbea1dc909f6228913143993b98
+Installed-Size: 8097
+Filename: ucode-mod-fs_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 8780
+SHA256sum: b596902be8015fd6900d6a64c64e4f89bde1ae5fcae8ae2653e831cecb99028f
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-math
-Version: 2023-06-06-c7d84aae-1
+Version: 2023-10-19-07c03173-1
 Depends: libc, ucode
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 2579
-Filename: ucode-mod-math_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 3224
-SHA256sum: 430254d94039ab4b53276bc7665a3164d9c3b1f9e1d6ff5ddd72ef6f01e9e292
+Installed-Size: 2578
+Filename: ucode-mod-math_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 3225
+SHA256sum: e6e3069fd99ba23fba862ee07476932ae6a84fdc0ceaa04e97b1e3b9db9493c3
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
-Version: 2023-06-06-c7d84aae-1
+Version: 2023-10-19-07c03173-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 18229
-Filename: ucode-mod-nl80211_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 18788
-SHA256sum: 31038961a7dc962732acb89e8e64732dd1258183a325b0f9a4d5c5c2ffa8b4c5
+Installed-Size: 18231
+Filename: ucode-mod-nl80211_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 18784
+SHA256sum: a9d236d7c57872074c4148627fa20dc590d84c7557d91c1a784b47015ee3044d
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-rtnl
-Version: 2023-06-06-c7d84aae-1
+Version: 2023-10-19-07c03173-1
 Depends: libc, ucode, libnl-tiny1, libubox20230523
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 24275
-Filename: ucode-mod-rtnl_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 24472
-SHA256sum: 2f61dad703ad869ba0ff70353f5c157152ee99bcc9ba4164c6b0ad86486254e8
+Installed-Size: 24290
+Filename: ucode-mod-rtnl_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 24577
+SHA256sum: c4eb13ad6039157b9078f23bd7de9f8bc112e2121aa80ec3f4bac070057b7b31
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-ubus
-Version: 2023-06-06-c7d84aae-1
+Version: 2023-10-19-07c03173-1
 Depends: libc, ucode, libubus20230605, libblobmsg-json20230523
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 12658
-Filename: ucode-mod-ubus_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 13312
-SHA256sum: ec280670a81f83979a9996e1ef216f37a791ba44ec2e57fc10ccef699b403724
-Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus
- procedures.
+Filename: ucode-mod-ubus_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 13308
+SHA256sum: 0a194a68a09fae2e5dafb7ca7e322f84228f9a77795a4d17a65b34b6227a5167
+Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
-Version: 2023-06-06-c7d84aae-1
+Version: 2023-10-19-07c03173-1
 Depends: libc, ucode, libuci20130104
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 5758
-Filename: ucode-mod-uci_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 6504
-SHA256sum: 900d7862e2aa6db7a8bb248435acd99a4acc4b9465fff7bb41cfadf1f2e8fc18
+Installed-Size: 5759
+Filename: ucode-mod-uci_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 6493
+SHA256sum: df24b505a02f6915b05d7602254b55aa2ed957c70fd1090930aa537d173ffa7f
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
-Version: 2023-06-06-c7d84aae-1
+Version: 2023-10-19-07c03173-1
 Depends: libc, ucode, libubox20230523
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 6513
-Filename: ucode-mod-uloop_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 7284
-SHA256sum: 78ce222fd5fa89f9a2229eda034f0291eb3ce0785b15c3fd489fec98db8ac237
-Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event
- loop implementation.
+Installed-Size: 6634
+Filename: ucode-mod-uloop_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 7391
+SHA256sum: 911836f5f3fc43af70fc4be95aa0a31210e309898b458ea778457383dac2bc93
+Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
-Version: 2023-06-06-c7d84aae-1
-Depends: libc, libucode20220812
+Version: 2023-10-19-07c03173-1
+Depends: libc, libucode20230711
 Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1688036074
+SourceDateEpoch: 1698500296
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 5764
-Filename: ucode_2023-06-06-c7d84aae-1_mipsel_24kc.ipk
-Size: 6488
-SHA256sum: 00678c12aec45018dad702bc1cd8cb10963cb6d403b8928c23fd83efbaff24f9
+Installed-Size: 5737
+Filename: ucode_2023-10-19-07c03173-1_mipsel_24kc.ipk
+Size: 6464
+SHA256sum: da9e0ea8808011ead5d5082fb7f85f060c8d43261dd0514ed30cefdcbc1789cc
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
@@ -1278,10 +1276,10 @@ Section: net
 SourceDateEpoch: 1687726135
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 27464
+Installed-Size: 27473
 Filename: uhttpd_2023-06-25-34a8a74d-1_mipsel_24kc.ipk
-Size: 28112
-SHA256sum: dc2d645b9b1e59681678801ccf8d3450a9b75abddaf068180f292218e7dcf372
+Size: 28125
+SHA256sum: ab8c7198b2bd53d1f2fc4cdb5f8bcaa20d0db9a51aa209786f172b7ffdfd332d
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -1293,12 +1291,12 @@ Source: package/system/urandom-seed
 SourceName: urandom-seed
 License: GPL-2.0-only
 Section: base
-SourceDateEpoch: 1649923954
+SourceDateEpoch: 1697811193
 Architecture: mipsel_24kc
-Installed-Size: 827
+Installed-Size: 828
 Filename: urandom-seed_3_mipsel_24kc.ipk
-Size: 1544
-SHA256sum: 1cf4cc003e5479824850fbbe7ab61a662273d0241f50e4b8d3d841ac8a711f49
+Size: 1550
+SHA256sum: 82fc17c44f32d5e97a1822e190e6943e050572fa3b053646a56ca2fef1c9a1a0
 Description:  /etc/urandom.seed handling for OpenWrt
 
 Package: urngd
@@ -1359,7 +1357,7 @@ Description:  Wireless Regulatory Database
 
 Package: wpad-basic-mbedtls
 Version: 2023-09-08-e5ccbfc6-4
-Depends: hostapd-common (=2023-09-08-e5ccbfc6-4), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libmbedtls12
+Depends: hostapd-common (=2023-09-08-e5ccbfc6-4), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libmbedtls12
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1371,15 +1369,15 @@ SourceDateEpoch: 1695979609
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 410627
+Installed-Size: 410628
 Filename: wpad-basic-mbedtls_2023-09-08-e5ccbfc6-4_mipsel_24kc.ipk
-Size: 411076
-SHA256sum: c3f962b161192e9cad8128769ab4e89d662b1763c7349566a81c1307cd17d45b
+Size: 411126
+SHA256sum: 2e18c3508774790e048ce545f505f7ceed37fc65453188a1fe4505f01b3de74d
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-openssl
 Version: 2023-09-08-e5ccbfc6-4
-Depends: hostapd-common (=2023-09-08-e5ccbfc6-4), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20220812, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3, libopenssl-legacy
+Depends: hostapd-common (=2023-09-08-e5ccbfc6-4), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3, libopenssl-legacy
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini
 Provides: hostapd, wpa-supplicant
 Source: package/network/services/hostapd
@@ -1391,28 +1389,28 @@ SourceDateEpoch: 1695979609
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 651746
+Installed-Size: 651749
 Filename: wpad-openssl_2023-09-08-e5ccbfc6-4_mipsel_24kc.ipk
-Size: 651817
-SHA256sum: f4377be6bf01755802d48742fe8acea550a13e01d73f9f83d2d1753a856f65cb
+Size: 651846
+SHA256sum: 2e9e613930923acf7684ef56517b5e07d084c8249db58552b75ef6b70a384ea4
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
 Package: zlib
-Version: 1.2.13-1
+Version: 1.3-1
 Depends: libc
 Source: package/libs/zlib
 SourceName: zlib
 License: Zlib
 LicenseFiles: README
 Section: libs
-SourceDateEpoch: 1684402529
+SourceDateEpoch: 1697533508
 CPE-ID: cpe:/a:gnu:zlib
 Architecture: mipsel_24kc
-Installed-Size: 34658
-Filename: zlib_1.2.13-1_mipsel_24kc.ipk
-Size: 35402
-SHA256sum: dfdf018bf1d0af4341a246ecbec02bf5640997146b64cf3ea15137be8d8cdc7e
+Installed-Size: 34695
+Filename: zlib_1.3-1_mipsel_24kc.ipk
+Size: 35435
+SHA256sum: 3d6b26dc6f4e49cc3b9db4714334dc57bfba4a96b10623712e655335df61b437
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.
 

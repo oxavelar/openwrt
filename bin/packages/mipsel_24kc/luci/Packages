@@ -1,13 +1,13 @@
 Package: liblucihttp-ucode
 Version: 2023-03-15-9b5b683f-1
-Depends: libc, liblucihttp0, libucode20220812
+Depends: libc, liblucihttp0, libucode20230711
 License: ISC
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 3589
+Installed-Size: 3585
 Filename: liblucihttp-ucode_2023-03-15-9b5b683f-1_mipsel_24kc.ipk
-Size: 4234
-SHA256sum: 5382381d6dd534c90d80f1abfe5cc9e167abf0d8064fa6e8e0caf5f9e6e6f1e0
+Size: 4233
+SHA256sum: 9014246349db053e1f6789b469fb7c024b4a51a755e40db4553f1f2cb3e1c34b
 Description:  ucode binding for the LuCI HTTP utility library
 
 Package: liblucihttp0
@@ -18,152 +18,152 @@ License: ISC
 Section: libs
 ABIVersion: 0
 Architecture: mipsel_24kc
-Installed-Size: 6915
+Installed-Size: 6912
 Filename: liblucihttp0_2023-03-15-9b5b683f-1_mipsel_24kc.ipk
-Size: 7522
-SHA256sum: 5966b50d5e313c70bc794d7fdbc2b780c5f20d4cb9d7a7f33c1857bae862b3f4
+Size: 7519
+SHA256sum: a2159a4985511e522543aacdc16c7742345c71434d28d7c1095f4a4186072c7d
 Description:  LuCI HTTP utility library
 
 Package: luci-app-firewall
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-base, uci-firewall
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 17088
-Filename: luci-app-firewall_git-23.285.27593-755edf6_all.ipk
-Size: 17990
-SHA256sum: f7a7e01e714be04c6341e9406caae36262ff67aa214a37a5257b87475b1cde2e
+Installed-Size: 17086
+Filename: luci-app-firewall_git-23.303.84483-ea8c0aa_all.ipk
+Size: 17996
+SHA256sum: 433411199ddc8b716cee17308c7f407776cf00af064ae1e5f9aafc97b9aa9296
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-statistics
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-base, collectd, rrdtool1, collectd-mod-rrdtool, collectd-mod-iwinfo, collectd-mod-cpu, collectd-mod-memory, collectd-mod-interface, collectd-mod-load, collectd-mod-network
 Section: luci
 Architecture: all
-Installed-Size: 32117
-Filename: luci-app-statistics_git-23.285.27593-755edf6_all.ipk
-Size: 33038
-SHA256sum: d67eb5ba6d3c2a7bca45f0ed7048967ef9d6099828c34b1fbdbb7c0ff293fe19
+Installed-Size: 32118
+Filename: luci-app-statistics_git-23.303.84483-ea8c0aa_all.ipk
+Size: 33033
+SHA256sum: 3d15dfce923c9841cff0c6e2cc1b7cf9cd8bfc6a58f6828c60d1ae83d0e2c8b2
 Description:  LuCI Statistics Application
 
 Package: luci-base
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, rpcd, rpcd-mod-file, rpcd-mod-luci, rpcd-mod-ucode, cgi-io, ucode, ucode-mod-fs, ucode-mod-uci, ucode-mod-ubus, ucode-mod-math, ucode-mod-html, liblucihttp-ucode
 License: MIT
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 123573
-Filename: luci-base_git-23.285.27593-755edf6_mipsel_24kc.ipk
-Size: 124524
-SHA256sum: a74241c554675b0d1c01e9f9c0bbff431037d28125e8e51ee89b6e724e2037f6
+Installed-Size: 123571
+Filename: luci-base_git-23.303.84483-ea8c0aa_mipsel_24kc.ipk
+Size: 124513
+SHA256sum: ddd9d5b1bbd8508db209ac5c5f33d95eb2416182c1c435690efd985986add019
 Description:  LuCI core runtime
 
 Package: luci-light
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-proto-ipv6, luci-app-firewall, luci-mod-admin-full, luci-proto-ppp, luci-theme-bootstrap, rpcd-mod-rrdns, uhttpd, uhttpd-mod-ubus
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 96
-Filename: luci-light_git-23.285.27593-755edf6_all.ipk
-Size: 1019
-SHA256sum: a74cc3a1aec91947ec6bcd41e4603b0448e835db19463d42093f178b12dbae82
+Filename: luci-light_git-23.303.84483-ea8c0aa_all.ipk
+Size: 1025
+SHA256sum: 39de94d2c3c4611164a312268626c8d58750a9a9937147dea5be14bd3e658e85
 Description:  Light OpenWrt set including admin support and the default Bootstrap theme
 
 Package: luci-mod-admin-full
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 96
-Filename: luci-mod-admin-full_git-23.285.27593-755edf6_all.ipk
-Size: 965
-SHA256sum: ed6b0db396542a3666040d07c7afa33403a4be762b0471dbbfd7b050b56b89ce
+Filename: luci-mod-admin-full_git-23.303.84483-ea8c0aa_all.ipk
+Size: 963
+SHA256sum: b7e2caf1c71798e6d0b3cf111ecabc66e82bc9143598d2defb210331c28ef03f
 Description:  LuCI Administration - full-featured for full control
 
 Package: luci-mod-network
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-base, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 52989
-Filename: luci-mod-network_git-23.285.27593-755edf6_all.ipk
-Size: 53951
-SHA256sum: 67e9017ba874546e6d179c6c0c69f502a9bc1cff96404bda0132afcd2d4e34fd
+Installed-Size: 53041
+Filename: luci-mod-network_git-23.303.84483-ea8c0aa_all.ipk
+Size: 54018
+SHA256sum: 2031ccdc0079a608247e469092462aa0ce0c7754d633d32cf0bdc59796e27cae
 Description:  LuCI Network Administration
 
 Package: luci-mod-status
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-base, libiwinfo20230701, rpcd-mod-iwinfo
 License: Apache-2.0
 Section: luci
 Architecture: mipsel_24kc
-Installed-Size: 37313
-Filename: luci-mod-status_git-23.285.27593-755edf6_mipsel_24kc.ipk
-Size: 38033
-SHA256sum: 73f0fa5101fe2e0e89a38caaf186cb7a8a049bb4fdd937880a9aa8d8727d430f
+Installed-Size: 37380
+Filename: luci-mod-status_git-23.303.84483-ea8c0aa_mipsel_24kc.ipk
+Size: 38136
+SHA256sum: 8d900846d87ea984e3f2c34d12326de6efc91a46ced1b2dc13decb562aac3562
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-base
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 17621
-Filename: luci-mod-system_git-23.285.27593-755edf6_all.ipk
-Size: 18490
-SHA256sum: 19fbfafd4671cbf498d60bf3788b64ab2f08d4f7d6f5491a9c162a5dc944b76a
+Installed-Size: 17628
+Filename: luci-mod-system_git-23.303.84483-ea8c0aa_all.ipk
+Size: 18500
+SHA256sum: 50b6b9440ceb9f1181223c49da0fa93f8917ebbfb9e2ae0ac2457506bccb64e8
 Description:  LuCI Administration - Global System Settings
 
 Package: luci-proto-ipv6
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2583
-Filename: luci-proto-ipv6_git-23.285.27593-755edf6_all.ipk
-Size: 3464
-SHA256sum: 4fca394a99098c717c1a854d8ede583fa25bb57f2fb1181cbba282f55db544c4
+Installed-Size: 2586
+Filename: luci-proto-ipv6_git-23.303.84483-ea8c0aa_all.ipk
+Size: 3462
+SHA256sum: 3d96bf58ddbea91015c24b2122fb2961e9cc4e8c8c5ac37511dba09fab781668
 Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite
 
 Package: luci-proto-ppp
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2196
-Filename: luci-proto-ppp_git-23.285.27593-755edf6_all.ipk
-Size: 3022
-SHA256sum: cae9ac38b125bf8f05959786b4eba14a3c63173afe83e7a5a48b81a8249ce2c1
+Installed-Size: 2197
+Filename: luci-proto-ppp_git-23.303.84483-ea8c0aa_all.ipk
+Size: 3018
+SHA256sum: 084a09f380603a1b9e596e15740a121c7e15ae6ac8b99d3b2b0eeafc2d531cc8
 Description:  Support for PPP/PPPoE/PPPoA/PPtP
 
 Package: luci-ssl-openssl
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc, luci-light, libustream-openssl20201210, openssl-util
 Section: luci
 Architecture: all
 Installed-Size: 96
-Filename: luci-ssl-openssl_git-23.285.27593-755edf6_all.ipk
+Filename: luci-ssl-openssl_git-23.303.84483-ea8c0aa_all.ipk
 Size: 1045
-SHA256sum: 3bc965ce811a99066b4a6a8e389a008b568840821a071617028d003ceb107f45
+SHA256sum: c96f0c4a3e4dcede83a8cdeb83595805fb3654fc2b3a7e8b9da5b6adee8032ae
 Description:  LuCI with OpenSSL as the SSL backend (libustream-openssl). OpenSSL cmd tools (openssl-util) are used by uhttpd for SSL key generation instead of the default px5g. (If px5g is installed, uhttpd will prefer that.)
 
 Package: luci-theme-bootstrap
-Version: git-23.285.27593-755edf6
+Version: git-23.303.84483-ea8c0aa
 Depends: libc
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 15843
-Filename: luci-theme-bootstrap_git-23.285.27593-755edf6_all.ipk
-Size: 16739
-SHA256sum: 98ae1168091769720d1d14bd1a353e4daacd2deb25f4759445be25fc09388d24
+Filename: luci-theme-bootstrap_git-23.303.84483-ea8c0aa_all.ipk
+Size: 16744
+SHA256sum: 64b845113535ef98512e878c5ffef8886ce6422ecf09ccf12ad381a704b75e7b
 Description:  Bootstrap Theme (default)
 
 Package: rpcd-mod-luci
@@ -172,10 +172,10 @@ Depends: libc, rpcd, libubox20230523, libubus20230605, libnl-tiny1
 License: Apache-2.0
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 12466
+Installed-Size: 12464
 Filename: rpcd-mod-luci_20230123-1_mipsel_24kc.ipk
-Size: 13125
-SHA256sum: b58fa4c3d25b78ef95836a15c12219971e72747c9f40280f8dbc61c255c1b361
+Size: 13123
+SHA256sum: 51da10f4829f0b7c7dcc1f8192f1c3c062a6a15b8afab0f8cd5ea0987fa4405e
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
@@ -184,21 +184,21 @@ Depends: libc, rpcd, libubox20230523, libubus20230605
 License: Apache-2.0
 Section: libs
 Architecture: mipsel_24kc
-Installed-Size: 3696
+Installed-Size: 3693
 Filename: rpcd-mod-rrdns_20170710_mipsel_24kc.ipk
-Size: 4376
-SHA256sum: 159e2e8fcb082d70b45174ade040e7ce9a8be249958d8ba3ba89ad7cff4c6c69
+Size: 4371
+SHA256sum: ab630ecc9222f035d66e1fbfb018aa04c6a5e49a4efd6c65ae5f10e6e678f945
 Description:  Provides rapid mass reverse DNS lookup functionality.
 
 Package: ucode-mod-html
 Version: 1
-Depends: libc, libucode20220812
+Depends: libc, libucode20230711
 License: ISC
 Section: utils
 Architecture: mipsel_24kc
-Installed-Size: 24784
+Installed-Size: 24782
 Filename: ucode-mod-html_1_mipsel_24kc.ipk
-Size: 23132
-SHA256sum: 2a1546d55668214b03e069083569c7048158c6b42c31509b856a3618eea7117b
+Size: 23131
+SHA256sum: 3ec0bf336c43c9f672998ecb1152073d994196b9cee0ff69de668317e0b33d93
 Description:  ucode HTML utility library
 
