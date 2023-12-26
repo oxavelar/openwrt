@@ -69,8 +69,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214627
-SHA256sum: 2bb61ce02a95af9eb125535749ee7c805671e1283a1ed3268f9dac4f456d31fa
+Size: 214626
+SHA256sum: 0cdb3f40a25c55dadf81f0361e15f975846d09f094f6dc5714dbf4dfad51eac6
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -113,13 +113,13 @@ License: GPL-2.0
 LicenseFiles: COPYING
 Section: net
 Require-User: dnsmasq=453:dnsmasq=453
-SourceDateEpoch: 1701025115
+SourceDateEpoch: 1702740501
 CPE-ID: cpe:/a:thekelleys:dnsmasq
 Architecture: mipsel_24kc
-Installed-Size: 133258
+Installed-Size: 133263
 Filename: dnsmasq_2.89-7_mipsel_24kc.ipk
-Size: 133537
-SHA256sum: 68c828e62ca874d18a51de01cdac93570f3c7775ae979702eaac4176f022b7c2
+Size: 133588
+SHA256sum: 85d099fa85a04aabfbed0353f0cac2fdb67ec84bc519d116159e59874af4251d
 Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
 
 Package: firewall4
@@ -584,8 +584,8 @@ Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 1384688
 Filename: libopenssl3_3.0.12-1_mipsel_24kc.ipk
-Size: 1371991
-SHA256sum: e92a5dcd2f9ac759a957f7b343d52db7f3765f86826e82442f533859062e5fcf
+Size: 1371970
+SHA256sum: 0f1f246f3dc0e284ce3afdabbdd6f0e96bf18fb6ec295ad694e360edf912d819
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
@@ -672,14 +672,14 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: libs
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 ABIVersion: 20230711
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 67933
+Installed-Size: 67932
 Filename: libucode20230711_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 68434
-SHA256sum: 688b0a1cf78e3144b896a90f72075ae17909a0aeb861f9c1d55c2492964469f8
+Size: 68425
+SHA256sum: 708063e758f9d1c3812f664fc8f2394b3b7eaf84f3d412c2ca06e6133a409924
 Description:  The libucode package provides the shared runtime library for the ucode interpreter.
 
 Package: libudebug
@@ -753,19 +753,19 @@ SHA256sum: 85451a819cd27840266e7e810a525d649fc4554a950e708dce20ef152e2b2985
 Description:  OpenWrt system log implementation
 
 Package: netifd
-Version: 2023-12-05-cc9e928f-1
+Version: 2023-12-19-a2d32f0d-1
 Depends: libc, libuci20130104, libnl-tiny1, libubus20231128, ubus, ubusd, jshn, libubox202312041, libudebug
 Source: package/network/config/netifd
 SourceName: netifd
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1701778050
+SourceDateEpoch: 1703021722
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 85925
-Filename: netifd_2023-12-05-cc9e928f-1_mipsel_24kc.ipk
-Size: 86416
-SHA256sum: 606f3e47fe449e530735544e06e7928133e4dea732247eeb9df89d423c5f20d3
+Installed-Size: 85953
+Filename: netifd_2023-12-19-a2d32f0d-1_mipsel_24kc.ipk
+Size: 86360
+SHA256sum: 6fe198e6da9e5e906b987b862e6016c1b8c545e01716aebb69719f6f7039f9f4
 Description:  OpenWrt Network Interface Configuration Daemon
 
 Package: nftables-json
@@ -1143,13 +1143,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 8095
+Installed-Size: 8099
 Filename: ucode-mod-fs_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 8801
-SHA256sum: f47909d213aa7fbd4c184fe08852b60dae4a196d92544b8db25c3a1886d779ec
+Size: 8779
+SHA256sum: ac5deed9b4812f6b69b60d37d1494eecf237ed72ca012d4207a5087c6ab9e5fb
 Description:  The filesystem plugin module allows interaction with the local file system.
 
 Package: ucode-mod-math
@@ -1159,13 +1159,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 2577
+Installed-Size: 2578
 Filename: ucode-mod-math_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 3221
-SHA256sum: 90beac30e3df2def5bb8504e46f2cb4a3ba19766ba406e54123f53f7d6dc48ae
+Size: 3223
+SHA256sum: 947e44bf48825559d97c350d7b413c6c2f5ce4c54e3a39d3b06ea14103211e08
 Description:  The math plugin provides access to various <math.h> procedures.
 
 Package: ucode-mod-nl80211
@@ -1175,13 +1175,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 18272
+Installed-Size: 18273
 Filename: ucode-mod-nl80211_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 18900
-SHA256sum: 3c8595c59402fb3de8620131f70def3bf7ec14ace90512cf330900e253bc71c4
+Size: 18892
+SHA256sum: 2b40bbc47c83baa4d48cf05b457b36d1664de4000d5c36cbad2bd3524487066c
 Description:  The nl80211 plugin provides access to the Linux wireless 802.11 netlink API.
 
 Package: ucode-mod-rtnl
@@ -1191,13 +1191,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 24294
+Installed-Size: 24293
 Filename: ucode-mod-rtnl_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 24583
-SHA256sum: e281b502ceeed76fef69d8c36a8168b73e7e9aeae4d667e0e5f6ee7d7225b4f8
+Size: 24596
+SHA256sum: fee5b8b54b4a78295c5f2efc5921989e59c82017016427c8bcb1268448a68e2c
 Description:  The rtnl plugin provides access to the Linux routing netlink API.
 
 Package: ucode-mod-ubus
@@ -1207,13 +1207,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 12703
+Installed-Size: 12704
 Filename: ucode-mod-ubus_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 13356
-SHA256sum: ea6816dc86acb8590b7452e7d58f306dfd20da71b291eb89b6d1c3cd15c99142
+Size: 13360
+SHA256sum: 7b455d169ff0acb27181fac6c54279bfacb1373cbd6bb3645035796b23437643
 Description:  The ubus module allows ucode template scripts to enumerate and invoke ubus procedures.
 
 Package: ucode-mod-uci
@@ -1223,13 +1223,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 5774
+Installed-Size: 5770
 Filename: ucode-mod-uci_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 6502
-SHA256sum: b636352b01096c1fd54ea6ef16305f887953eabb929f23c2685caa32d8b66cd9
+Size: 6512
+SHA256sum: 24fea738d6884d0ccf1f63d660fd389d8f0c9b57728419a472cb144c71136c1e
 Description:  The uci module allows templates to read and modify uci configuration.
 
 Package: ucode-mod-uloop
@@ -1239,13 +1239,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
-Installed-Size: 7422
+Installed-Size: 7424
 Filename: ucode-mod-uloop_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 8140
-SHA256sum: 9de444b1f1d478a6d5944ddc4af0c74f4b9f82573ea4fc2ef35e2feef9bd3741
+Size: 8141
+SHA256sum: bddef4884c0a5ba79be87df877388ba9b60c1e85c82e8e4158f5703eacd7a044
 Description:  The uloop module allows ucode scripts to interact with OpenWrt uloop event loop implementation.
 
 Package: ucode
@@ -1255,13 +1255,13 @@ Source: package/utils/ucode
 SourceName: ucode
 License: ISC
 Section: lang
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1701990491
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 5738
 Filename: ucode_2023-11-30-6e89b89e-1_mipsel_24kc.ipk
-Size: 6452
-SHA256sum: 947442eac23f7d9df9a1a24ba3b539eb38182c8eb5fe2b32978a666e89d841bd
+Size: 6456
+SHA256sum: 6f53464989c13ccc818a9264920c8bdeee85bfd787e122355234ccef9ebacc42
 Description:  ucode is a tiny script interpreter featuring an ECMAScript oriented
  script language and Jinja-inspired templating.
 
