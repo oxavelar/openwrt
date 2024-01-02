@@ -49,10 +49,10 @@ Section: base
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
 Architecture: mipsel_24kc
-Installed-Size: 213867
+Installed-Size: 213865
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214626
-SHA256sum: 0cdb3f40a25c55dadf81f0361e15f975846d09f094f6dc5714dbf4dfad51eac6
+Size: 214629
+SHA256sum: 5d2632592fb0a218ac67323dabe075b5fd02fe5320ffa859e5f54ee1b83472fd
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -106,6 +106,20 @@ Size: 30080
 SHA256sum: b22201bf7ce30f0e754fa5dd38928b1238578b8923723de4f32f4c9a0058ffd9
 Description:  This package provides an nftables-based implementation of the UCI firewall
  sharing the same configuration format.
+
+Package: firewall
+Version: 2022-02-17-4cd7d4f3-3
+Depends: libc, libubox202312041, libubus20231128, libuci20130104, libip4tc2, libip6tc2, libiptext0, libiptext6-0, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+Conflicts: firewall4
+Provides: uci-firewall
+License: ISC
+Section: net
+Architecture: mipsel_24kc
+Installed-Size: 41724
+Filename: firewall_2022-02-17-4cd7d4f3-3_mipsel_24kc.ipk
+Size: 42365
+SHA256sum: fc8c8b7b92b3898a1f038499759fbad58c26df9b5cfcc894d263fa0618cbdea4
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: getrandom
 Version: 2023-11-30-c08709cc-1
@@ -451,10 +465,10 @@ Section: libs
 ABIVersion: 3
 CPE-ID: cpe:/a:openssl:openssl
 Architecture: mipsel_24kc
-Installed-Size: 1384688
+Installed-Size: 1384691
 Filename: libopenssl3_3.0.12-1_mipsel_24kc.ipk
-Size: 1371970
-SHA256sum: 0f1f246f3dc0e284ce3afdabbdd6f0e96bf18fb6ec295ad694e360edf912d819
+Size: 1371958
+SHA256sum: 1e8c275247c2389b17a4ba8b41ea108b42097bf363df81b57352111df1d42c02
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the
  Transport Layer Security (TLS) protocol as well as a full-strength
