@@ -52,7 +52,7 @@ Architecture: mipsel_24kc
 Installed-Size: 213867
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
 Size: 214626
-SHA256sum: 2b2b929460535b8a1f9fcd5704226facb6f343ded8d0a1926c0d65b8fee49223
+SHA256sum: fab27724cd63f54bba28733cb57f75793710259fb5c8a1e5e24d2526886944c5
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 

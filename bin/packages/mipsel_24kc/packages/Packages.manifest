@@ -186,10 +186,10 @@ Section: net
 SourceDateEpoch: 1704685777
 Maintainer: Nick Hainke <vincent@systemli.org>
 Architecture: mipsel_24kc
-Installed-Size: 36742
+Installed-Size: 36743
 Filename: dawn_2023-05-14-e036905a-1_mipsel_24kc.ipk
-Size: 37346
-SHA256sum: fd57dc9f3e4aceeca2677f61f355b80b03d8ac8e344f79b534534449ffe52023
+Size: 37347
+SHA256sum: 206ed6c806a5e949ac9f0b5f186d230ef2b737295f2af46abf098b5b8cefc035
 Description:  This package implements a decentralized wireless daemon.
 
 Package: htop
