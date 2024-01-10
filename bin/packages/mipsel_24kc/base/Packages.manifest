@@ -70,8 +70,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 409600
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214639
-SHA256sum: 18186d345506138b894aaa09737c33e6397fc278402dd39087f78917d5bc7955
+Size: 214643
+SHA256sum: a7ed43df23e7daffecdab89d04fc72ac4ff13d4820dc711f43fc8d7115f1369c
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -165,14 +165,14 @@ Source: package/network/services/hostapd
 SourceName: hostapd
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1704794784
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: hostapd-common_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 16996
-SHA256sum: 5de240db56ff1e2c3a143bec741ed17c01d81e085e5865b019aab6cb17d60e6e
+Size: 17002
+SHA256sum: fa57e30cbe4479a9638de9a9058099545c1be1f8111659691e73a024fc54f61d
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
@@ -182,15 +182,15 @@ Source: package/network/services/hostapd
 SourceName: hostapd
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1704794784
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 40960
 Filename: hostapd-utils_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 15833
-SHA256sum: 2ec00378c49f2722a223cdd4bc6187fc33f8fcaf3222b678e65754a582eb288c
+Size: 15831
+SHA256sum: cfa011b11b6a3fe11153ee39fc403adee1194a2414aaefa3bd980851785c1ff8
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
@@ -255,13 +255,13 @@ Source: package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: utils
-SourceDateEpoch: 1701697204
+SourceDateEpoch: 1704794784
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: jshn_2023-12-04.1-ca3f6d0c-1_mipsel_24kc.ipk
-Size: 6649
-SHA256sum: 3077ff7856028041c6c46b29ec9783b213682b087eeea6223afd0d8519001a33
+Size: 6640
+SHA256sum: 1b7c049fe9910dd33e37aeea04f82ed91e5caad24a0eab0498724b40c4e0d470
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
@@ -289,14 +289,14 @@ Source: package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: libs
-SourceDateEpoch: 1701697204
+SourceDateEpoch: 1704794784
 ABIVersion: 202312041
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libblobmsg-json202312041_2023-12-04.1-ca3f6d0c-1_mipsel_24kc.ipk
-Size: 4517
-SHA256sum: b6cf3f519a8ba4368bf031e1a2acad631bb8148615e3100a5922ac7a82fe5c61
+Size: 4508
+SHA256sum: 4ea3d83d9b9d2647346110848276306619a38517415e141180163c496ded1a33
 Description:  blobmsg <-> json conversion library
 
 Package: libiwinfo-data
@@ -363,14 +363,14 @@ Source: package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: utils
-SourceDateEpoch: 1701697204
+SourceDateEpoch: 1704794784
 ABIVersion: 202312041
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libjson-script202312041_2023-12-04.1-ca3f6d0c-1_mipsel_24kc.ipk
-Size: 5243
-SHA256sum: 9ff890e7e66d4c87f05d5d1d9323c7c3a6740213664ddce5b6951ef83ba5a0b7
+Size: 5249
+SHA256sum: 48ef515c620ce69ec9f6fff64fa45ee7fccbb0c8330bc04ccbb1840dd0ab8595
 Description:  Minimalistic JSON based scripting engine
 
 Package: libltdl7
@@ -523,14 +523,14 @@ Source: package/libs/libubox
 SourceName: libubox
 License: ISC
 Section: libs
-SourceDateEpoch: 1701697204
+SourceDateEpoch: 1704794784
 ABIVersion: 202312041
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: libubox202312041_2023-12-04.1-ca3f6d0c-1_mipsel_24kc.ipk
-Size: 25791
-SHA256sum: 58f78bea7e6924ac101423c0e788a7c47ad764e71ec2a503ffa3cfd9d397cd94
+Size: 25796
+SHA256sum: d0004c5978ff7f797e128b9a09c6715ae128a90324270c613abbbc9211f4ecd5
 Description:  Basic utility library
 
 Package: libubus20231128
@@ -1307,15 +1307,15 @@ SourceName: hostapd
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1704794784
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 768000
 Filename: wpad-basic-mbedtls_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 412093
-SHA256sum: cdc18012944420b58ef719c771ccfb646308df0ef25a8eabebe12d6bde3cd6d2
+Size: 412216
+SHA256sum: 34cd1eb818f0ee40568e8f2a75f4f0bee32f49579b505eb7c436cfa141e1a46b
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-mbedtls
@@ -1328,15 +1328,15 @@ SourceName: hostapd
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1701371336
+SourceDateEpoch: 1704794784
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 1239040
 Filename: wpad-mbedtls_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 651846
-SHA256sum: fbb8e7fc98a924ac0dfa70663ac2d78cb244d845b5d1febd9806454165ec9e5f
+Size: 651974
+SHA256sum: 387b724659c55522640ae5453b471d1ebd4de42ab0a43afa0a1e88b18f54f65a
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
