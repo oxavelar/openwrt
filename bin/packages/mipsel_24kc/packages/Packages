@@ -151,7 +151,7 @@ Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: dawn_2023-05-14-e036905a-1_mipsel_24kc.ipk
 Size: 37399
-SHA256sum: 5e9781f5c3036441485440445355cca9af61a4640295af5f44fb0134d3488136
+SHA256sum: 4f11f4dae4da232830dad6320cfe284b5e7fec31f44173c0cbc805db5ca4f6fe
 Description:  This package implements a decentralized wireless daemon.
 
 Package: htop

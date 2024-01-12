@@ -1,14 +1,14 @@
 Package: base-files
-Version: 1558-r24968-d95e33cca2
+Version: 1558-r24978-486640c014
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 License: GPL-2.0
 Section: base
 URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 317440
-Filename: base-files_1558-r24968-d95e33cca2_mipsel_24kc.ipk
-Size: 61218
-SHA256sum: 29bedcdac6443e19840012e470a9e5f371f044704e01a7e56d2bcd070982258a
+Filename: base-files_1558-r24978-486640c014_mipsel_24kc.ipk
+Size: 61214
+SHA256sum: 47354d658eeb95e2a27d277897e69f462f615587b3a9451e24be3c3541513e68
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: dropbear
@@ -58,8 +58,8 @@ URL: https://wireless.wiki.kernel.org/
 Architecture: mipsel_24kc
 Installed-Size: 409600
 Filename: kmod-cfg80211_5.15.146+6.5-2_mipsel_24kc.ipk
-Size: 153508
-SHA256sum: ab919ee976649dafd862d00befe72684c852da34789e3f88b0f28abb3c81b79a
+Size: 153428
+SHA256sum: 8905e49de0c032cfc5df71ae1529cadea6edd7de226f7c0d0091f806589d79ae
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aead
@@ -415,8 +415,8 @@ URL: https://wireless.wiki.kernel.org/
 Architecture: mipsel_24kc
 Installed-Size: 768000
 Filename: kmod-mac80211_5.15.146+6.5-2_mipsel_24kc.ipk
-Size: 312674
-SHA256sum: ff0ad8005f206064e29976fd6aa8ff8b3113d19b449439cdaa09d942f80dc04f
+Size: 312667
+SHA256sum: 2d57a7e9f1edafbf0d6255bf8301710eeda1967730022942534a38981f42071f
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mt76-connac

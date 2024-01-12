@@ -70,8 +70,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 409600
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214643
-SHA256sum: a7ed43df23e7daffecdab89d04fc72ac4ff13d4820dc711f43fc8d7115f1369c
+Size: 214642
+SHA256sum: 3b465abece45e5fe834b0559f2a8fd584c90257eaf028feff9995640922631cc
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -165,14 +165,14 @@ Source: package/network/services/hostapd
 SourceName: hostapd
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1704794784
+SourceDateEpoch: 1704966043
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: hostapd-common_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 17002
-SHA256sum: fa57e30cbe4479a9638de9a9058099545c1be1f8111659691e73a024fc54f61d
+Size: 16993
+SHA256sum: 03835a497d814a98af6e622009cc06879b212ddc66f5900a162971aee41a0022
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
@@ -182,15 +182,15 @@ Source: package/network/services/hostapd
 SourceName: hostapd
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1704794784
+SourceDateEpoch: 1704966043
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 40960
 Filename: hostapd-utils_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 15831
-SHA256sum: cfa011b11b6a3fe11153ee39fc403adee1194a2414aaefa3bd980851785c1ff8
+Size: 15832
+SHA256sum: b0070802493150490004245d0135f030ffb6459711953130e308796b0f32f85a
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
@@ -1174,36 +1174,36 @@ Description:  ucode is a tiny script interpreter featuring an ECMAScript oriente
  script language and Jinja-inspired templating.
 
 Package: uhttpd-mod-ubus
-Version: 2023-06-25-34a8a74d-1
+Version: 2023-06-25-34a8a74d-2
 Depends: libc, uhttpd, libubus20231128, libblobmsg-json202312041
 Source: package/network/services/uhttpd
 SourceName: uhttpd
 License: ISC
 Section: net
-SourceDateEpoch: 1687726135
+SourceDateEpoch: 1704902816
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: uhttpd-mod-ubus_2023-06-25-34a8a74d-1_mipsel_24kc.ipk
-Size: 8593
-SHA256sum: c1300b82cdc3045b4683110b6e2fc706318fe952411663523cf63b453527ceaf
+Filename: uhttpd-mod-ubus_2023-06-25-34a8a74d-2_mipsel_24kc.ipk
+Size: 8610
+SHA256sum: a870eeaa0660409ea8ec6c9272f8a32ab608f03f05bb888f1163ba9e1a3dea97
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
 Package: uhttpd
-Version: 2023-06-25-34a8a74d-1
+Version: 2023-06-25-34a8a74d-2
 Depends: libc, libubox202312041, libblobmsg-json202312041, libjson-script202312041, libjson-c5
 Source: package/network/services/uhttpd
 SourceName: uhttpd
 License: ISC
 Section: net
-SourceDateEpoch: 1687726135
+SourceDateEpoch: 1704902816
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 92160
-Filename: uhttpd_2023-06-25-34a8a74d-1_mipsel_24kc.ipk
-Size: 27037
-SHA256sum: a2e2e2cbeef4b465e5c596d8094695ad3101ccb7e700be2a97d3677f3cdc8baf
+Filename: uhttpd_2023-06-25-34a8a74d-2_mipsel_24kc.ipk
+Size: 27025
+SHA256sum: a6ab33bcc1d34cd7c0eeb02aa7c5f968eccf43d9521fd8f6f382234c2fa842e6
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
@@ -1307,15 +1307,15 @@ SourceName: hostapd
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1704794784
+SourceDateEpoch: 1704966043
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 768000
 Filename: wpad-basic-mbedtls_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 412216
-SHA256sum: 34cd1eb818f0ee40568e8f2a75f4f0bee32f49579b505eb7c436cfa141e1a46b
+Size: 412674
+SHA256sum: 77d4c71e8e652ecb3efb789b4021a85fd157849cc9c10a7ba3d8de1f9fc621da
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-mbedtls
@@ -1328,15 +1328,15 @@ SourceName: hostapd
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1704794784
+SourceDateEpoch: 1704966043
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
-Installed-Size: 1239040
+Installed-Size: 1249280
 Filename: wpad-mbedtls_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 651974
-SHA256sum: 387b724659c55522640ae5453b471d1ebd4de42ab0a43afa0a1e88b18f54f65a
+Size: 652461
+SHA256sum: fa43ffae61b965046b60b4ff67ec3495d149147878fae53b8a2a905d0ff7e1ca
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
