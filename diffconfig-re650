@@ -2,7 +2,7 @@
 #
 # make -j distclean && ./scripts/feeds update -a && ./scripts/feeds install -a
 # git checkout target/linux && cat konfig-extras-re650 >> target/linux/generic/config-5.15
-# cp diffconfig-re650 .config && time make -j $(nproc) V=s defconfig download clean world
+# cp diffconfig-re650 .config && time make -j $(nproc) defconfig download clean world
 #
 
 CONFIG_TARGET_ramips=y
@@ -30,14 +30,14 @@ CONFIG_TARGET_SQUASHFS_BLOCK_SIZE=256
 CONFIG_TARGET_INITRAMFS_COMPRESSION_ZSTD=y
 
 # Target optimizations
-CONFIG_KERNEL_CFLAGS="-Oz -fomit-frame-pointer -fno-delayed-branch -mno-mips16"
-CONFIG_TARGET_OPTIMIZATION="-Oz -fomit-frame-pointer -fno-delayed-branch -mno-mips16"
-CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Oz -fomit-frame-pointer -fno-delayed-branch -mno-mips16"
+CONFIG_KERNEL_CFLAGS="-Oz -fomit-frame-pointer -mno-mips16"
+CONFIG_TARGET_OPTIMIZATION="-Oz -fomit-frame-pointer -mno-mips16"
+CONFIG_DEFAULT_TARGET_OPTIMIZATION="-Oz -fomit-frame-pointer -mno-mips16"
 
 # Trim down packages
 CONFIG_PKG_FORTIFY_SOURCE_NONE=y
 CONFIG_PKG_CC_STACKPROTECTOR_NONE=y
-CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Oz -fomit-frame-pointer -fno-delayed-branch -mno-mips16"
+CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Oz -fomit-frame-pointer -mno-mips16"
 
 # Strip down for AP
 CONFIG_PACKAGE_opkg=n

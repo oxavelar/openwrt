@@ -1,7 +1,7 @@
 6in4 - 28
 6rd - 13
 6to4 - 13
-base-files - 1558-r24978-486640c014
+base-files - 1558-r24979-a475c06dba
 busybox - 1.36.1-1
 ca-bundle - 20230311-1
 ca-certificates - 20230311-1
@@ -31,7 +31,7 @@ iwinfo - 2023-07-01-ca79f641-1
 jansson4 - 2.14-3
 jshn - 2023-12-04.1-ca3f6d0c-1
 jsonfilter - 2018-02-04-c7e938d6-1
-kernel - 5.15.146-1-a58d9aa993c2ada13280b98b8771120c
+kernel - 5.15.146-1-5a675d443aad3b0b4fc8c21c624343d8
 kmod-crypto-aead - 5.15.146-1
 kmod-crypto-authenc - 5.15.146-1
 kmod-crypto-crc32c - 5.15.146-1
