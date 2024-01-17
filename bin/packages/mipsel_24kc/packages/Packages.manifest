@@ -199,27 +199,27 @@ Maintainer: Nick Hainke <vincent@systemli.org>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: dawn_2023-05-14-e036905a-1_mipsel_24kc.ipk
-Size: 38306
-SHA256sum: 63848274038aff3f38b135037d584f236ccc2f5bbea40790f0b48dd8865f3558
+Size: 38310
+SHA256sum: 1dcc53035be387709780fc4bb3ec189c9eaa80c2ee1d5f590239e2cd04d274a6
 Description:  This package implements a decentralized wireless daemon.
 
 Package: htop
-Version: 3.2.2-1
+Version: 3.3.0-1
 Depends: libc, libncurses6
 Source: feeds/packages/admin/htop
 SourceName: htop
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: admin
-SourceDateEpoch: 1704887445
+SourceDateEpoch: 1705331608
 URL: https://hisham.hm/htop/
 CPE-ID: cpe:/a:htop:htop
 Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
 Architecture: mipsel_24kc
 Installed-Size: 204800
-Filename: htop_3.2.2-1_mipsel_24kc.ipk
-Size: 87624
-SHA256sum: 3c2b77095b081fb6209982cd81390f3ecd868df5b0f15f206cee97571c4b3c02
+Filename: htop_3.3.0-1_mipsel_24kc.ipk
+Size: 93803
+SHA256sum: d9b14721289b6ac0100ae89033343ca7a2797ba95bfe3e426a8f2a4ae2fe5dd4
 Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.

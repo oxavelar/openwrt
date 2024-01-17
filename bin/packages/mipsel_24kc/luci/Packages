@@ -33,8 +33,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 92160
 Filename: luci-app-firewall_git-24.009.38584-9b56e2d_all.ipk
-Size: 18084
-SHA256sum: e854133aa3a1f7c6611cca723d51294e77d393bad46801190439c389a4e78425
+Size: 18073
+SHA256sum: 316f630895ef333297e7dd5842c03266a1a8c78f727600a6afd9f2ae62ab21eb
 Description:  Firewall and Portforwarding application
 
 Package: luci-app-statistics
@@ -45,8 +45,8 @@ URL: https://github.com/openwrt/luci
 Architecture: all
 Installed-Size: 245760
 Filename: luci-app-statistics_git-24.009.38584-9b56e2d_all.ipk
-Size: 34858
-SHA256sum: 949edb6ed5625b3420580c13640dabede02b05bdaf07d1db64296184b3e928f3
+Size: 34854
+SHA256sum: a229e9f058252e315608fd88ad414124e18493b34b31c09f1bcd86633fce3f03
 Description:  LuCI Statistics Application
 
 Package: luci-base
@@ -58,8 +58,8 @@ URL: https://github.com/openwrt/luci
 Architecture: mipsel_24kc
 Installed-Size: 552960
 Filename: luci-base_git-24.009.38584-9b56e2d_mipsel_24kc.ipk
-Size: 124785
-SHA256sum: 24d607e0dc3cfcf564ca1268cf486251238c810d02e5d9566fd9eecc1e6e2aaf
+Size: 124780
+SHA256sum: e6b5522050fe6a8258ac4a7fa50c9bebc98bef14266cded6a027858fa1f0cd74
 Description:  LuCI core runtime
 
 Package: luci-light

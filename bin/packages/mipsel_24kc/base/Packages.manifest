@@ -70,8 +70,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 481280
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 221191
-SHA256sum: c0e3fbb002034c7a60e0139a8a2df90ca9e3d9bfb92166cf536bfc366239a80d
+Size: 221193
+SHA256sum: d053428989ddbf0d30d0443422982958e3c9177307ce72dc4c16f6eaceb906f3
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
