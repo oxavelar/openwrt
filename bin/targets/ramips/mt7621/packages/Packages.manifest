@@ -1,5 +1,5 @@
 Package: base-files
-Version: 1560-r25036-e4a3ea674f
+Version: 1560-r25037-f029de5a04
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 Source: package/base-files
 SourceName: base-files
@@ -9,9 +9,9 @@ SourceDateEpoch: 1705340469
 URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 317440
-Filename: base-files_1560-r25036-e4a3ea674f_mipsel_24kc.ipk
+Filename: base-files_1560-r25037-f029de5a04_mipsel_24kc.ipk
 Size: 61390
-SHA256sum: af858bf86a8887a9ee821b78e08683bd5de07836200b3f830343e984e139f8c7
+SHA256sum: ad3912f5ba14c0b32a5d0c603168ece436ffe01a3b42d0a8d37e3ee89a99ead6
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: dropbear
@@ -29,8 +29,8 @@ CPE-ID: cpe:/a:matt_johnston:dropbear_ssh_server
 Architecture: mipsel_24kc
 Installed-Size: 286720
 Filename: dropbear_2022.82-5_mipsel_24kc.ipk
-Size: 115239
-SHA256sum: 2ea1b6322a417a3c84296e87ecba988a9c4366fc848bc0f249cce9101af0289d
+Size: 112514
+SHA256sum: 0d0a7ae7b0c3b4f8a56713109a99ce25004b92ddcb2c86497a58fc034db8de47
 Description:  A small SSH2 server/client designed for small memory environments.
 
 Package: fstools
@@ -45,8 +45,8 @@ Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 204800
 Filename: fstools_2024-01-15-325d63d6-1_mipsel_24kc.ipk
-Size: 20381
-SHA256sum: 395774526da0861441b76f5fa723c79265ceea49fdf91ac9293b144e4ca628f6
+Size: 20048
+SHA256sum: b48da4a60f29e0f2d1b15bbfcd73d9ad6a01299c43bc01c0a619d9bf4cd7cb9f
 Description:  OpenWrt filesystem tools
 
 Package: fwtool
@@ -61,9 +61,32 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: fwtool_2019-11-12-8f7fe925-1_mipsel_24kc.ipk
-Size: 4309
-SHA256sum: a6447001d0d008b89bd9279acfdc849d5ef06f5e937a6a881af94ea49f2d3e50
+Size: 4209
+SHA256sum: 8cf6a75188631a3a6e4318809d763831d2688f848f4a51386cdc01fb311a6593
 Description:  Utility for appending and extracting firmware metadata and signatures
+
+Package: kmod-batman-adv
+Version: 5.15.146+2023.3-3
+Depends: kernel (=5.15.146-1-5a675d443aad3b0b4fc8c21c624343d8), kmod-lib-crc16, kmod-lib-crc32c, kmod-cfg80211, batctl
+Source: feeds/routing/batman-adv
+SourceName: batman-adv
+License: GPL-2.0-only MIT
+LicenseFiles: LICENSES/preferred/GPL-2.0 LICENSES/preferred/MIT
+Section: kernel
+SourceDateEpoch: 1703351157
+URL: https://www.open-mesh.org/
+Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
+Architecture: mipsel_24kc
+Installed-Size: 204800
+Filename: kmod-batman-adv_5.15.146+2023.3-3_mipsel_24kc.ipk
+Size: 78636
+SHA256sum: 2b843d1e253c39105cd1f64c00b8cc6c4e549db5690f1565832b2661607dd187
+Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
+ a routing protocol for multi-hop ad-hoc mesh networks. The
+ networks may be wired or wireless. See
+ https://www.open-mesh.org/ for more information and user space
+ tools. This package builds version 2023.3 of the kernel
+ module.
 
 Package: kmod-cfg80211
 Version: 5.15.146+6.5-2
@@ -494,6 +517,21 @@ Filename: kmod-lib-crc-ccitt_5.15.146-1_mipsel_24kc.ipk
 Size: 2777
 SHA256sum: 16bf0afb5b6482e26229e4823a1712c8520e500a55d78e55cd1ecd85e7e6fea8
 Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-crc16
+Version: 5.15.146-1
+Depends: kernel (=5.15.146-1-5a675d443aad3b0b4fc8c21c624343d8)
+Source: package/kernel/linux
+SourceName: kernel
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1705334396
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: kmod-lib-crc16_5.15.146-1_mipsel_24kc.ipk
+Size: 952
+SHA256sum: 2932bee2d36f3336e42df6430df812a0db28f5864f4a8874c7146234820f649b
+Description:  Kernel module for CRC16 support
 
 Package: kmod-lib-crc32c
 Version: 5.15.146-1
@@ -936,6 +974,25 @@ Size: 898
 SHA256sum: f34f4216ed21f4ecab0a4ba51f9bd76f1c457e2a4d72d418a7f113da9a98fe67
 Description:  POSIX thread library
 
+Package: librt
+Version: 1.2.4-4
+Depends: libpthread
+Source: package/libs/toolchain
+SourceName: toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+SourceDateEpoch: 1697820955
+URL: http://www.musl-libc.org/
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mipsel_24kc
+Installed-Size: 10240
+Filename: librt_1.2.4-4_mipsel_24kc.ipk
+Size: 912
+SHA256sum: 86c0c3979ffb61e4ad8df07cda7e872df0ce19ace8622b435f27bac8bf596747
+Description:  POSIX.1b RealTime extension library
+
 Package: mtd
 Version: 26
 Depends: libc, libubox202312041
@@ -947,8 +1004,8 @@ SourceDateEpoch: 1704554003
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: mtd_26_mipsel_24kc.ipk
-Size: 13810
-SHA256sum: 1163731cdbf13a0c9815e05c00ce59df8e7aa27e629c5831fdd4b97ed595d3da
+Size: 13569
+SHA256sum: b4036b3b80283d3d15263c9d28d20eb1e8c3e54c7ca6d879fbaed2c0540c56f5
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
 
@@ -966,8 +1023,8 @@ Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 808960
 Filename: ubi-utils_2.1.6-1_mipsel_24kc.ipk
-Size: 92806
-SHA256sum: 91197fea1fff08ffbcad547de6de1d5dcbcaad3873ba6b008ebee1afdfef71a5
+Size: 90787
+SHA256sum: ad8af9a99bc134705c633b010bdf4eceed9495b0c7a31948ea360f4f145b688c
 Description:  Utilities for manipulating memory technology devices.
 
 Package: uboot-envtools
@@ -983,7 +1040,7 @@ URL: http://www.denx.de/wiki/U-Boot
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: uboot-envtools_2023.07.02-3_mipsel_24kc.ipk
-Size: 14069
-SHA256sum: c55688660dc3cb23ab651bacfde22f94ffab6712bb902f8c8684e9f2076821c0
+Size: 13872
+SHA256sum: c4c35a14886f55e66b6dcfc33248d40b5a1f30f5d9361968cfbe900e22829754
 Description:  This package includes tools to read and modify U-Boot bootloader environment.
 

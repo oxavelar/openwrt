@@ -11,8 +11,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: liblucihttp-ucode_2023-03-15-9b5b683f-1_mipsel_24kc.ipk
-Size: 4339
-SHA256sum: a8606b71e3f474302dddc8a5489901852ef15b5c0f930a4cb5ec5ef6c71f929a
+Size: 4201
+SHA256sum: 666d71ac0b40c2ca06e3344b2817ef86d0b2203744a093c16b8c2da42f62c85d
 Description:  ucode binding for the LuCI HTTP utility library
 
 Package: liblucihttp0
@@ -30,8 +30,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: liblucihttp0_2023-03-15-9b5b683f-1_mipsel_24kc.ipk
-Size: 7807
-SHA256sum: e785aeda4acc47d6eec6e2ec8a9592677065871136ca5b28bb9850517da042ca
+Size: 7622
+SHA256sum: 91dfdbdbee4f853af4da884a563ed0a98da24e0431b0fde24451037c17c1f5a5
 Description:  LuCI HTTP utility library
 
 Package: luci-app-firewall
@@ -80,8 +80,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
 Installed-Size: 552960
 Filename: luci-base_git-24.009.38584-9b56e2d_mipsel_24kc.ipk
-Size: 124780
-SHA256sum: e6b5522050fe6a8258ac4a7fa50c9bebc98bef14266cded6a027858fa1f0cd74
+Size: 124532
+SHA256sum: 635fd80523d6e25516333c235948e1bfab36b9970ba4005b5653f443fcb48b3e
 Description:  LuCI core runtime
 
 Package: luci-light
@@ -148,8 +148,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: mipsel_24kc
 Installed-Size: 235520
 Filename: luci-mod-status_git-24.009.38584-9b56e2d_mipsel_24kc.ipk
-Size: 38256
-SHA256sum: c2aa2130d5e41affb5a5b9e47f5a212997a4c15e847f39756cd3d6e3ced09459
+Size: 38142
+SHA256sum: 9ecb70f8950911c894600a777db31a572f01c9091d7641b036dc03cc98be3ec9
 Description:  LuCI Status Pages
 
 Package: luci-mod-system
@@ -249,8 +249,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: rpcd-mod-luci_20230123-1_mipsel_24kc.ipk
-Size: 13689
-SHA256sum: 167e27b0a1f2901665e02b96726b58014dee4989f102fe77659d1676c12ca65f
+Size: 13247
+SHA256sum: 0593ea02e5ffce882470c7a6a9b6b7a30e705aea6b6691feac6b885210ce9708
 Description:  Provides LuCI backend ubus RPC operations.
 
 Package: rpcd-mod-rrdns
@@ -265,8 +265,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: rpcd-mod-rrdns_20170710_mipsel_24kc.ipk
-Size: 4461
-SHA256sum: cfdd4dbb503635e1ab0307ce99b4cea6b67228c6790e33e4d76b615eeaaf8e62
+Size: 4388
+SHA256sum: 009b79ca938964be1f5c80a1952e063b0412f8aba46b23c6292c50222eeb012a
 Description:  Provides rapid mass reverse DNS lookup functionality.
 
 Package: ucode-mod-html
@@ -281,7 +281,7 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: ucode-mod-html_1_mipsel_24kc.ipk
-Size: 23350
-SHA256sum: df46be2aaa0998e8fd0f599438a6077752326fc803092e918e4cf849d2570b8a
+Size: 23250
+SHA256sum: 3d0f7e11da83ddc38292f8490612602116f2eecae018e41944694094e36efd01
 Description:  ucode HTML utility library
 
