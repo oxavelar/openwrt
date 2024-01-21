@@ -62,7 +62,7 @@ License: GPL-2.0
 LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
 Section: base
 Require-User: ntp=123:ntp=123
-SourceDateEpoch: 1684781733
+SourceDateEpoch: 1705756978
 URL: http://busybox.net/
 CPE-ID: cpe:/a:busybox:busybox
 Essential: yes
@@ -70,8 +70,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 409600
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214641
-SHA256sum: 541d4943077b44dcaed4a0f7a83fbc4b2f02a124e146e683cf2586e8dd1c488d
+Size: 214640
+SHA256sum: 3ca7796102b1a7cf33d47a14e6e8a0852c2da044ef0a6e2c83b4528a041124b2
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -143,19 +143,19 @@ Description:  This package provides an nftables-based implementation of the UCI 
  sharing the same configuration format.
 
 Package: getrandom
-Version: 2023-11-30-c08709cc-1
+Version: 2024-01-15-c006dcce-1
 Depends: libc
 Source: package/system/ubox
 SourceName: ubox
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1701348794
+SourceDateEpoch: 1705697119
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: getrandom_2023-11-30-c08709cc-1_mipsel_24kc.ipk
-Size: 2225
-SHA256sum: c8841570efa98a801eecd41cb862216305d285b5a01a042c9328c9f94b7dc39e
+Filename: getrandom_2024-01-15-c006dcce-1_mipsel_24kc.ipk
+Size: 2229
+SHA256sum: 04ae91e4ad514bd44e529a1060ab06d931393dab46a5809a6ddd067631bde0eb
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
@@ -165,14 +165,14 @@ Source: package/network/services/hostapd
 SourceName: hostapd
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1705158754
+SourceDateEpoch: 1705616553
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: hostapd-common_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 16999
-SHA256sum: bbc2f5b96f864fabb71501a5901b4e1ff2f784b1bde342cc5365ff4bccebc8bf
+Size: 17000
+SHA256sum: 42141ec93e66d221dc40f21ac61037252f040eeb75d57e34dc65b19566ab6292
 Description:  hostapd/wpa_supplicant common support files
 
 Package: hostapd-utils
@@ -182,15 +182,15 @@ Source: package/network/services/hostapd
 SourceName: hostapd
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1705158754
+SourceDateEpoch: 1705616553
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 40960
 Filename: hostapd-utils_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 15831
-SHA256sum: 3cab38ce11fab048e52086701a8b4eee28f4cc3aaf1cbda3f0b784a4b477933f
+Size: 15829
+SHA256sum: 07f1b9c313217fa1bf221a6ca938bef98b41113c8c88d7591e8f6e6720543275
 Description:  This package contains a command line utility to control the
  IEEE 802.1x/WPA/EAP/RADIUS Authenticator.
 
@@ -641,20 +641,20 @@ SHA256sum: b6e45f6a02e6e3f5d3f5d58b4ca85348aaaf6b8dff4c7419e99d7e724feb93f7
 Description:  ustream SSL Library (mbedtls)
 
 Package: logd
-Version: 2023-11-30-c08709cc-1
+Version: 2024-01-15-c006dcce-1
 Depends: libc, libubox202312041, libubus20231128, libblobmsg-json202312041, libudebug
 Source: package/system/ubox
 SourceName: ubox
 License: GPL-2.0
 Section: base
 Require-User: logd=514:logd=514
-SourceDateEpoch: 1701348794
+SourceDateEpoch: 1705697119
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 143360
-Filename: logd_2023-11-30-c08709cc-1_mipsel_24kc.ipk
-Size: 12329
-SHA256sum: 2264764782c8bd1712a923d2b9a363d87d8137b39417f29725aa2f2f64c5c4ae
+Filename: logd_2024-01-15-c006dcce-1_mipsel_24kc.ipk
+Size: 12325
+SHA256sum: 04e08f1faac403ec21987f210d60d0cf1784a1f9251878123b0f4fb87c7cca53
 Description:  OpenWrt system log implementation
 
 Package: netifd
@@ -961,20 +961,20 @@ SHA256sum: ac1a02b220e87d8800fa5a356ff8b64a5650a2bd157d24ba584aece803f47539
 Description:  Terminal Info Database (ncurses)
 
 Package: ubox
-Version: 2023-11-30-c08709cc-1
+Version: 2024-01-15-c006dcce-1
 Depends: libc, libubox202312041, ubusd, ubus, libubus20231128, libuci20130104
 Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
 Source: package/system/ubox
 SourceName: ubox
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1701348794
+SourceDateEpoch: 1705697119
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 215040
-Filename: ubox_2023-11-30-c08709cc-1_mipsel_24kc.ipk
-Size: 15310
-SHA256sum: e7c1b2a3d4a9f96f0a0dcfb91b74e52cbb92d8e9c2561211fa17af813c7515af
+Filename: ubox_2024-01-15-c006dcce-1_mipsel_24kc.ipk
+Size: 15981
+SHA256sum: b76b1cc6c599cfbe419c07c66c3bc3a3850826c4ca44db3baecefdb4cce1c5b4
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
@@ -1307,15 +1307,15 @@ SourceName: hostapd
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1705158754
+SourceDateEpoch: 1705616553
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 768000
 Filename: wpad-basic-mbedtls_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 412658
-SHA256sum: 6c5e641f08dcdd5b11b43a0688430f7d03234e17e057ed3c88d182afcef58bc4
+Size: 412548
+SHA256sum: 359b74da83b3d80c9a4a0f602cc2c0c2384d3767da78dbb42a209fbe9bcacfe8
 Description:  This package contains a basic IEEE 802.1x/WPA Authenticator and Supplicant with WPA-PSK, SAE (WPA3-Personal), 802.11r and 802.11w support.
 
 Package: wpad-mbedtls
@@ -1328,15 +1328,15 @@ SourceName: hostapd
 License: BSD-3-Clause
 Section: net
 Require-User: network=101:network=101
-SourceDateEpoch: 1705158754
+SourceDateEpoch: 1705616553
 URL: http://hostap.epitest.fi/
 CPE-ID: cpe:/a:w1.fi:hostapd
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 1249280
 Filename: wpad-mbedtls_2023-09-08-e5ccbfc6-6_mipsel_24kc.ipk
-Size: 652448
-SHA256sum: 5c3d8d802acfe15a46e8c468a2a74c10db97d51de11d6b2a3282aec0a473966c
+Size: 652451
+SHA256sum: bf5247f5faea4fe4e8e9409a8e604623cfa500c97c619a2659befd20b8311056
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 

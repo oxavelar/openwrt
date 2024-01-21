@@ -150,8 +150,8 @@ URL: https://github.com/berlin-open-wireless-lab/DAWN.git
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: dawn_2023-05-14-e036905a-1_mipsel_24kc.ipk
-Size: 37401
-SHA256sum: 76a47c48159fa0483fce41b20c0408715495251ca822bc6438dafc7bef352ed6
+Size: 37400
+SHA256sum: 7cf258226213be03b31d2a8c813f23d5aeb70f818d8bbe0b25d4f478ccc7099c
 Description:  This package implements a decentralized wireless daemon.
 
 Package: htop
