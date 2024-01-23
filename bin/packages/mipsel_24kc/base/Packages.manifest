@@ -70,8 +70,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 409600
 Filename: busybox_1.36.1-1_mipsel_24kc.ipk
-Size: 214640
-SHA256sum: 3ca7796102b1a7cf33d47a14e6e8a0852c2da044ef0a6e2c83b4528a041124b2
+Size: 214644
+SHA256sum: 3c9321a6541df883dff46e1d9b1c6cd5777febc47797e1b8be3d34b5f218f9a7
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
@@ -143,19 +143,19 @@ Description:  This package provides an nftables-based implementation of the UCI 
  sharing the same configuration format.
 
 Package: getrandom
-Version: 2024-01-15-c006dcce-1
+Version: 2024-01-22-6cf7d837-1
 Depends: libc
 Source: package/system/ubox
 SourceName: ubox
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1705697119
+SourceDateEpoch: 1705883332
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: getrandom_2024-01-15-c006dcce-1_mipsel_24kc.ipk
-Size: 2229
-SHA256sum: 04ae91e4ad514bd44e529a1060ab06d931393dab46a5809a6ddd067631bde0eb
+Filename: getrandom_2024-01-22-6cf7d837-1_mipsel_24kc.ipk
+Size: 2219
+SHA256sum: 5913bbc25c1836cc3fc01d92e91ef427a4b0962c97adcc5681d7afa6aeb71a4a
 Description:  OpenWrt getrandom system helper
 
 Package: hostapd-common
@@ -265,20 +265,20 @@ SHA256sum: 1b7c049fe9910dd33e37aeea04f82ed91e5caad24a0eab0498724b40c4e0d470
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
-Version: 2018-02-04-c7e938d6-1
+Version: 2024-01-23-594cfa86-1
 Depends: libc, libubox202312041, libjson-c5
 Source: package/utils/jsonfilter
 SourceName: jsonfilter
 License: ISC
 Section: base
-SourceDateEpoch: 1645878990
+SourceDateEpoch: 1705997236
 URL: https://git.openwrt.org/project/jsonpath.git
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: mipsel_24kc
 Installed-Size: 71680
-Filename: jsonfilter_2018-02-04-c7e938d6-1_mipsel_24kc.ipk
-Size: 8782
-SHA256sum: 5b7126d2154aea92d2448ddb435b507948f231982042f385f904696a210865e1
+Filename: jsonfilter_2024-01-23-594cfa86-1_mipsel_24kc.ipk
+Size: 8791
+SHA256sum: ef835cace1165524c5943c52922c11b1b5552daf80a503cae07c9f06b13dc24f
 Description:  OpenWrt JSON filter utility
 
 Package: libblobmsg-json202312041
@@ -641,20 +641,20 @@ SHA256sum: b6e45f6a02e6e3f5d3f5d58b4ca85348aaaf6b8dff4c7419e99d7e724feb93f7
 Description:  ustream SSL Library (mbedtls)
 
 Package: logd
-Version: 2024-01-15-c006dcce-1
+Version: 2024-01-22-6cf7d837-1
 Depends: libc, libubox202312041, libubus20231128, libblobmsg-json202312041, libudebug
 Source: package/system/ubox
 SourceName: ubox
 License: GPL-2.0
 Section: base
 Require-User: logd=514:logd=514
-SourceDateEpoch: 1705697119
+SourceDateEpoch: 1705883332
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 143360
-Filename: logd_2024-01-15-c006dcce-1_mipsel_24kc.ipk
-Size: 12325
-SHA256sum: 04e08f1faac403ec21987f210d60d0cf1784a1f9251878123b0f4fb87c7cca53
+Filename: logd_2024-01-22-6cf7d837-1_mipsel_24kc.ipk
+Size: 12305
+SHA256sum: 2afbd31233f437cbc1e75f40e6b0394dbc1f84f00c7cccba641dbd864d223cb2
 Description:  OpenWrt system log implementation
 
 Package: netifd
@@ -961,20 +961,20 @@ SHA256sum: ac1a02b220e87d8800fa5a356ff8b64a5650a2bd157d24ba584aece803f47539
 Description:  Terminal Info Database (ncurses)
 
 Package: ubox
-Version: 2024-01-15-c006dcce-1
+Version: 2024-01-22-6cf7d837-1
 Depends: libc, libubox202312041, ubusd, ubus, libubus20231128, libuci20130104
 Alternatives: 100:/sbin/rmmod:/sbin/kmodloader, 100:/sbin/insmod:/sbin/kmodloader, 100:/sbin/lsmod:/sbin/kmodloader, 100:/sbin/modinfo:/sbin/kmodloader, 100:/sbin/modprobe:/sbin/kmodloader
 Source: package/system/ubox
 SourceName: ubox
 License: GPL-2.0
 Section: base
-SourceDateEpoch: 1705697119
+SourceDateEpoch: 1705883332
 Maintainer: John Crispin <john@phrozen.org>
 Architecture: mipsel_24kc
 Installed-Size: 215040
-Filename: ubox_2024-01-15-c006dcce-1_mipsel_24kc.ipk
-Size: 15981
-SHA256sum: b76b1cc6c599cfbe419c07c66c3bc3a3850826c4ca44db3baecefdb4cce1c5b4
+Filename: ubox_2024-01-22-6cf7d837-1_mipsel_24kc.ipk
+Size: 15986
+SHA256sum: cb05a803812c2e7bd781b14e6d1e6eb1bee04b7b9af4bf5b920ba221b4d75291
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
