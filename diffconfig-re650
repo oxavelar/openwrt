@@ -1,8 +1,8 @@
 # OpenWRT Customized RE650 Image
 #
 # make -j distclean && ./scripts/feeds update -a && ./scripts/feeds install -a
-# export TARGET_CFLAGS="-Os -fomit-frame-pointer -mno-mips16 -march=24kc -mtune=24kc"
-# export TARGET_LDFLAGS="-Wl,--gc-sections -Wl,-O3 -Wl,--hash-style=gnu -Wl,-z,defs -Wl,-z,now -Wl,-z,relro"
+# export TARGET_CFLAGS="-Os -fomit-frame-pointer -march=24kc -mtune=24kc"
+# export TARGET_LDFLAGS="-Wl,--gc-sections -Wl,-O3 -Wl,--hash-style=gnu" # -Wl,-z,defs -Wl,-z,now -Wl,-z,relro"
 # export PACKAGES="-opkg -dnsmasq -ppp -ppp-mod-pppoe -odhcpd -odhcp6c -ip6tables -odhcp6c -kmod-ppp -kmod-ipv6 -kmod-ip6tables -odhcpd-ipv6only"
 # git checkout target/linux && cat konfig-extras-re650 >> target/linux/generic/config-5.15
 # cp diffconfig-re650 .config && time make -j $(nproc) defconfig download clean world
@@ -32,12 +32,12 @@ CONFIG_TARGET_SQUASHFS_BLOCK_SIZE=1024
 CONFIG_TARGET_INITRAMFS_COMPRESSION_ZSTD=y
 
 # Target optimizations
-CONFIG_KERNEL_CFLAGS="-Os -fomit-frame-pointer -mno-mips16"
+CONFIG_KERNEL_CFLAGS="-Os -fomit-frame-pointer"
 
 # Trim down packages
 CONFIG_PKG_FORTIFY_SOURCE_NONE=y
 CONFIG_PKG_CC_STACKPROTECTOR_NONE=y
-CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Os -fomit-frame-pointer -mno-mips16"
+CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Os -fomit-frame-pointer"
 
 # Strip down for AP
 CONFIG_PACKAGE_opkg=n
