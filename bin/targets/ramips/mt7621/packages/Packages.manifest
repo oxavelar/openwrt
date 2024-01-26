@@ -1,5 +1,5 @@
 Package: base-files
-Version: 1560-r25083-e25e7809db
+Version: 1560-r25113-c9d1d32fcd
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 Source: package/base-files
 SourceName: base-files
@@ -9,9 +9,9 @@ SourceDateEpoch: 1705340469
 URL: http://openwrt.org/
 Architecture: mipsel_24kc
 Installed-Size: 317440
-Filename: base-files_1560-r25083-e25e7809db_mipsel_24kc.ipk
-Size: 61397
-SHA256sum: c3a7df38afe635a0deabc4b8782ee303dee5715afc88e531b3135fae9eba80e4
+Filename: base-files_1560-r25113-c9d1d32fcd_mipsel_24kc.ipk
+Size: 61367
+SHA256sum: f4caf4eb3941bb42c307eef8eebab5793a70049e0e52d02d663da2e1d30d9583
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: dropbear
@@ -94,14 +94,14 @@ Depends: kernel (=5.15.147-1-0098234cc5844ee08274f1637fe727ed), iw, iwinfo, wire
 Source: package/kernel/mac80211
 SourceName: mac80211
 Section: kernel
-SourceDateEpoch: 1705141174
+SourceDateEpoch: 1706276250
 URL: https://wireless.wiki.kernel.org/
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 368640
 Filename: kmod-cfg80211_5.15.147+6.5-2_mipsel_24kc.ipk
-Size: 153261
-SHA256sum: be51a38130ba24d9a0e1d1754084d4833fa5d55f7929c58e2997e11f0a17d58f
+Size: 153244
+SHA256sum: b330d3e22bc596b2937cf35d3b53f632cd05cbe49c23c3dd88f2e335ef6cb55a
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aead
@@ -554,14 +554,14 @@ Depends: kernel (=5.15.147-1-0098234cc5844ee08274f1637fe727ed), kmod-cfg80211, k
 Source: package/kernel/mac80211
 SourceName: mac80211
 Section: kernel
-SourceDateEpoch: 1705141174
+SourceDateEpoch: 1706276250
 URL: https://wireless.wiki.kernel.org/
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 696320
 Filename: kmod-mac80211_5.15.147+6.5-2_mipsel_24kc.ipk
-Size: 311333
-SHA256sum: 5bd1e075486123dfa965f526452e2c1cacfee397187d09c6f1608739c99709cf
+Size: 311334
+SHA256sum: dbeb64dbe2ce270e7f33f5a738f2c017eb5aef4bc518bdf0d8514f0b367ab668
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mt76-connac

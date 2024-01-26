@@ -5,185 +5,14 @@ Source: feeds/packages/net/cgi-io
 SourceName: cgi-io
 License: GPL-2.0-or-later
 Section: net
-SourceDateEpoch: 1706210648
+SourceDateEpoch: 1706242840
 Maintainer: John Crispin <blogic@openwrt.org>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: cgi-io_2022-08-10-901b0f04-21_mipsel_24kc.ipk
-Size: 8202
-SHA256sum: af8df6a8a062810c66e36beea3e61ba057a249fbb1f6701edf1888b0df10d744
+Size: 8196
+SHA256sum: cf76242f7c57e3f754c74549af740ac2de23cada4a35060b31ba0186f129d94c
 Description:  This package contains an cgi utility that is useful for up/downloading files
-
-Package: collectd-mod-cpu
-Version: 5.12.0-49
-Depends: libc, collectd
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-cpu_5.12.0-49_mipsel_24kc.ipk
-Size: 5329
-SHA256sum: b835ba83d024e130f1cf5d66276e3e478a3b8d0f9922b2fc2be50bdf6d73502d
-Description:  CPU input plugin
-
-Package: collectd-mod-cpufreq
-Version: 5.12.0-49
-Depends: libc, collectd
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-cpufreq_5.12.0-49_mipsel_24kc.ipk
-Size: 3545
-SHA256sum: 4d6693b4cc8a167f29eabb9b2d2fef66b20ef5e6302e1453119b31dbfb29e7e5
-Description:  CPU Freq input plugin
-
-Package: collectd-mod-interface
-Version: 5.12.0-49
-Depends: libc, collectd
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-interface_5.12.0-49_mipsel_24kc.ipk
-Size: 3981
-SHA256sum: c336b3c24d4031103d8f203522048700221046011c6a940f87b67fee327f188a
-Description:  network interfaces input plugin
-
-Package: collectd-mod-iwinfo
-Version: 5.12.0-49
-Depends: libc, collectd, libiwinfo20230701
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-iwinfo_5.12.0-49_mipsel_24kc.ipk
-Size: 4064
-SHA256sum: b088e6b234bd6f6cbdc4f5cfe9037a3be983a26eeb3b17dd2b593b63453c858c
-Description:  libiwinfo wireless statistics plugin
-
-Package: collectd-mod-load
-Version: 5.12.0-49
-Depends: libc, collectd
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-load_5.12.0-49_mipsel_24kc.ipk
-Size: 2835
-SHA256sum: eb6b0e527051e9cf6001a400fcbb7d5d648f2e79033042156998093dbb2460ec
-Description:  system load input plugin
-
-Package: collectd-mod-memory
-Version: 5.12.0-49
-Depends: libc, collectd
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-memory_5.12.0-49_mipsel_24kc.ipk
-Size: 3548
-SHA256sum: 187d011ca8a747a3ec463b0e3161040a65f708f02ebdaded02a842da13062bf6
-Description:  physical memory usage input plugin
-
-Package: collectd-mod-network
-Version: 5.12.0-49
-Depends: libc, collectd
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-network_5.12.0-49_mipsel_24kc.ipk
-Size: 14304
-SHA256sum: 657b4fac260cfb2c75a50982eb8a8d129c1d1d55716117e6a7fae41fea46b86a
-Description:  network input/output plugin
-
-Package: collectd-mod-rrdtool
-Version: 5.12.0-49
-Depends: libc, collectd, librrd1
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 81920
-Filename: collectd-mod-rrdtool_5.12.0-49_mipsel_24kc.ipk
-Size: 12451
-SHA256sum: 344372e47d77c6fe5a6d26de393da76b98ebc5da5b3f01fbce8751d9c6ab2f7b
-Description:  RRDtool output plugin
-
-Package: collectd-mod-wireless
-Version: 5.12.0-49
-Depends: libc, collectd
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 71680
-Filename: collectd-mod-wireless_5.12.0-49_mipsel_24kc.ipk
-Size: 3238
-SHA256sum: 131366b62723d5d6d6ce2176027837bb5726703d11b6ab7069f1dc47f9e4e157
-Description:  wireless status input plugin
-
-Package: collectd
-Version: 5.12.0-49
-Depends: libc, libpthread, zlib, libltdl7, jshn
-Source: feeds/packages/utils/collectd
-SourceName: collectd
-Section: utils
-SourceDateEpoch: 1706210648
-URL: https://collectd.org/
-CPE-ID: cpe:/a:collectd:collectd
-Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
-Architecture: mipsel_24kc
-Installed-Size: 256000
-Filename: collectd_5.12.0-49_mipsel_24kc.ipk
-Size: 91539
-SHA256sum: 8f24ba94e4587b6c0c010612347a9103d81b1c2689b325f4c5720879b7448ba5
-Description:  collectd is a small daemon which collects system information periodically
- and provides mechanismns to store the values in a variety of ways.
 
 Package: dawn
 Version: 2023-05-14-e036905a-1
@@ -193,36 +22,15 @@ SourceName: dawn
 License: GPL-2.0-only
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1706210648
+SourceDateEpoch: 1706242840
 URL: https://github.com/berlin-open-wireless-lab/DAWN.git
 Maintainer: Nick Hainke <vincent@systemli.org>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: dawn_2023-05-14-e036905a-1_mipsel_24kc.ipk
 Size: 37397
-SHA256sum: 83351da871ce3a6a0112579f17f4958e7b708086d2ae626fc7225005d78d2363
+SHA256sum: bdd5dc10fe20deac46ea3c18e3a6ad9ae7db0cb35a32efd1db4f2b35a62dbdad
 Description:  This package implements a decentralized wireless daemon.
-
-Package: htop
-Version: 3.3.0-1
-Depends: libc, libncurses6
-Source: feeds/packages/admin/htop
-SourceName: htop
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: admin
-SourceDateEpoch: 1706210648
-URL: https://hisham.hm/htop/
-CPE-ID: cpe:/a:htop:htop
-Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
-Architecture: mipsel_24kc
-Installed-Size: 204800
-Filename: htop_3.3.0-1_mipsel_24kc.ipk
-Size: 90758
-SHA256sum: fae5a04b60331ec574f806f635ecd280ad2e19429bb2d425d478a41209e58f23
-Description:  Htop is an ncursed-based process viewer similar to top, but
- it allows to scroll the list vertically and horizontally to
- see all processes and their full command lines.
 
 Package: iperf3
 Version: 3.16-1
@@ -231,15 +39,15 @@ Source: feeds/packages/net/iperf3
 SourceName: iperf
 License: BSD-3-Clause
 Section: net
-SourceDateEpoch: 1706210648
+SourceDateEpoch: 1706242840
 URL: https://github.com/esnet/iperf
 CPE-ID: cpe:/a:es:iperf3
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 71680
 Filename: iperf3_3.16-1_mipsel_24kc.ipk
-Size: 2844
-SHA256sum: 9e999b113bafe20e2e35fcf2344775e7f58f427836e2ca2bc61a319674542252
+Size: 2843
+SHA256sum: 2ec74f7de28ff921354ccb75a6a2a02b94eb0873a1fce71d855cc79b94f7f816
 Description:  Iperf is a modern alternative for measuring TCP and UDP bandwidth
  performance, allowing the tuning of various parameters and
  characteristics.
@@ -252,14 +60,14 @@ SourceName: irqbalance
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: utils
-SourceDateEpoch: 1706210648
+SourceDateEpoch: 1706242840
 URL: https://github.com/Irqbalance/irqbalance
 Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
 Architecture: mipsel_24kc
 Installed-Size: 81920
 Filename: irqbalance_1.9.3-2_mipsel_24kc.ipk
-Size: 38680
-SHA256sum: 16885bc35685beae1f1172969a15671782d2b1c9135fae2f5e65e7403fd3c9e8
+Size: 38681
+SHA256sum: 46e177e093f179edad51ab8b47459f0b6a6ae79a0cc6e4ef3c11d72a765e2d07
 Description:  The purpose of irqbalance is to distribute hardware interrupts across
  processors/cores on a multiprocessor/multicore system in order to
  increase performance.
@@ -272,15 +80,15 @@ SourceName: libgcrypt
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING.LIB
 Section: libs
-SourceDateEpoch: 1706210648
+SourceDateEpoch: 1706242840
 URL: https://www.gnupg.org/related_software/libgcrypt/
 CPE-ID: cpe:/a:gnupg:libgcrypt
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: mipsel_24kc
 Installed-Size: 808960
 Filename: libgcrypt_1.10.3-1_mipsel_24kc.ipk
-Size: 401731
-SHA256sum: 96ca43ecee39c58923fe826491ca7725059017566b5ff848c50bcdb3002481c3
+Size: 401736
+SHA256sum: 5f6a74bfcd5af413257719feda98932734e460ce85b86700ae77745dc5de585a
 Description:  This is a general purpose cryptographic library based on the code from
  GnuPG. It provides functions for all cryptograhic building blocks:
  symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
@@ -298,14 +106,14 @@ SourceName: libgpg-error
 License: LGPL-2.1-or-later
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1706210648
+SourceDateEpoch: 1706242840
 URL: https://www.gnupg.org/related_software/libgpg-error/
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libgpg-error_1.47-1_mipsel_24kc.ipk
-Size: 46853
-SHA256sum: 7b7fc77774ee821e55293f10e21d48399e8819f15363e4be004575df228ec7cb
+Size: 46848
+SHA256sum: cf6fa2e33996957fb734d1f084a2abcbd6fba7c7ba2b8459eba5dbe0261b5587
 Description:  An helper library for common error codes and descriptions.
  This is a library that defines common error values for all GnuPG
  components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
@@ -319,68 +127,14 @@ Source: feeds/packages/net/iperf3
 SourceName: iperf
 License: BSD-3-Clause
 Section: libs
-SourceDateEpoch: 1706210648
+SourceDateEpoch: 1706242840
 URL: https://github.com/esnet/iperf
 CPE-ID: cpe:/a:es:iperf3
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: mipsel_24kc
 Installed-Size: 143360
 Filename: libiperf3_3.16-1_mipsel_24kc.ipk
-Size: 60863
-SHA256sum: 205f6385e9380b07b5d6475984ec51ed8411949fd30f2311ac69f91612cf5463
+Size: 60861
+SHA256sum: 116639ad6b6b8311e86538e3e695f54f25bf0ea71cc93d6a1abb673fcc0404bf
 Description:  Libiperf is a library providing an API for iperf3 functionality.
-
-Package: librrd1
-Version: 1.0.50-5
-Depends: libc, zlib
-Source: feeds/packages/utils/rrdtool1
-SourceName: rrdtool1
-Section: libs
-SourceDateEpoch: 1706210648
-URL: http://oss.oetiker.ch/rrdtool/
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: mipsel_24kc
-Installed-Size: 532480
-Filename: librrd1_1.0.50-5_mipsel_24kc.ipk
-Size: 130436
-SHA256sum: dcf50f51671aa0cc02a21948c314b5c6904bc9f489d560f59a63bc081867670a
-Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
- display time-series data (i.e. network bandwidth, machine-room temperature,
- server load average). It stores the data in a very compact way that will
- not expand over time, and it presents useful graphs by processing the data
- to enforce a certain data density. It can be used either via simple wrapper
- scripts (from shell or Perl) or via frontends that poll network devices and
- put friendly user interface on it.
- 
- This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
- librrd.so. The library is much smaller compared to the 1.2.x version with
- separate dynamic linked libraries.
- This package contains a shared library, used by other programs.
-
-Package: rrdtool1
-Version: 1.0.50-5
-Depends: libc, librrd1
-Source: feeds/packages/utils/rrdtool1
-SourceName: rrdtool1
-Section: utils
-SourceDateEpoch: 1706210648
-URL: http://oss.oetiker.ch/rrdtool/
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: mipsel_24kc
-Installed-Size: 143360
-Filename: rrdtool1_1.0.50-5_mipsel_24kc.ipk
-Size: 12724
-SHA256sum: 72ddaa412d5bffe725da1fc72faf1e42828b8f352f8a829e031344dd40dc24d3
-Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
- display time-series data (i.e. network bandwidth, machine-room temperature,
- server load average). It stores the data in a very compact way that will
- not expand over time, and it presents useful graphs by processing the data
- to enforce a certain data density. It can be used either via simple wrapper
- scripts (from shell or Perl) or via frontends that poll network devices and
- put friendly user interface on it.
- 
- This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
- librrd.so. The library is much smaller compared to the 1.2.x version with
- separate dynamic linked libraries.
- This package contains command line tools used to manage RRDs.
 
