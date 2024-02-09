@@ -1,9 +1,9 @@
 # OpenWRT Customized RE650 Image
 #
 # make -j distclean && ./scripts/feeds update -a && ./scripts/feeds install -a
-# export TARGET_CFLAGS="-Os -fomit-frame-pointer -march=24kc -mtune=24kc"
-# export TARGET_LDFLAGS="-Wl,--gc-sections -Wl,-O3 -Wl,--hash-style=gnu" # -Wl,-z,defs -Wl,-z,now -Wl,-z,relro"
-# export PACKAGES="-opkg -dnsmasq -ppp -ppp-mod-pppoe -odhcpd -odhcp6c -ip6tables -odhcp6c -kmod-ppp -kmod-ipv6 -kmod-ip6tables -odhcpd-ipv6only"
+# export TARGET_CFLAGS="-Os -fomit-frame-pointer -mips32r2 -march=24kc -mtune=24kc"
+# export TARGET_LDFLAGS="-Wl,--gc-sections -Wl,-O3 -Wl,-z,now -Wl,-z,relro" # -Wl,-z,defs
+# export PACKAGES="-opkg -ppp -ppp-mod-pppoe -kmod-ppp -kmod-ipv6"
 # git checkout target/linux && cat konfig-extras-re650 >> target/linux/generic/config-5.15
 # cp diffconfig-re650 .config && time make -j $(nproc) defconfig download clean world
 #
@@ -28,7 +28,7 @@ CONFIG_STRIP_KERNEL_EXPORTS=y
 CONFIG_KERNEL_CC_OPTIMIZE_FOR_SIZE=y
 CONFIG_KERNEL_CC_STACKPROTECTOR_NONE=y
 CONFIG_TARGET_UBIFS_COMPRESSION_ZLIB=y
-CONFIG_TARGET_SQUASHFS_BLOCK_SIZE=1024
+CONFIG_TARGET_SQUASHFS_BLOCK_SIZE=256
 CONFIG_TARGET_INITRAMFS_COMPRESSION_ZSTD=y
 
 # Target optimizations
@@ -39,13 +39,9 @@ CONFIG_PKG_FORTIFY_SOURCE_NONE=y
 CONFIG_PKG_CC_STACKPROTECTOR_NONE=y
 CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Os -fomit-frame-pointer"
 
-# Strip down for AP
+# Strip down
 CONFIG_PACKAGE_opkg=n
 CONFIG_PACKAGE_openwrt-keyring=n
-CONFIG_PACKAGE_dnsmasq=n
-CONFIG_PACKAGE_odhcpd=n
-CONFIG_PACKAGE_odhcp6c=n
-CONFIG_PACKAGE_odhcpd-ipv6only=n
 CONFIG_PACKAGE_ppp=n
 CONFIG_FEED_telephony=n
 
@@ -60,9 +56,10 @@ CONFIG_BUSYBOX_DEFAULT_ASH_OPTIMIZE_FOR_SIZE=y
 
 # Add-on programs
 CONFIG_PACKAGE_irqbalance=y
-# CONFIG_PACKAGE_htop=y
+CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_iperf3=y
 CONFIG_PACKAGE_dawn=y
+CONFIG_PACKAGE_luci_dawn=y
 
 # B.A.T.M.A.N
 CONFIG_PACKAGE_batctl-full=y
@@ -77,18 +74,17 @@ CONFIG_PACKAGE_6rd=y
 # WLAN/WPS support
 CONFIG_PACKAGE_hostapd-utils=y
 CONFIG_WPA_MSG_MIN_PRIORITY=4
-CONFIG_PACKAGE_wpad-openssl=y
+CONFIG_PACKAGE_wpad-mesh-mbedtls=y
 # CONFIG_PACKAGE_wpad-basic-mbedtls is not set
-CONFIG_DEFAULT_libustream-openssl=y
-CONFIG_PACKAGE_libustream-openssl=y
-# CONFIG_PACKAGE_libustream-mbedtls is not set
-CONFIG_OPENSSL_WITH_ERROR_MESSAGES=n
-CONFIG_OPENSSL_SMALL_FOOTPRINT=y
 
 # SSL certificates
 CONFIG_PACKAGE_ca-certificates=y
 
 # Luci
-CONFIG_PACKAGE_luci-light=y
+CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
+
+# HotSpot
+CONFIG_PACKAGE_luci_sqm=y
+# CONFIG_PACKAGE_tailscale=y
 

@@ -1,5 +1,5 @@
 Package: batctl-full
-Version: 2023.3-1
+Version: 2024.0-1
 Depends: libc, libnl-tiny1, librt
 Provides: batctl
 Alternatives: 300:/usr/sbin/batctl:/usr/libexec/batctl-full
@@ -8,12 +8,12 @@ Section: net
 URL: https://www.open-mesh.org/
 Architecture: mipsel_24kc
 Installed-Size: 143360
-Filename: batctl-full_2023.3-1_mipsel_24kc.ipk
-Size: 43684
-SHA256sum: ea52163b16c5ac93f41f67bbb9d5fd6306fa804a67cb86c50da0007f8d932402
+Filename: batctl-full_2024.0-1_mipsel_24kc.ipk
+Size: 43492
+SHA256sum: 34a7b056ff6f1efb86385a136fde27597a7286648568d93a0d48382e1f178ad0
 Description:  batctl is a more intuitive managment utility for B.A.T.M.A.N.-Advanced.
  It is an easier method for configuring batman-adv and provides some
  additional tools for debugging as well. This package builds
- version 2023.3 of the user space utility.
+ version 2024.0 of the user space utility.
  Subcommands for configuration, online and offline debugging are enabled.
 
