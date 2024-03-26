@@ -11,7 +11,7 @@ PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL=https://github.com/rockchip-linux/rkbin.git
 PKG_SOURCE_DATE:=2023-07-26
 PKG_SOURCE_VERSION:=b4558da0860ca48bf1a571dd33ccba580b9abe23
-PKG_MIRROR_HASH:=5842fbcb7e217c336235573e431e427f2f745390d989f6765a6c258a5bdf1b6e
+PKG_MIRROR_HASH:=8c6259c64ee53f596ac15dbedd0541ca9af40cdf3951d40f030ea00b94379009
 
 PKG_LICENSE_FILES:=LICENSE
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
@@ -25,6 +25,12 @@ define Trusted-Firmware-A/Default
   BUILD_TARGET:=rockchip
 endef
 
+define Trusted-Firmware-A/rk3566
+  BUILD_SUBTARGET:=armv8
+  ATF:=rk35/rk3568_bl31_v1.43.elf
+  TPL:=rk35/rk3566_ddr_1056MHz_v1.18.bin
+endef
+
 define Trusted-Firmware-A/rk3568
   BUILD_SUBTARGET:=armv8
   ATF:=rk35/rk3568_bl31_v1.43.elf
@@ -32,6 +38,7 @@ define Trusted-Firmware-A/rk3568
 endef
 
 TFA_TARGETS:= \
+	rk3566 \
 	rk3568
 
 define Build/Compile
