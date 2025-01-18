@@ -3,7 +3,6 @@
 # make -j distclean && ./scripts/feeds update -a && ./scripts/feeds install -a
 # export TARGET_CFLAGS="-Os -fomit-frame-pointer -mips32r2 -march=24kc -mtune=24kc"
 # export TARGET_LDFLAGS="-Wl,--gc-sections -Wl,-O3 -Wl,-z,now -Wl,-z,relro" # -Wl,-z,defs
-# export PACKAGES="-opkg -ppp -ppp-mod-pppoe -kmod-ppp -kmod-ipv6"
 # git checkout target/linux && cat konfig-extras-re650 >> target/linux/generic/config-5.15
 # cp diffconfig-re650 .config && time make -j $(nproc) defconfig download clean world
 #
@@ -39,12 +38,6 @@ CONFIG_PKG_FORTIFY_SOURCE_NONE=y
 CONFIG_PKG_CC_STACKPROTECTOR_NONE=y
 CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Os -fomit-frame-pointer"
 
-# Strip down
-CONFIG_PACKAGE_opkg=n
-CONFIG_PACKAGE_openwrt-keyring=n
-CONFIG_PACKAGE_ppp=n
-CONFIG_FEED_telephony=n
-
 # Busybox tweaks
 CONFIG_BUSYBOX_CUSTOM=y
 CONFIG_BUSYBOX_CONFIG_FEATURE_EDITING_SAVEHISTORY=y
@@ -60,11 +53,6 @@ CONFIG_PACKAGE_htop=y
 CONFIG_PACKAGE_iperf3=y
 CONFIG_PACKAGE_dawn=y
 CONFIG_PACKAGE_luci_dawn=y
-
-# B.A.T.M.A.N
-CONFIG_PACKAGE_batctl-full=y
-CONFIG_PACKAGE_kmod-batman-adv=y
-CONFIG_PACKAGE_luci-proto-batman-adv=y
 
 # IPv6 support
 CONFIG_PACKAGE_6in4=y
@@ -83,8 +71,4 @@ CONFIG_PACKAGE_ca-certificates=y
 # Luci
 CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
-
-# HotSpot
-CONFIG_PACKAGE_luci_sqm=y
-# CONFIG_PACKAGE_tailscale=y
 
