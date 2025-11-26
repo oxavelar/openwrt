@@ -3,7 +3,7 @@
 /dts-v1/;
 
 #include <dt-bindings/leds/common.h>
-#include "mt7981.dtsi"
+#include "mt7981b.dtsi"
 
 / {
 	model = "Edgecore EAP111";
@@ -76,7 +76,6 @@
 &spi0 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&spi0_flash_pins>;
-	cs-gpios = <0>, <0>;
 	#address-cells = <1>;
 	#size-cells = <0>;
 	status = "okay";

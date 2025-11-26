@@ -21,7 +21,7 @@ define Device/hpe_1920-48g-poe
   $(Device/hpe_1920)
   SOC := rtl8393
   DEVICE_MODEL := 1920-48G-PoE (JG928A)
-  DEVICE_PACKAGES += realtek-poe
+  DEVICE_PACKAGES += realtek-poe kmod-hwmon-gpiofan
   H3C_DEVICE_ID := 0x0001002b
 endef
 TARGET_DEVICES += hpe_1920-48g-poe
@@ -73,10 +73,12 @@ define Device/tplink_sg2452p-v4
 endef
 TARGET_DEVICES += tplink_sg2452p-v4
 
-define Device/zyxel_gs1900-48
+define Device/zyxel_gs1900-48-a1
   $(Device/zyxel_gs1900)
   SOC := rtl8393
   DEVICE_MODEL := GS1900-48
+  DEVICE_VARIANT := A1
   ZYXEL_VERS := AAHN
+  SUPPORTED_DEVICES += zyxel,gs1900-48
 endef
-TARGET_DEVICES += zyxel_gs1900-48
+TARGET_DEVICES += zyxel_gs1900-48-a1

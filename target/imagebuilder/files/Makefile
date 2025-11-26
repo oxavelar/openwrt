@@ -99,6 +99,7 @@ OPKG:=$(call opkg,$(TARGET_DIR)) \
 export APK_KEYS:=$(TOPDIR)/keys
 APK:=$(call apk,$(TARGET_DIR)) \
 	--repositories-file $(TOPDIR)/repositories \
+	--repository $(PACKAGE_DIR)/packages.adb \
 	$(if $(CONFIG_SIGNATURE_CHECK),,--allow-untrusted) \
 	--cache-dir $(DL_DIR)
 
@@ -167,7 +168,8 @@ _call_manifest: FORCE
 ifeq ($(CONFIG_USE_APK),)
 	$(OPKG) list-installed $(if $(STRIP_ABI),--strip-abi)
 else
-	$(APK) list --quiet --manifest --no-network
+	$(APK) query --format json --fields name,version,$(if $(STRIP_ABI),tags) --installed '*' | \
+		$(SCRIPT_DIR)/make-index-json.py -a $(ARCH_PACKAGES) -f apk --manifest -
 endif
 
 package_index: FORCE
@@ -192,7 +194,7 @@ ifeq ($(CONFIG_USE_APK),)
 	if [ -d "$(PACKAGE_DIR)" ] && ( \
 			[ ! -f "$(PACKAGE_DIR)/Packages" ] || \
 			[ ! -f "$(PACKAGE_DIR)/Packages.gz" ] || \
-			[ "`find $(PACKAGE_DIR) -cnewer $(PACKAGE_DIR)/Packages.gz`" ] ); then \
+			[ "`find $(PACKAGE_DIR) -cnewer $(PACKAGE_DIR)/Packages.gz ! -name Packages.sig`" ] ); then \
 		echo "Package list missing or not up-to-date, generating it." >&2 ;\
 		$(MAKE) package_index; \
 	else \
@@ -227,7 +229,10 @@ ifeq ($(CONFIG_USE_APK),)
 	$(OPKG) install $(wildcard $(PACKAGE_DIR)/kernel_*.ipk)
 	$(OPKG) install $(BUILD_PACKAGES)
 else
-	$(APK) add --arch $(ARCH_PACKAGES) --no-scripts $(BUILD_PACKAGES)
+	$(APK) add --arch $(ARCH_PACKAGES) --no-scripts $(BUILD_PACKAGES) \
+        "base-files=$(BASE_FILES_VERSION)" \
+        "libc=$(LIBC_VERSION)" \
+        "kernel=$(KERNEL_VERSION)"
 endif
 
 prepare_rootfs: FORCE

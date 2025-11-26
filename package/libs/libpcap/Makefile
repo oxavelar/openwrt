@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libpcap
 PKG_VERSION:=1.10.5
-PKG_RELEASE:=1
+PKG_RELEASE:=3
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://www.tcpdump.org/release/
@@ -22,7 +22,11 @@ PKG_CPE_ID:=cpe:/a:tcpdump:libpcap
 
 PKG_ASLR_PIE_REGULAR:=1
 
-PKG_CONFIG_DEPENDS := CONFIG_PACKAGE_rpcapd
+PKG_CONFIG_DEPENDS := \
+	CONFIG_PACKAGE_rpcapd \
+	CONFIG_PCAP_HAS_USB \
+	CONFIG_PCAP_HAS_BT \
+	CONFIG_PCAP_HAS_NETFILTER
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/cmake.mk
@@ -50,7 +54,7 @@ define Package/rpcapd
   CATEGORY:=Network
   TITLE:=Capture daemon to be controlled by a remote libpcap application
   URL:=http://www.tcpdump.org/
-  DEPENDS+= +libpcap
+  DEPENDS+= +USE_GLIBC:libcrypt-compat +libpcap
 endef
 
 ifdef CONFIG_PACKAGE_rpcapd

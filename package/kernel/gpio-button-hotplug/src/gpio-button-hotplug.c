@@ -25,8 +25,8 @@
 #include <linux/input.h>
 #include <linux/interrupt.h>
 #include <linux/platform_device.h>
-#include <linux/of_gpio.h>
 #include <linux/of_irq.h>
+#include <linux/gpio.h>
 #include <linux/gpio_keys.h>
 #include <linux/gpio/consumer.h>
 
@@ -416,13 +416,13 @@ gpio_keys_get_devtree_pdata(struct device *dev)
 	return pdata;
 }
 
-static struct of_device_id gpio_keys_of_match[] = {
+static const struct of_device_id gpio_keys_of_match[] = {
 	{ .compatible = "gpio-keys", },
 	{ },
 };
 MODULE_DEVICE_TABLE(of, gpio_keys_of_match);
 
-static struct of_device_id gpio_keys_polled_of_match[] = {
+static const struct of_device_id gpio_keys_polled_of_match[] = {
 	{ .compatible = "gpio-keys-polled", },
 	{ },
 };
@@ -674,7 +674,7 @@ static void gpio_keys_irq_close(struct gpio_keys_button_dev *bdev)
 	}
 }
 
-static int gpio_keys_remove(struct platform_device *pdev)
+static void gpio_keys_remove(struct platform_device *pdev)
 {
 	struct gpio_keys_button_dev *bdev = platform_get_drvdata(pdev);
 
@@ -684,13 +684,11 @@ static int gpio_keys_remove(struct platform_device *pdev)
 		gpio_keys_polled_close(bdev);
 	else
 		gpio_keys_irq_close(bdev);
-
-	return 0;
 }
 
 static struct platform_driver gpio_keys_driver = {
 	.probe	= gpio_keys_probe,
-	.remove	= gpio_keys_remove,
+	.remove_new = gpio_keys_remove,
 	.driver	= {
 		.name	= "gpio-keys",
 		.of_match_table = of_match_ptr(gpio_keys_of_match),
@@ -699,7 +697,7 @@ static struct platform_driver gpio_keys_driver = {
 
 static struct platform_driver gpio_keys_polled_driver = {
 	.probe	= gpio_keys_polled_probe,
-	.remove	= gpio_keys_remove,
+	.remove_new = gpio_keys_remove,
 	.driver	= {
 		.name	= "gpio-keys-polled",
 		.of_match_table = of_match_ptr(gpio_keys_polled_of_match),
