@@ -40,5 +40,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: openwrt-re650-image
-          path: bin/
+          path: |
+            bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-factory.bin
+            bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-sysupgrade.bin
+            bin/targets/ramips/mt7621/config.buildinfo
+            bin/targets/ramips/mt7621/version.buildinfo
           retention-days: 90
