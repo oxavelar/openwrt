@@ -41,7 +41,7 @@ CONFIG_BUSYBOX_CONFIG_ASH_OPTIMIZE_FOR_SIZE=y
 
 # Add-on programs
 CONFIG_PACKAGE_irqbalance=y
-CONFIG_PACKAGE_htop=y
+# CONFIG_PACKAGE_htop is not set
 CONFIG_PACKAGE_iperf3=y
 CONFIG_PACKAGE_dawn=y
 
