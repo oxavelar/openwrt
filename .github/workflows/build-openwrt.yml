@@ -1,0 +1,46 @@
+name: Build OpenWRT RE650 Image
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip python3 python3-dev
+      
+      - name: Clean and prepare feeds
+        run: |
+          make -j distclean
+          ./scripts/feeds update -a
+          ./scripts/feeds install -a
+      
+      - name: Configure and build
+        env:
+          TARGET_CFLAGS: "-Os -fomit-frame-pointer"
+          TARGET_LDFLAGS: "-Wl,--gc-sections -Wl,-O3 -Wl,-z,now -Wl,-z,relro"
+        run: |
+          cp diffconfig-re650 .config
+          time make -j$(nproc) defconfig download clean world V=s
+      
+      - name: Upload build artifacts
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: openwrt-re650-v2-SNAPSHOT
+          path: |
+            bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-factory.bin
+            bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-sysupgrade.bin
+            bin/targets/ramips/mt7621/config.buildinfo
+            bin/targets/ramips/mt7621/version.buildinfo
+          retention-days: 90
