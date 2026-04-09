@@ -2,8 +2,6 @@ name: Build OpenWRT RE650 Image
 
 on:
   push:
-    branches:
-      - re650-v2-SNAPSHOT
   pull_request:
   workflow_dispatch:
 
