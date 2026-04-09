@@ -2,8 +2,6 @@ name: Build OpenWRT RE650 Image
 
 on:
   push:
-    branches:
-      - re650-v2-openwrt-24.10
   pull_request:
   workflow_dispatch:
 
@@ -39,7 +37,7 @@ jobs:
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: re650-v2-openwrt-24.10
+          name: openwrt-re650-v2-24.10
           path: |
             bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-factory.bin
             bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-sysupgrade.bin
