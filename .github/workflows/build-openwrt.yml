@@ -31,7 +31,7 @@ jobs:
           TARGET_LDFLAGS: "-Wl,--gc-sections -Wl,-O3 -Wl,-z,now -Wl,-z,relro"
         run: |
           cp diffconfig-re650 .config
-          time make -j$(nproc) defconfig download clean world V=s
+          make -j$(nproc) defconfig download clean world
       
       - name: Upload build artifacts
         if: success()
