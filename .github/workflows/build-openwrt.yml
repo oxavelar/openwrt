@@ -44,3 +44,5 @@ jobs:
             bin/targets/ramips/mt7621/config.buildinfo
             bin/targets/ramips/mt7621/version.buildinfo
           retention-days: 90
+          if-no-files-found: error
+          compression-level: 9
