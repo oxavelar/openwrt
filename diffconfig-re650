@@ -73,7 +73,8 @@ CONFIG_PACKAGE_luci-theme-bootstrap=y
 # CONFIG_PACKAGE_luci-app-firewall is not set
 
 # Disables
-# CONFIG_PACKAGE_opkg is not set
+# CONFIG_USE_APK is not set
+# CONFIG_PACKAGE_apk-mbedtls is not set
 # CONFIG_PACKAGE_ppp is not set
 # CONFIG_PACKAGE_ppp-mod-pppoe is not set
 # CONFIG_PACKAGE_ppp-mod-pppoa is not set
