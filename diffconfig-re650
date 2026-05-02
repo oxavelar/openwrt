@@ -1,7 +1,7 @@
 # OpenWRT Customized RE650 Image
 #
 # make -j distclean && ./scripts/feeds update -a && ./scripts/feeds install -a
-# export TARGET_CFLAGS="-Os -fomit-frame-pointer"
+# export TARGET_CFLAGS="-Os -fomit-frame-pointer -fno-unwind-tables -fno-asynchronous-unwind-tables"
 # export TARGET_LDFLAGS="-Wl,--gc-sections -Wl,-O3 -Wl,-z,now -Wl,-z,relro"
 # cp diffconfig-re650 .config && time make -j$(nproc) defconfig download clean world V=s
 #
@@ -26,13 +26,14 @@ CONFIG_USE_MKLIBS=y
 CONFIG_KERNEL_CC_OPTIMIZE_FOR_SIZE=y
 CONFIG_TARGET_UBIFS_COMPRESSION_ZLIB=y
 CONFIG_TARGET_SQUASHFS_BLOCK_SIZE=1024
+CONFIG_TARGET_SQUASHFS_XZ=y
 CONFIG_TARGET_INITRAMFS_COMPRESSION_ZSTD=y
 
 # Target optimizations
-CONFIG_KERNEL_CFLAGS="-Os -fomit-frame-pointer"
+CONFIG_KERNEL_CFLAGS="-Os -fomit-frame-pointer -fno-unwind-tables -fno-asynchronous-unwind-tables"
 
 # Trim down packages
-CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Os -fomit-frame-pointer"
+CONFIG_EXTRA_GCC_CONFIG_OPTIONS="-Os -fomit-frame-pointer -fno-unwind-tables -fno-asynchronous-unwind-tables"
 
 # Busybox tweaks
 CONFIG_BUSYBOX_CUSTOM=y
