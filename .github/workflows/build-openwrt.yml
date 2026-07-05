@@ -25,6 +25,10 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
       
+      - name: Apply live patches
+        run: |
+          sed -i 's/^CONFIG_USB_SUPPORT=y/CONFIG_USB_SUPPORT=n/' target/linux/ramips/mt7621/config-6.12
+      
       - name: Configure and build
         env:
           TARGET_CFLAGS: "-Os -fomit-frame-pointer"
@@ -32,12 +36,17 @@ jobs:
         run: |
           cp diffconfig-re650 .config
           make -j$(nproc) defconfig download clean world V=s
+
+      - name: Image information
+        run: |
+          find build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621 -type f \( -name "*.bin" -o -name "*.itb" -o -name "*.squashfs" -o -name "vmlinux" \) -exec ls -lh {} + | sort -h
+          cat bin/targets/ramips/mt7621/profiles.json | jq
       
       - name: Upload build artifacts
         if: success()
         uses: actions/upload-artifact@v4
         with:
-          name: openwrt-re650-v2-SNAPSHOT
+          name: openwrt-${{ replace(github.ref_name, '/', '-') }}
           path: |
             bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-factory.bin
             bin/targets/ramips/mt7621/openwrt-ramips-mt7621-tplink_re650-v2-squashfs-sysupgrade.bin
