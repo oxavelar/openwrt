@@ -39,7 +39,7 @@ jobs:
 
       - name: Image information
         run: |
-          find build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621 -type f \( -name "*.bin" -o -name "*.itb" -o -name "*.squashfs" -o -name "vmlinux" \) -exec ls -lh {} + | sort -h
+          find build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621 -type f \( -name "*.bin" -o -name "*.itb" -o -name "*.squashfs" -o -name "vmlinux" \) -exec du -sh {} + | sort -h
           cat bin/targets/ramips/mt7621/profiles.json | jq
       
       - name: Upload build artifacts
