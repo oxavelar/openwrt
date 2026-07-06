@@ -30,7 +30,7 @@ jobs:
 
       - name: Apply live patches
         run: |
-          sed -i 's/^CONFIG_USB_SUPPORT=y/CONFIG_USB_SUPPORT=n/' target/linux/ramips/mt7621/config-6.12
+          sed -i 's/^CONFIG_USB_SUPPORT=y/CONFIG_USB_SUPPORT=n/' target/linux/ramips/mt7621/config-6.18
 
       - name: Configure and build
         run: |
@@ -40,7 +40,7 @@ jobs:
 
       - name: Image information
         run: |
-          find build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621 -type f \( -name "*.bin" -o -name "*.itb" -o -name "*.squashfs" -o -name "vmlinux" \) -exec ls -lh {} + | sort -h
+          find build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621 -type f \( -name "*.bin" -o -name "*.itb" -o -name "*.squashfs" -o -name "vmlinux" \) -exec du -h {} + | sort -h
           [ -f bin/targets/ramips/mt7621/profiles.json ] && jq . bin/targets/ramips/mt7621/profiles.json
 
       - name: Verify build artifacts
