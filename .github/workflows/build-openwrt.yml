@@ -28,10 +28,6 @@ jobs:
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
-      - name: Apply live patches
-        run: |
-          sed -i 's/^CONFIG_USB_SUPPORT=y/CONFIG_USB_SUPPORT=n/' target/linux/ramips/mt7621/config-6.12
-
       - name: Configure and build
         run: |
           echo "ARTIFACT_NAME=${GITHUB_REF_NAME//\//-}" >> "$GITHUB_ENV"
